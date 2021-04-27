@@ -56,3 +56,41 @@ anulaciones <- anulaciones %>%
   select(c(encriptado, FECHA_NEGOCIO, TIPONEGOCIO, DESC_TIPOCLIENTE,
            DESC_GRUPOCLIENTE, DESC_PLAN, TIPO_PLAN, Cargo_Fijo, GRUPO3,
            GRUPO4, CARGO_FIJO2))
+
+###### Cambios de Plan ################
+c1 <- fread("6Cambios de Plan/Cambios de plan 1.txt")
+c2 <- fread("6Cambios de Plan/Cambios de plan 2.txt")
+c3 <- fread("6Cambios de Plan/Cambios de plan 3.txt")
+
+cambios <- rbind(c1, c2, c3)
+
+View(cambios)
+describe(cambios)
+cambios <- cambios %>%
+  select(c(encriptado, DESC_PLAN_ORIGEN, DESC_SERVICIO, TIPO_CUOTA,
+           FECHA_SOLICITUD, ARPU, SEGMENTO, SUBSEGMENTO))
+
+
+###### Facturación Fijo ################
+f1 <- fread("7Facturacion/Fijo/Fact Fijo 2019-1.txt")
+f2 <- fread("7Facturacion/Fijo/Fact Fijo 2019-2.txt")
+f3 <- fread("7Facturacion/Fijo/Fact Fijo 2019-3.txt")
+f4 <- fread("7Facturacion/Fijo/Fact Fijo 2020-1.txt")
+f5 <- fread("7Facturacion/Fijo/Fact Fijo 2020-2.txt")
+
+facturacion_fijo <- rbind(f1, f2, f3, f4, f5)
+
+View(facturacion_fijo)
+describe(facturacion_fijo)
+
+
+###### Facturación Movil ################
+f1 <- fread("7Facturacion/Movil/Fact Movil 2019-1.txt")
+f2 <- fread("7Facturacion/Movil/Fact Movil 2019-2.txt")
+f3 <- fread("7Facturacion/Movil/Fact Movil 2020-1.txt")
+f4 <- fread("7Facturacion/Movil/Fact Movil 2020-2.txt")
+
+facturacion_movil <- rbind(f1, f2, f3, f4)
+
+View(facturacion_movil)
+describe(facturacion_movil)
