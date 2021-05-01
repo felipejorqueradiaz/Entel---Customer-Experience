@@ -4,7 +4,7 @@ library(Hmisc)
 library(ggplot2)
 setwd("C:/Users/Felipe/Documents/GitHub/2021-1/Entel---Customer-Experience")
 setwd("Data plana")
-
+path="C:/Users/Felipe/Documents/GitHub/2021-1/Entel---Customer-Experience/Plots/Felipe"
 ######   CHURN   ################
 churn_fijo <- fread("5Churn/Churn Fijo.txt")
 View(churn_fijo)
@@ -22,6 +22,27 @@ churn_fijo <- churn_fijo %>%
            DESC_PRODUCTO_DEF, FACTURACION, TIPO_TRABAJO, FECHA_AR, FACT_CHURN_CODPRIN,
            SEGMENTO, SEGMENTO_
            ))
+
+png(width=800, height=360)
+ggplot(churn_fijo, aes(x=FACTURACION, fill=SEGMENTO, color=SEGMENTO))+
+  geom_histogram()+
+  labs(title="Facturación por segmento de cliente",y ="Cantidad", x = "Facturación")+
+  theme(text = element_text(size = 16), plot.title = element_text(hjust = 0.5))+
+  scale_fill_brewer(palette="RdYlBu")+
+  scale_color_brewer(palette="RdYlBu")+
+  ggsave(path=path, filename="churn_fijo$FACTURACION.png", dpi=360)
+
+churn_fijo2 <- churn_fijo %>%
+  filter(FACTURACION <=100000, FACTURACION >0)
+
+png(width=800, height=360)
+ggplot(churn_fijo2, aes(x=FACTURACION, fill=SEGMENTO, color=SEGMENTO))+
+  geom_histogram()+
+  labs(title="Facturación (mayor a 0 y menor igual a 100000) por segmento de cliente",y ="Cantidad", x = "Facturación")+
+  theme(text = element_text(size = 16), plot.title = element_text(hjust = 0.5))+
+  scale_fill_brewer(palette="RdYlBu")+
+  scale_color_brewer(palette="RdYlBu")+
+  ggsave(path=path, filename="churn_fijo2$FACTURACION.png", dpi=360)
 
 ggplot(churn_fijo, aes(x=factor(DESC_PRODUCTO_DEF), fill=factor(ID_PRODUCTO_DEF)))+
   geom_bar(stat="count")
@@ -46,6 +67,9 @@ churn_movil <- churn_movil %>%
   select(c(encriptado, ID_DIA, SEGMENTO, `SUB SEGMENTO`, NEGOCIO,
            MOVIMIENTO, `SUB MOVIMIENTO`, DESC_PLAN, TIPO_PLAN,
            MES, AÑO, CANAL_REASIGNADO))
+
+
+
 
 ######   Anulaciones   ################
 anulaciones <- fread("8Anulaciones/Anulaciones.txt")
@@ -83,6 +107,26 @@ facturacion_fijo <- rbind(f1, f2, f3, f4, f5)
 View(facturacion_fijo)
 describe(facturacion_fijo)
 
+png(width=800, height=360)
+ggplot(facturacion_fijo, aes(x=MONTO_NETO, fill=SUBSEGMENTO_BUN, color=SUBSEGMENTO_BUN))+
+  geom_histogram()+
+  labs(title="Facturación por segmento de cliente",y ="Cantidad", x = "Facturación")+
+  theme(text = element_text(size = 16), plot.title = element_text(hjust = 0.5))+
+  scale_fill_brewer(palette="RdYlBu")+
+  scale_color_brewer(palette="RdYlBu")+
+  ggsave(path=path, filename="facturacion_fijo$FACTURACION.png", dpi=360)
+
+facturacion_fijo2 <- facturacion_fijo %>%
+  filter(MONTO_NETO>1000, MONTO_NETO<25000)
+
+png(width=800, height=360)
+ggplot(facturacion_fijo2, aes(x=MONTO_NETO, fill=SUBSEGMENTO_BUN, color=SUBSEGMENTO_BUN))+
+  geom_histogram()+
+  labs(title="Facturación por segmento de cliente",y ="Cantidad", x = "Facturación")+
+  theme(text = element_text(size = 16), plot.title = element_text(hjust = 0.5))+
+  scale_fill_brewer(palette="RdYlBu")+
+  scale_color_brewer(palette="RdYlBu")+
+  ggsave(path=path, filename="facturacion_fijo2$FACTURACION.png", dpi=360)
 
 ###### Facturación Movil ################
 f1 <- fread("7Facturacion/Movil/Fact Movil 2019-1.txt")
