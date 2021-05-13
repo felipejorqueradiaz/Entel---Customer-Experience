@@ -1,0 +1,1151 @@
+encriptado	P3 Pensando en su cuenta empresa, En general, con escala 1 a 7, donde 1 = Muy insatisfecho y 7 = Muy satisfecho, ¿Cuán satisfecho está usted con Entel?	P4 ¿Por qué evalúa con esa nota?	SEG_CORFO	Rubro	Ciudad_comuna	sex_enc	Regionx	SEG_GOL
+QCqTCqjCHJlb	4	No solucionan problemas	PEQUEÑA	CONSTRUCCIÓN	PUERTO AYSEN	Hombre	REGIONES	Mas
+iq7JVu4pFv8j	5	Planes de mala calidad	MICRO	ESTRUCTURA METALICA	TALCA	Hombre	SANTIAGO	Mas
+O06ICSRySrfb	7	Solucionan requerimientos	MICRO	DISTRIBUCION DE CONFITES	SAN CRUZ	Hombre	REGIONES	Mas
+v9T9ZY74GoEL	4	Mal servicio / calidad servicio,Mala atención	PEQUEÑA	INSTALACION DE GASES MEDICINALES	MAIPU	Hombre	SANTIAGO	Mas
+oKpaccOHEtTW	7	Buen servicio / calidad servicio,No ha tenido problemas	PEQUEÑA	TRANSPORTE	TALCAHUANO	Mujer	REGIONES	Mas
+xT3ntQTJfUMM	6	Problema facturación	PEQUEÑA	SERVICIOS DE ASEO Y CORRESPONDENCIA	ANTOFAGASTA	Mujer	REGIONES	MasPrem
+xA10ck1cpveo	5	Mal servicio / calidad servicio	PEQUEÑA	COMPRA Y VENTA DE HERARRAMIENTAS Y VULCANIZACIÓN  E IMPORTACIÓN.	OSORNO	Hombre	REGIONES	Mas
+NPq5mUBaodQw	6	Siempre se puede mejorar	PEQUEÑA	MUEBLES	LA GRANJA SANTIAGO	Hombre	SANTIAGO	Mas
+KrwhMb52NRuo	2	Mala cobertura,No solucionan problemas	MICRO	TURISTICO, ALIMENTACION	AISEN, VAIA MURTA CARRETERA AUSTRAL	Mujer	REGIONES	Mas
+HyQBo0C6Jspm	7	Buena cobertura,Buena señal,No ha tenido problemas	MICRO	IMPRENTA.	LAS CONDES.	Hombre	SANTIAGO	Mas
+fSPjps9qJgpQ	7	Buen servicio / calidad servicio,Buena comunicación,Buena señal	MEDIANA	GRAFICA	LA FLORIDA	Hombre	SANTIAGO	Mas
+gfKDp9CpCcjA	5	Mala atención,Mala señal	MICRO	CONSTRUCCION	SANTIAGO	Hombre	SANTIAGO	Mas
+juP7kuqoKXEn	4	Mal servicio / calidad servicio,Lentitud de plataforma	MICRO	MANUFACTURA DE MUEBLES	SANTIAGO	Hombre	SANTIAGO	Mas
+tKwVmp5LMzm1	7	Buen servicio / calidad servicio,Buenos precios / precios adecuados	MICRO	PUBLICIDAD.	PEÑALOLEN.	Hombre	SANTIAGO	Mas
+73ov6RCfVeQj	3	Mal servicio / calidad servicio	PEQUEÑA	SERVICIOS JURIDICO.	PERALILLO.	Mujer	REGIONES	MasPrem
+czcIZlwKK0eV	7	No ha tenido problemas	MICRO	Transporte	Los Angeles	Hombre	REGIONES	Mas
+9X2VRKOHDjvc	5	Mala atención,Mal servicio internet / señal	PEQUEÑA	ALMACEN DE PAQUETERIA Y REMATES	PEÑAFLOR	Hombre	SANTIAGO	Mas
+lq4ZSXfvmEhL	6	Mala señal	MICRO	COMERCIO	TALCA	Hombre	REGIONES	Mas
+NDKIZR5yGhSw	5	Mala cobertura	PEQUEÑA	NEGOCIO ALMACEN FAMILIAR	ANTOFAGASTA	Mujer	REGIONES	Mas
+339Q8rTGDvjS	6	Solucionan requerimientos	MICRO	REPARACIÓN DE MAQUINARIA	LOS LAGOS, REGION DE LOS RIOS	Hombre	REGIONES	Mas
+ziAHmoJosVq7	2	Mal servicio / calidad servicio,Mal servicio internet / señal	MICRO	SERVICIO AUTOMOTRIZ	TEMUCO	Hombre	REGIONES	Mas
+j8fka00f5Q7j	6	Mal servicio internet / señal,Buena comunicación	PEQUEÑA	SERVICIOS	PUENTE ALTO	Hombre	SANTIAGO	Mas
+hmJ0Erhyx7vc	4	Mala atención	MICRO	CONSTRUCCION	PROVINCIA DE CHILOE	Hombre	REGIONES	Mas
+bvmNBPJPu3vX	7	Buena cobertura,Buena señal	MICRO	VENTAS DE INSUMOS A FRUTICOLAS	TEMUCO	Hombre	REGIONES	Mas
+tOf0vbalUMW2	4	Malas conexiones /conectividad	MICRO	Acesoria y capacitacion	Antofagasta	Mujer	REGIONES	Mas
+GMHS5JYgceZY	6	Mala señal	MICRO	INSTALACIONRES ELECTRICAS	CERRILLOS	Hombre	SANTIAGO	Mas
+IeGJemd2wQfC	4	Buena cobertura	MICRO	agricola	ovalle	Hombre	REGIONES	Mas
+9Ydk7xYyIFjL	6	Demora atención telefónica	PEQUEÑA	PINTURA Y PUBLICIDAD.	RECOLETA.	Hombre	SANTIAGO	Mas
+yZtjgbTQscoD	5	Mala señal,Mal servicio internet / señal	MICRO	COMERCIALIZACION EN GANADO	LOS ANGELES	Hombre	REGIONES	Mas
+mqCCrrE64O1w	7	Buen servicio / calidad servicio	PEQUEÑA	GASTRONOMICA	CONCON.	Mujer	REGIONES	MV
+dUKXihWuOvP0	4	Mala cobertura,Mala señal,No solucionan problemas	MICRO	ALOJAMIENTO	SALAMANCA	Mujer	REGIONES	Mas
+Bv9Ay1wcnixK	4	Mal servicio / calidad servicio	MICRO	TRANSPORTE DE PASAJEROS	HUALAIHUE	Hombre	REGIONES	Mas
+Viq7mnIB3Jwn	7	Buen servicio / calidad servicio	MICRO	No tiene empresa	Santiago	Mujer	SANTIAGO	Mas
+6nTBQAEdz9lb	7	Buena atencion,Buen servicio / calidad servicio	MICRO	transportes	8 octavan region cabreros	Hombre	REGIONES	Mas
+CsnDqj1747tB	6	Siempre se puede mejorar	PEQUEÑA	TRASNSPORTE Y LOGISTICA	CHILLAN	Hombre	REGIONES	Mas
+fahEGJqwgtrM	5	Mal servicio internet / señal	PEQUEÑA	RESTAURANTE.	MELIPILLA	Hombre	SANTIAGO	Mas
+AqkVBRfNac0A	7	Buen servicio / calidad servicio,Buen servicio internet,Buena señal	PEQUEÑA	VENTAS DE ROPAS	SANTIAGO CENTRO	Mujer	SANTIAGO	Mas
+AHLJZnKi15pJ	7	No ha tenido problemas,Rápida solución de problemas	MICRO	CONSTRUCCIÓN EN OBRAS MENORES	SANTIAGO	Mujer	SANTIAGO	Mas
+3YFp5AqVHUWB	6	Buena cobertura,Malas conexiones /conectividad	MICRO	COMIDA RAPIDA	CERRO NAVIA	Hombre	SANTIAGO	Mas
+pvZdhSWpzGsD	7	No ha tenido problemas,Rápida solución de problemas,Buenos precios / precios adecuados	PEQUEÑA	OPTICA	CONCEPCION	Hombre	REGIONES	Mas
+R0dQYYlDhPML	6	Caro	PEQUEÑA	DISTRIVUIDORA DE FRUTAS Y VERDURAS	CONCEPCION	Mujer	REGIONES	Mas
+NNqbdc65MeyM	7	No Sabe/ No responde	PEQUEÑA	construccion	los angeles	Hombre	REGIONES	Mas
+eFA0etGYT7gD	5	No solucionan problemas	MICRO	SERVICIOS DE SOCIAL.	TALCA	Mujer	REGIONES	Mas
+EuEoZIT7S0xa	7	No ha tenido problemas	MICRO	INSTALACION DE CERAMICA	SANTIAGO	Hombre	SANTIAGO	Mas
+14lXEGYZtNt2	4	Mal servicio / calidad servicio	MICRO	VENTAS DE ROPA, JUGUETES Y EQUIPOS ELECTRONICOS	IQUIQUE, PASAJE SANTA CRUZ SITIO 37 MANZANA D GALPON 2	Hombre	REGIONES	Mas
+izWjoGLdjWk3	7	Buena cobertura,Buenos precios / precios adecuados,Buen servicio / calidad servicio	PEQUEÑA	PRESTACION DE SERVICIOS NO ESPECIFICAS	RANCAGUA	Hombre	REGIONES	Mas
+lxUWdqVdsHyx	5	Mala señal,Problema facturación	PEQUEÑA	CONSTRUCCION	los Angeles 8 region	Hombre	REGIONES	Mas
+ektKSrqIDMB6	5	Mala señal	MICRO	PERSONAL	FUTRONO	Mujer	REGIONES	Mas
+YupVjrOrV3a6	6	Mala señal	MICRO	ELECTRICIDAD INDUSTRIAL	PUENTE ALTO	Hombre	SANTIAGO	Mas
+HGXlEnWgp6VD	5	Mal servicio / calidad servicio	PEQUEÑA	TRANSPORTE DE CARGA.	EL BOSQUE	Hombre	SANTIAGO	Mas
+vQOVyKFD2pdT	6	Lentas respuestas a solución de problemas	MICRO	SALUD	FREIRE	Hombre	REGIONES	Mas
+bjejFNEMYNbt	7	Buena señal,Buenos precios / precios adecuados,No ha tenido problemas	MICRO	SISTEMAS HIDRAULICOS	SAN BERNARDO	Hombre	SANTIAGO	Mas
+QWqkUZqgkjFt	7	Buen servicio / calidad servicio	MICRO	contabilidad	santiago	Hombre	SANTIAGO	Mas
+sLEMJa1mx3hB	7	No ha tenido problemas,Buen servicio telefonico,Buen servicio internet,Rápida solución de problemas	MICRO	COMERCIALIZACIN DE INSUMO PARA COMESTICA Y PERFUMERIA	SANTIAGO CENTRO	Mujer	SANTIAGO	Mas
+N47h6lopehNG	7	Buenos precios / precios adecuados	MICRO	construcción	Vitacura	Mujer	SANTIAGO	Mas
+5xgZ4AAP0hWR	6	Mala señal,Malas señal telefónica	MICRO	TRANSPORTE	CAÑETE	Hombre	REGIONES	Mas
+QOi1v2oSThO4	5	Mala señal	MICRO	PUBLICIDAD	SANTIAGO	Hombre	SANTIAGO	Mas
+AqvJgyeOsgpM	7	Buen servicio / calidad servicio,Buen servicio / calidad servicio,Rápida solución de problemas	MICRO	PASTELERIA.	IQUIQUE.	Hombre	REGIONES	Mas
+1fgbuxOHUuZb	5	Lentitud de plataforma	MICRO	no sabe	arica	Mujer	REGIONES	Mas
+qHKUxJlnl3Zh	5	Mal servicio / calidad servicio	MICRO	PRODUCTOS Y ATENCION DE SALUD	LEBU	Hombre	REGIONES	Mas
+Bh5gUNaDOrc3	7	Buena cobertura,No ha tenido problemas	MICRO	OTRAS ACTIVIDADES DE SERVICIOS  PERSONALES (NCP)	QUILICURA	Mujer	SANTIAGO	Mas
+EHGZle5nrHgU	7	Buena cobertura,Buena señal	MICRO	No cuenta con empresa solo plan	Santiago	Mujer	SANTIAGO	Mas
+s2T6dMiDoCNN	6	Mala cobertura	MICRO	ENTREGA DE SERVICIOS.	QUILPUE.	Mujer	REGIONES	Mas
+xtnCfKs0Tmop	7	Buen servicio / calidad servicio	PEQUEÑA	VENTAS DE ARNÉS CORPORALES	SANTIAGO	Mujer	SANTIAGO	Mas
+JD7yaHPxoknH	6	Mal servicio internet / señal	MICRO	Muebleria	La pintana	Hombre	SANTIAGO	Mas
+XkfjTihP9kXn	4	Demora atención telefónica	PEQUEÑA	AGRICULTOR	ARICA	Mujer	REGIONES	Mas
+25vCMESPehzh	6	Malas señal telefónica,Mal servicio internet / señal	MICRO	agricultura	montepatria , ovalle	Hombre	REGIONES	Mas
+fYOQ9K26AG2x	7	Buen servicio / calidad servicio	MICRO	SERVICIOS ADMINISTRATIVOS	COPIAPO	Mujer	REGIONES	Mas
+uLL28JMP5jVG	5	Mal servicio / calidad servicio	MICRO	MEDIO DE COMUNICACIÓN	SAN CARLOS ÑUBLE	Hombre	REGIONES	Mas
+jH0PrT90t8ZJ	7	Buen servicio / calidad servicio	MICRO	ventas de insumos clínicos	la reina / santiago	Hombre	SANTIAGO	Mas
+qQiqP7sW3WiX	6	Siempre se puede mejorar	PEQUEÑA	TRANSPORTE DE PASAJEROS	CURICO	Mujer	REGIONES	Mas
+ChLQFcg2l0Xt	6	Caro	PEQUEÑA	FARMACEUTICO AGROPRECUARIO	MILIPILLA	Mujer	SANTIAGO	Mas
+WEDmKZfP2aB5	7	Buena conexión / conectividad,Cobros claros	MICRO	MECANICA AUTOMOTRIZ	SANTIAGO CENTRO	Hombre	SANTIAGO	Mas
+MY0dDkcJNEbY	5	Buena cobertura,No solucionan problemas	PEQUEÑA	AGRICOLA	SAN PALO, CASA MATRIZ	Hombre	SANTIAGO	Mas
+rhnvrbghOmbt	6	No ha tenido problemas,Buena atencion	PEQUEÑA	ES UNA VIÑA	CAUQUENES SEPTIMA REGION	Hombre	REGIONES	Mas
+atymZ0cGWggm	1	Mal servicio / calidad servicio,Mal servicio postventa	PEQUEÑA	Ganadería, Agrícola y Servicios	Futrono	Hombre	REGIONES	Mas
+OD81NVldyFOt	1	Mala señal	PEQUEÑA	RESIDENCIAL	SAN CLEMENTE	Mujer	REGIONES	Mas
+vI3PwwiGS2qI	7	No ha tenido problemas,Rápida solución de problemas	PEQUEÑA	INVERSIONES	LAS CONDES	Hombre	SANTIAGO	Mas
+KnOhuV6LNJPZ	6	Lentas respuestas a solución de problemas	MICRO	AGRICOLA	OSORNO	Hombre	REGIONES	Mas
+jVfSPG7Dv7lb	7	Buena conexión / conectividad,No ha tenido problemas	PEQUEÑA	COSMETICOS CAPILAR	VIÑA	Mujer	REGIONES	MP
+575nfYPXJyZk	5	Cobros poco claros	MICRO	TAPICERIA	MACUL	Hombre	SANTIAGO	Mas
+iuIpdfXMJfeB	6	Siempre se puede mejorar	MICRO	CAPACITACION Y ENTRENAMIENTO	LOS ANGELES	Hombre	REGIONES	Mas
+ijsxTHbc576E	1	Cobros poco claros,Problema facturación	PEQUEÑA	CONSULTORIA Y CAPACITACION	SANTIAGO	Hombre	SANTIAGO	MV
+vUnmMbZA0V5r	7	Buen servicio / calidad servicio,Buena conexión / conectividad,Buenos precios / precios adecuados	PEQUEÑA	EXPORTACIONES HE IMPORTACIONES Y COMERCIALIZADORA.	LO BARNECHEA	Hombre	SANTIAGO	Mas
+nsIPvCXhCnL2	6	Buen servicio / calidad servicio	MICRO	Constructora y forestal	Chillan	Hombre	REGIONES	Mas
+fJhxp1Ab6aqd	6	Mal servicio postventa	PEQUEÑA	SERVICIO DE CONSTRUCCIONES	CONCEPCION	Hombre	REGIONES	Mas
+tPFfyHZLFdTT	6	Buen servicio / calidad servicio,Siempre se puede mejorar	PEQUEÑA	CONFECCCIONES	SANTIAGO	Hombre	SANTIAGO	MP
+0W8dyqiJDYbt	6	Buen servicio / calidad servicio	PEQUEÑA	consultoria	LA REINA	Mujer	SANTIAGO	Mas
+UF7zaptY5Fy5	7	Buena cobertura,Buenos planes	PEQUEÑA	mecanica	quinta normal	Mujer	SANTIAGO	MasPrem
+VZMupgd37AZC	7	No ha tenido problemas	MICRO	REPARACION DE VEHICULOS.	SANTIAGO	Hombre	SANTIAGO	Mas
+P1guvG38Drvz	6	Buen servicio / calidad servicio,Cobros poco claros	MICRO	CENTRO DE FOTOCOPIADO	PUERTO MONT	Hombre	REGIONES	Mas
+4R3ZdMSPyrcd	5	Mala señal	MICRO	APICOLA, GANADERA Y TRANSPORTE DE CARGA	VILLA RICA	Hombre	REGIONES	Mas
+2oDZ876YAcC4	6	Buen servicio / calidad servicio	PEQUEÑA	ADMINISTRACIION	VITACURA	Hombre	REGIONES	Mas
+1alnbN06We8F	7	No ha tenido problemas	GGEE	Insumos médicos	San Bernardo	Mujer	SANTIAGO	AP
+fbBIboUccYnj	5	No solucionan problemas	MEDIANA	COMERCIALIZADORA, IMPORTADORA, EXPORTADORA, REPARADORA EN SERVICIO MECÁNICO	PUDHAHUEL	Hombre	SANTIAGO	MasPrem
+bFh1on0XAKbr	6	Caro	MICRO	contratista	2 region, comuna maria elena	Mujer	REGIONES	Mas
+EMPdasPWk6s1	6	Buen servicio / calidad servicio	PEQUEÑA	EDUCACION	LINARES REGION DEL MAULE	Mujer	REGIONES	Mas
+bXNHH2szPFIt	7	Buena cobertura,Buena señal,Buen servicio / calidad servicio	PEQUEÑA	agrícola	Quillota	Hombre	REGIONES	Mas
+AjqfBRxTlI4A	5	Mala atencion con ejecutivos,Mala señal	PEQUEÑA	ITICA	SANTIAGO	Mujer	SANTIAGO	Mas
+UZjuLUjPyYUo	7	Solucionan requerimientos	MICRO	RESTAURANTE	LA SERENA	Mujer	REGIONES	Mas
+n2U3NMepO8OQ	6	Mala atencion con ejecutivos	GGEE	ACOPIO Y ALMACENAMIENTO Y OTROS SERVICIOS.	PUERTO MONTT	Mujer	REGIONES	AP
+8ABZIUXsJISi	6	No solucionan problemas	PEQUEÑA	TRIBUNALES	SANTIAGO CENTRO	Mujer	SANTIAGO	MV
+KDRscv2kmcgq	5	Mala señal	PEQUEÑA	CONSTRUCCION Y FERRETERIA.	CURICO	Mujer	REGIONES	Mas
+wsQi3c3roi0p	6	Demora atención telefónica	MICRO	MANTENCIÓN DE JARDINES ,JARDINERÍA	MELIPILLA	Mujer	SANTIAGO	Mas
+XejTf1OICiFV	7	Buena cobertura,Buen servicio telefonico	MICRO	SERVICIOS	SANTIAGO	Hombre	SANTIAGO	Mas
+vCTxm63XxNpU	7	No ha tenido problemas,Buena atencion	PEQUEÑA	AGRICOLA.	LA SERENA.	Mujer	REGIONES	Mas
+9SFr6UYx1tUG	5	Buen servicio / calidad servicio,Caro	MICRO	MINIMARKET	VALPARAISO	Mujer	REGIONES	Mas
+01tBDKx0IYBg	5	Caro	PEQUEÑA	CAPACITACIÓN	SANTIAGO	Hombre	SANTIAGO	Mas
+8MLCQKqvD0lF	4	Caro,Malas conexiones /conectividad	PEQUEÑA	PEZCA	TALTAL	Mujer	REGIONES	Mas
+oNZ47OhpZRLA	7	No ha tenido problemas	MICRO	financiero	Santiago, vitacura	Hombre	SANTIAGO	Mas
+7Pu4lHptotex	7	Facturación,Buenos precios / precios adecuados,Buen servicio / calidad servicio	PEQUEÑA	EDUCACIÓN	LAS CONDES	Hombre	SANTIAGO	Mas
+lzyPHQM3Xkmo	4	Mal servicio internet / señal,Mala cobertura,Problemas con equipos / calidad /reposición /cambio	PEQUEÑA	SINDICATO	ÑUÑOA	Hombre	SANTIAGO	AV
+iovzEB3khDje	7	Buen servicio / calidad servicio,Rapida atencion ejecutivo	PEQUEÑA	EDUACION , ESTABLECIMIENTO EDUCACIONAL	PEÑAFLOR	Hombre	SANTIAGO	MV
+bZXYVvGIIepN	6	Buenos precios / precios adecuados	PEQUEÑA	educacion	renca	Mujer	SANTIAGO	Mas
+pukcH3uks4L5	5	Malas señal telefónica	MEDIANA	EDUCACIÓN	SAN BERNARDO	Hombre	SANTIAGO	Mas
+d6VoBPFLu5E9	6	Buena atencion,Buena atención telefónica	PEQUEÑA	EDUCACIÓN	PUERTO MONTT	Hombre	REGIONES	Mas
+R9dNccCmGF2k	6	Buen servicio / calidad servicio,No ha tenido problemas	MEDIANA	EDUCACIÓN	PUENTE ALTO	Hombre	SANTIAGO	Mas
+10Uv3P1biMjR	5	Siempre se puede mejorar	MICRO	MAESTRANZA	LOS ÁNGELES	Hombre	REGIONES	Mas
+s5HiQXIhzqA5	5	Mala cobertura,Mala señal	MICRO	educacion y cultura	san pedro de atacama	Mujer	REGIONES	Mas
+XHM9h3dcDnM9	2	Mala atención,Mala cobertura,Mala señal	MICRO	DISTRIBUCION DE AGUA	LINARES	Hombre	REGIONES	Mas
+Xi6cajHlBgiG	7	No ha tenido problemas	MICRO	arquitectura	san felipe	Mujer	REGIONES	Mas
+HK1WokfsBdGQ	7	Facturación	MICRO	FUNDACION DE LA CULTURA Y EDUCASION	VILLA RICA	Hombre	REGIONES	Mas
+CDWXNZAU4GMe	7	Buenos precios / precios adecuados,Buen servicio / calidad servicio,Buena cobertura	MEDIANA	EDUCACION	PUENTA ARENAS	Hombre	SANTIAGO	MP
+s9BKj0z7xG03	4	Mal servicio internet / señal	PEQUEÑA	SERTVICIOS.	SANTIAGO CENTRO.	Hombre	SANTIAGO	AP
+vROmW5NQyvMD	5	Planes de mala calidad	PEQUEÑA	CAPTACIÓN DE AGUAS Y DISTRIBUCIÓN.	RÍO CLARO	Mujer	REGIONES	Mas
+ljsQXTcRlqcy	6	Mala atencion con ejecutivos	GGEE	MUNICIPALIDAD	EL MONTE	Mujer	SANTIAGO	AV
+aIsIUu4tOr9n	5	Mal servicio / calidad servicio,Malas señal telefónica	MICRO	Deportes, fútbol profesional.	Concepción	Hombre	REGIONES	Mas
+E0xChzbDXV4T	7	Buen servicio / calidad servicio,Buena conexión / conectividad,Rápida solución de problemas	GGEE	ASOCIACION	LINARES	Hombre	REGIONES	AV
+wkq1NdycIWdM	7	Buena señal,Cobros claros	MICRO	Distribución de agua potable	San Carlos Ñuble	Hombre	REGIONES	Mas
+cIKGWQnaIvIl	6	Buena atencion,Demora atención telefónica	MICRO	AGRICOLA.	SAN BERNARDO.	Hombre	SANTIAGO	Mas
+xj4OFLxi8Rag	5	Buen servicio / calidad servicio	PEQUEÑA	TRANSPORTE	ISLA DE MAIPO	Hombre	SANTIAGO	Mas
+o2hNwYA4P9qQ	6	Problema facturación	GGEE	UNIVERSIDAD, ENESEÑAÑZA DE EDUCACION SUPERIOR	TALCA	Hombre	REGIONES	AP
+RAQbhwqRgx6R	6	Buen servicio / calidad servicio,Disponibilidad del ejecutivo	GGEE	CLUB Y SOCIAL Y DEPORTES	LAS CONDES	Mujer	SANTIAGO	AP
+n4yB3NqOeMR0	5	Mala atención	MICRO	CORPORACIÓN DE EDUCACIÓN	PUERTO NATALES	Hombre	REGIONES	AP
+jaUTg2XWYu5E	6	Buen servicio / calidad servicio,Solucionan requerimientos	GGEE	EDUCACION	SANTIAGO	Hombre	SANTIAGO	AV
+G2eZbIh219LF	6	Mal servicio / calidad servicio	GGEE	EDUCACION	SAN PEDRO CONCEPCION	Hombre	REGIONES	AP
+BkQn3EuW8LXW	6	Buena señal	MICRO	PUBLICIDAD	QUIRIGUE	Hombre	REGIONES	Mas
+lLhyQu7QrPkP	5	Mala cobertura,Mala señal	PEQUEÑA	AGUA POTABLE	CURICO	Hombre	REGIONES	Mas
+yKgGmLVRk5xL	5	Mal servicio internet / señal	MICRO	agua potable	lancahua , sector puquillay bajo	Hombre	REGIONES	Mas
+1X1d9nUt3xIt	6	Buen servicio telefonico	MICRO	CAPTACIÓN Y  PURIFICACIÓN DE AGUAS	RANCAGUA	Mujer	REGIONES	Mas
+wezeOw3FmDuQ	6	Buen servicio / calidad servicio	PEQUEÑA	DIRIGENTES SINDICALES.	SANTIAGO CENTRO.	Hombre	SANTIAGO	AP
+UA2olzpavtgH	7	Buena atencion,Solucionan requerimientos	PEQUEÑA	ong	santiago	Mujer	SANTIAGO	AP
+oTprRvk3bXfX	5	Mal servicio postventa	PEQUEÑA	TRANSPORTE	QUINTA NORMAL	Hombre	SANTIAGO	Mas
+CjCQzmqXA108	5	Mala señal,Mal servicio internet / señal	PEQUEÑA	SINDICAL .	SANTIAGO.	Hombre	SANTIAGO	AP
+zPMaSLvrIvXG	6	Mala señal	MICRO	Contratista en construcción	Rancagua	Hombre	SANTIAGO	Mas
+LYWM2Ca1JyA3	6	Problema facturación,Demora atención telefónica	PEQUEÑA	EDUCACION	PEÑALOLEN	Hombre	SANTIAGO	AP
+HpLXnHwHt3Hw	4	Mala señal,Mal servicio internet / señal	MICRO	turismo y servicios .	san pedro de atacama	Hombre	REGIONES	Mas
+wo5SD50VTKgN	7	Buen servicio / calidad servicio	MICRO	MANTECION DE EQUIPAMIENTOS.	PUERTO CHACABUCO AYSEN	Hombre	REGIONES	Mas
+suQ42pEr1b39	3	Mala señal,Mala atención,Caro	MICRO	DISTRIBUCION, PURIFICACION DE AGUA POTABLE RURAL.	SAN FRANCISCO DE MOSTAZAL, COMUNA DE MONTAZAL	Mujer	REGIONES	Mas
+hOAE3EjFiBqZ	6	Mal servicio internet / señal	PEQUEÑA	ORGANIZACIÓN SINDICAL	SANTIAGO	Mujer	SANTIAGO	AP
+sDbjmYrhFj3j	6	Problemas con equipos / calidad /reposición /cambio,Planes de mala calidad	MICRO	AGROINDUSTRIA	RANCAGUA	Hombre	REGIONES	AP
+I9Y6FJsllZT9	5	Mal servicio internet / señal	MICRO	servicio de agua potable apr	sector lo patricio, comuna pelarco	Hombre	REGIONES	Mas
+kG6oxOw6mx4H	5	Mal servicio internet / señal	MICRO	CONTRATISTA	LOS ANGELES	Mujer	REGIONES	Mas
+f57ZHStZ9S4n	5	Problema facturación	MICRO	FABRICA DE PLATOS PREPARADOS	CONCEPCION	Mujer	REGIONES	Mas
+7OMgpu1ImPZL	5	Mal servicio / calidad servicio	MICRO	TRANPORTE	COYAHIQUE	Mujer	REGIONES	Mas
+d3Jjm546zxSL	7	Buen servicio / calidad servicio,No ha tenido problemas	MICRO	vitivinicola	santiago , las condes	Hombre	SANTIAGO	Mas
+pGEFsRRUFNgp	5	No Sabe/ No responde	PEQUEÑA	ARTICULOS DEPORTIVOS	ESTACION CENTRAL	Hombre	SANTIAGO	Mas
+0oJ68eSPTuSP	7	No ha tenido problemas	MEDIANA	gas licuado	Santiago	Hombre	SANTIAGO	MP
+8FSukFFgDzPR	6	Mala señal,Mala cobertura,Mal servicio internet / señal	PEQUEÑA	AGRICOLA	NOGALES	Hombre	REGIONES	Mas
+2BkdspLlCiv9	6	Buen servicio / calidad servicio	MICRO	arquitectura	Providencia,Santiago	Mujer	SANTIAGO	Mas
+CdilkCK1xRfE	6	Mal servicio internet / señal,Malas conexiones /conectividad	GGEE	OPRADOR LOGISTICO	RENCA	Mujer	SANTIAGO	AP
+jvO2IqX1xBUL	6	Demora atención telefónica	GGEE	transporte	santiago , pudahuel	Mujer	SANTIAGO	AP
+qsuRaAeeypAH	7	Buena atencion,Buen servicio / calidad servicio,Buena cobertura	MICRO	ingeniería de diseño de proyectos de inversiones	temuco	Hombre	REGIONES	Mas
+9O2SDPyTbr5J	6	Buen servicio / calidad servicio	PEQUEÑA	almacenaje	Valparaíso	Mujer	REGIONES	MV
+6x0KP2sGZUwJ	6	Buen servicio / calidad servicio	MICRO	servicios de aseo	las condes	Hombre	SANTIAGO	Mas
+ynXqi4d0AHIu	5	Planes de mala calidad	MEDIANA	TELECOMUNICACIONES.	PUENTE ALTO.	Hombre	SANTIAGO	MP
+K02juv8VNlYc	6	Buen servicio / calidad servicio	MICRO	CONSTRUCCIÓN	SANTIAGO	Hombre	SANTIAGO	Mas
+xuswPGyuAax2	6	Buen servicio / calidad servicio,Buena cobertura,Mala atención	PEQUEÑA	SERVICIO DE INFORMATICA PROGRAMACION	PROVIDENCIA	Hombre	SANTIAGO	Mas
+2GpPYntdsE9h	6	Demora atención telefónica	PEQUEÑA	SERVICIOS	TALCAHUANO	Mujer	REGIONES	MP
+WresiGGeYl8X	2	Mal servicio internet / señal	PEQUEÑA	transporte, prestaciones de servicio de maquinaria agrícola	los lagos y osorno	Hombre	REGIONES	MasPrem
+NQmMWPa37GrT	7	No ha tenido problemas	MEDIANA	NO RESPONDE.	VALDIVIA.	Hombre	REGIONES	MP
+GEzYvJBwxZnd	6	Buen servicio / calidad servicio	MICRO	OBRAS CIVILES MENORES	PROVIDENCIA	Hombre	SANTIAGO	Mas
+9s3tQdQFOcVC	7	Buen servicio / calidad servicio	PEQUEÑA	capacitación	santiago	Hombre	SANTIAGO	Mas
+t9aFNYdXzDsk	7	Buen servicio / calidad servicio	MEDIANA	OBRAS DE INGENIERIAS	PUENTE ALTO	Hombre	SANTIAGO	MV
+RmVd06Ap8Tvm	2	Mala atención	GGEE	FABRICACIÓN DE MAQUINARIAS PARA SONDAJE DE MINERÍA	QUILICURA AVENIDA COLORADO 01200	Hombre	SANTIAGO	MV
+3phF2D8m7Gd3	7	Rápidas respuestas,Buen servicio / calidad servicio	GGEE	Servicios y ventas a minería	conchali	Hombre	SANTIAGO	MP
+oT5ZJG8Cuou3	6	Buena atencion	MEDIANA	EXPORTACIONES	PROVIDENCIA , SANTIAGO	Mujer	SANTIAGO	MP
+6mxWCFzkymCX	7	Buenos planes	MEDIANA	EDUCACIÓN	TALCA	Hombre	REGIONES	MP
+bGXogLQz67Hr	6	Empresa segura	MICRO	ASESORÍAS LEGALES	VITACURA	Hombre	SANTIAGO	Mas
+GBf5DQEAbnlU	7	Buen servicio / calidad servicio,No ha tenido problemas	PEQUEÑA	ELECTRECIDAD PARA MAQUINARIA DE LA MINERIA	LAMPA	Hombre	SANTIAGO	Mas
+Cwgn9z8FgxvK	6	No ha tenido problemas,Buena cobertura	MEDIANA	MANTENCIÓN DE EQUIPOS MINEROS.	LA PINTANA.	Hombre	SANTIAGO	MV
+BVLLVeeW9Ow1	5	Mala atención	GGEE	transporte y ventas de artículos pesados	santiago	Mujer	SANTIAGO	AV
+FrgJkia6i06j	7	Rápida solución de problemas,Buen servicio internet	GGEE	movimiento de tierra	concepción	Mujer	REGIONES	Mas
+7uwcyfl0rnms	5	Mal servicio / calidad servicio	PEQUEÑA	COMERCIO.	QUILPUE.	Hombre	REGIONES	Mas
+XpGACNsYT4Js	7	No ha tenido problemas	MEDIANA	FABRICA DE PLASTICO	SAN FELIPE	Mujer	REGIONES	MP
+ai7wSmn88uaN	6	No Sabe/ No responde	MICRO	ventas de inmuebles	providencia, santiago	Hombre	SANTIAGO	Mas
+OJeH6vULHJYB	7	No ha tenido problemas,Solucionan requerimientos	MEDIANA	METALURGICA	PUDAHUEL ,SANTIAGO	Hombre	SANTIAGO	MV
+3BKsj5KFlkqX	5	Mala atencion con ejecutivos	MEDIANA	SERVICIOS DE SALUD	RECOLETA , SANTIAGO	Hombre	SANTIAGO	Mas
+hEdEEu4IQzp4	7	Buen servicio / calidad servicio,Buena señal,Buenos precios / precios adecuados	GGEE	distribuidora de combustible	las condes	Hombre	SANTIAGO	MP
+otjMm0o9Ohqx	5	Mala atención	PEQUEÑA	Arquitectura y construccion	Puerto Varas	Mujer	REGIONES	Mas
+etaVS3jSF766	7	Buena conexión / conectividad,Solucionan requerimientos,Buena conexión / conectividad	MEDIANA	SERVICIOS INFORMÁTICO	PROVIDENCIA	Mujer	SANTIAGO	AP
+LOVAqkqFGTYF	2	Mala cobertura,Mal servicio / calidad servicio	MICRO	MINERIA	LAS CONDES	Hombre	SANTIAGO	Mas
+BNY4Z3XuL6fk	7	Buen servicio / calidad servicio	GGEE	CONSTRUCCIÓN.	VIÑA DEL MAR.	Hombre	REGIONES	AP
+zKDKGgPv8gfg	7	Buena atencion,No ha tenido problemas	MICRO	atencion a pacientes	las condes	Hombre	SANTIAGO	Mas
+RhI1i50DHDQy	3	Mala cobertura,Mal servicio / calidad servicio	GGEE	CONSTRUCCIÓN	SAN MIGUEL	Mujer	SANTIAGO	MV
+Dr1eUDIO51cn	6	Buena cobertura,Buen servicio telefonico	PEQUEÑA	EDUCACION	VALPARAISO	Hombre	REGIONES	Mas
+oMks3q5SsmPz	6	Falta atención personalizada	PEQUEÑA	medicina , prestaciones medicas	santiago , las condes	Hombre	SANTIAGO	MV
+c3NQTHdbrBVl	7	Buenos precios / precios adecuados	PEQUEÑA	CONSTRUCCION	QUINTA NORMAL	Hombre	SANTIAGO	Mas
+6kNukVO6e09k	6	Demora atención telefónica	PEQUEÑA	OPTICA	PUERTO MONTT	Mujer	REGIONES	Mas
+toytIbwGxOPs	5	Mal servicio internet / señal	MICRO	empresa ventas y servicios de metales y construccion	santiago, lo barnechea	Mujer	SANTIAGO	Mas
+mPzZa6AL856f	6	Mala atencion con ejecutivos	MEDIANA	MATERIALES DE CONSTRUCCIONES PARA GRANDES EMPRESAS ,MINERAS Y OTROS.	SANTIAGO ,RENCA	Hombre	SANTIAGO	MasPrem
+NfQ6rFgX9ffS	5	Mala cobertura	MEDIANA	mineria	constitucion	Hombre	REGIONES	MP
+s6KcOs7V16lN	3	Mal servicio / calidad servicio	MICRO	SERVICIO DE MANTENCIÓN	SANTIAGO	Hombre	SANTIAGO	Mas
+aLjAEUpp9X0M	7	Buena señal,Facturación,Buen servicio internet	GGEE	TRANSPORTE MARITIMO.	PUERTO VARAS.	Hombre	REGIONES	AP
+giNoxx3cGwGt	7	Buen servicio / calidad servicio,No ha tenido problemas,Disponibilidad del ejecutivo	GGEE	CONSTRUCCION INGENIERIA.	LA ARAUCANIA.	Hombre	REGIONES	AP
+OBiUSWFCUrsP	7	Buena cobertura	MEDIANA	ALIMENTACION	SAN PEDRO DE ATACAMA	Hombre	REGIONES	MV
+FgkCz5v6VW2R	7	No ha tenido problemas	GGEE	SERVICIOS FORESTALES.	ANGOL	Hombre	REGIONES	Mas
+WOV1SATxOUmQ	6	Mal servicio / calidad servicio,Mala cobertura	PEQUEÑA	INGENIERIA EN CONSTRUCCION	PUERTO MONTT	Hombre	NS/NR	Mas
+qZNF9uFxy1nU	6	Disponibilidad del ejecutivo,Buen servicio telefonico,Buen servicio internet	MICRO	SERVICIOS MEDICOS	PUERTO MONTT	Hombre	REGIONES	Mas
+NoPAKtuIiXVH	5	Mala atencion con ejecutivos,Planes de mala calidad	MEDIANA	VENTAS DE ALIMENTOS Y TRANSPORTES	OSORNO	Hombre	REGIONES	MP
+p5uZIUfylEyE	6	Buena atencion,Buena cobertura,Solucionan requerimientos	MICRO	RADIO DIFUCION	NUEVA IMPERIAL	Mujer	REGIONES	Mas
+EE7tTrRb5umE	6	Buena señal	MICRO	MEDICA	VITACURA	Hombre	SANTIAGO	Mas
+ouXihZfFGq5J	7	No ha tenido problemas,Rápida solución de problemas	MICRO	TRANSPORTE	SANTIAGO CENTRO	Mujer	SANTIAGO	Mas
+K7HVJFn8mKuw	6	Buen servicio / calidad servicio,Buena señal	PEQUEÑA	OBRAS DE INGENIERIAS	SANTIAGO , LA FLORIDA	Hombre	SANTIAGO	Mas
+KclJzlHCbJp6	7	Buen servicio / calidad servicio,Solucionan requerimientos	MICRO	SERVICIOS JURIDICOS	LAS CONDES	Hombre	SANTIAGO	Mas
+RRHtmcgeGZZA	7	Buen servicio / calidad servicio,Buen servicio internet	MEDIANA	INVERSIONES	LAS CONDES	Hombre	SANTIAGO	MP
+eaSvQINsdanp	5	Caro,Malas conexiones /conectividad	PEQUEÑA	ACESORIAS	SANTIAGO CENTRO	Hombre	SANTIAGO	Mas
+M9NKyXb6nnwB	4	Mal servicio / calidad servicio	MEDIANA	transporte pasajeros / turismo	graneros/rancagua	Hombre	REGIONES	MP
+PnOOnvzvKkiy	6	Siempre se puede mejorar	GGEE	ENERGIA	LAS CONDES	Hombre	SANTIAGO	AV
+zCMEzdAgfTqD	6	No ha tenido problemas	MEDIANA	VENTA DE ROPA CORPORATIVA.	RECOLETA	Hombre	SANTIAGO	Mas
+13bIO2nvc09d	5	Problemas con equipos / calidad /reposición /cambio	MEDIANA	SERVICIOS TECNOLOGICOS	PUERTO MONTT, SANTIAGO	Hombre	SANTIAGO	MV
+tqNQYj4gNcRN	5	Caro,Mala cobertura	PEQUEÑA	MAESTRANZA	LOA ANGELES	Mujer	REGIONES	Mas
+tZ8uGLd3Qq8S	6	Caro	MICRO	RECICLAJE	PUNTA ARENAS	Mujer	REGIONES	Mas
+iAhfXD8TDJeH	4	Mal servicio / calidad servicio,Mala atencion con ejecutivos,No solucionan problemas	GGEE	abastesimiento de abarrotes	temuco	Mujer	REGIONES	AV
+v5O1VcBNKjNF	6	No ha tenido problemas,Buen servicio / calidad servicio	MICRO	AGRÍCOLA	REGIÓN DE ÑUBLE	Mujer	REGIONES	Mas
+BZXk3fAeuTZk	6	Mala atencion con ejecutivos	MEDIANA	INVERSIONES	SANTIAGO VITACURA	Hombre	SANTIAGO	Mas
+IN3lqJ6887wt	7	Disponibilidad del ejecutivo,Buena atención telefónica	GGEE	turismo	Las Condes	Hombre	SANTIAGO	MP
+0pq1u5ifeYtC	6	Mal servicio internet / señal	MICRO	RESTAURAN	SAN JAVIER	Hombre	REGIONES	Mas
+PNAvhOLGyeKu	7	Rápida solución de problemas,Buen servicio / calidad servicio	MEDIANA	LABORATORIO CLINICO, SALUD	VALDIVIA	Mujer	REGIONES	MP
+fx2Un7cKWjpr	6	Buen servicio / calidad servicio	GGEE	COMPRA Y VENTA INSUMOS AGRICOLAS	LA REINA	Hombre	SANTIAGO	AV
+avdq144uHQH7	6	Buen servicio / calidad servicio	PEQUEÑA	SERVICIO A LA MINERIA	ANTOFAGASTA	Hombre	SANTIAGO	MP
+UebPPidQjwyW	5	Caro	PEQUEÑA	VENTAS DE REPUESTOS MINEROS	SANTIAGO	Hombre	SANTIAGO	Mas
+k1HVu3hDZx2a	3	Mal servicio internet / señal	PEQUEÑA	TURISMO	SAN PEDRO DE ATACAMA	Mujer	REGIONES	MP
+vkaMd7RVxLre	3	Mala cobertura,Mal servicio / calidad servicio	MEDIANA	trasnporet y comercializadora	padre hurtado / santiago	Hombre	SANTIAGO	Mas
+GdznBcbH1XBR	7	Buena señal,Buen servicio / calidad servicio	PEQUEÑA	TEELCOMUNICACIONES	PUENTE ALTO	Hombre	SANTIAGO	Mas
+eDX2ENIa8fJ8	6	No Sabe/ No responde	PEQUEÑA	servicios forestales	los angeles7 octava region	Hombre	REGIONES	Mas
+mgmSVpI9y2Zr	6	Mala señal	MEDIANA	DESARROLLO DE INGENIERIA	CHILLAN VIEJO	Mujer	REGIONES	AP
+6UC5DHUCFqWz	6	No ha tenido problemas	MICRO	CONSULTORÍA	ÑUÑOA	Hombre	SANTIAGO	Mas
+ysJ28lxvJ0nn	6	Buen servicio / calidad servicio	MICRO	DISEÑO GRAFICO/PUBLICIDAD	CONCEPCIÓN	Hombre	REGIONES	Mas
+QixGLVuT4JnK	7	Buen servicio / calidad servicio,Buenos planes,Buen servicio internet,Buena señal	PEQUEÑA	DE SEGURIDAD	PUENTE ALTO SANTIAGO	Mujer	SANTIAGO	MP
+BhSLpMzeEmBF	6	Buen servicio / calidad servicio	PEQUEÑA	ASEO INDUSTRIAL	VALPARAISO	Hombre	REGIONES	Mas
+VYoDIkJFhKh8	5	Mal servicio / calidad servicio	MICRO	peluquería, salón de belleza	las condes, santiago	Hombre	SANTIAGO	Mas
+lyfzR4XiLqqj	6	Mala cobertura	MEDIANA	SERVICIOS	METROPOLITANA	Mujer	SANTIAGO	Mas
+1Zm0AnYoOdib	6	Lentas respuestas a solución de problemas	MICRO	SERVICIO MEDICOS	ANTOFAGASTA SEGUNDA REGION DE CHILE	Hombre	REGIONES	Mas
+Triz1PME01K2	7	No ha tenido problemas,Buena cobertura,Rápida solución de problemas	MICRO	EDUCACION	MACUL	Mujer	SANTIAGO	Mas
+hrGEuJvx2cGv	5	Mala atencion con ejecutivos,Buena cobertura	MEDIANA	IMPORTADORES Y EXPORTADORES DE MARCAS EXTRANJERAS	PUERTO MONTT	Hombre	REGIONES	Mas
+VydlYl38AGP5	6	No ha tenido problemas	MICRO	ASESORÍA EN EDUCACIÓN SUPERIOR	ANTOFAGASTA	Hombre	REGIONES	Mas
+nfnh0GpaMj8y	5	Malas conexiones /conectividad	PEQUEÑA	administración de empresas	Coyhaique	Mujer	REGIONES	Mas
+NWak7wRHhP2d	6	Mal servicio internet / señal	MICRO	AGRICOLA	QUILLOTA	Hombre	REGIONES	Mas
+PDpFwl8NwdWV	7	Disponibilidad del ejecutivo	GGEE	construccion	las condes	Hombre	SANTIAGO	AP
+FoiETU9EQN07	6	Mala señal	MICRO	ASESORIA A EMPRESAS. SERVICIOS FINANCIEROS	VIÑA DEL MAR	Hombre	REGIONES	Mas
+lu4tPjbyTIkz	6	Mal servicio / calidad servicio	MICRO	AREA DE TURISMO	VALPARAISO	Hombre	REGIONES	Mas
+Y7ypQggG0YH6	7	Buena cobertura,Buena señal	MEDIANA	PRODUCTOS DE LABORATORIO	CONCEPCION	Mujer	REGIONES	MV
+dO1WOqvqkA4b	4	Caro	MICRO	EXTRACCIÓN Y PRODUCCION DE ALGAS	PUERTO MONTT	Hombre	REGIONES	Mas
+YhdAMM16AtwQ	6	Caro	MICRO	Informatica	las condes	Mujer	SANTIAGO	Mas
+KkY2UIZraCCF	4	Mal servicio / calidad servicio,Mala cobertura	MEDIANA	SERVICIOS FORESTALES	CHILLAN	Hombre	REGIONES	MP
+ZvbY4IEUILwh	6	Buen servicio / calidad servicio,Buena cobertura	PEQUEÑA	ARQUITECTURA Y CONSTRUCCION	LAS CONDES	Hombre	SANTIAGO	Mas
+yjiHwoQ1fk39	5	Buen servicio / calidad servicio,Buena cobertura	PEQUEÑA	ASESORIAS FINANCIERAS	VITACURA	Mujer	SANTIAGO	Mas
+FyxRs8g8r5PQ	5	Problemas con equipos / calidad /reposición /cambio	MICRO	ESPECTACULOS	MAIPU	Mujer	SANTIAGO	Mas
+rwVRNlvKixS5	6	Mala cobertura	PEQUEÑA	TRANSPORTE	TALCAHUANO	Hombre	REGIONES	Mas
+SsmRg2RSXAzg	6	Buen servicio / calidad servicio	PEQUEÑA	MEDICINA Y PSICOPEDAGOGIA	LAS CONDES	Mujer	SANTIAGO	Mas
+0OJw9f9XHZC6	4	Mal servicio / calidad servicio	MICRO	SERVICIO CONSTRUCTORA AGRÍCOLA Y FORESTAL	SAN JAVIER	Hombre	REGIONES	Mas
+w8RBcLl44Fq6	7	No Sabe/ No responde	PEQUEÑA	Productora	Las Condes	Mujer	SANTIAGO	Mas
+6pEK122XrVjf	5	Mal servicio internet / señal	MEDIANA	OBRAS CIVILES	ANTAFAGASTA	Mujer	REGIONES	MV
+zODWyTXvkg6A	6	Mala atencion con ejecutivos	GGEE	INGENIERIA.	LOS ANDES.	Hombre	REGIONES	AP
+4TCaPEaocWVh	1	No solucionan problemas	PEQUEÑA	Articulos deportivos	Santiago	Hombre	SANTIAGO	Mas
+4nlVkUr7ZS6A	6	Buena cobertura,Buen servicio / calidad servicio,Cambios de planes arbitrarios	MICRO	CONSULTORIA	COYAHIQUE	Hombre	REGIONES	Mas
+mit38OlQ9rF4	4	Caro	PEQUEÑA	SALUD	VILLA RICA	Hombre	REGIONES	Mas
+BGs8JS4idVwr	6	Mala atencion con ejecutivos	GGEE	RETAIL.	VITAVURA	Hombre	SANTIAGO	AV
+AtjI1Rx76r8O	7	No ha tenido problemas,Buena cobertura,Buen servicio / calidad servicio	GGEE	SEGURIDAD PRIVADA Y ADMINISTRACION DE SERVICIOS COMERCIALES	PROVIDENCIA	Hombre	SANTIAGO	AP
+HO7Agki61wWt	6	Mala señal,Demora atención telefónica	PEQUEÑA	CONTRUCCION	LA CISTERNA	Hombre	SANTIAGO	Mas
+OOIafdkdCQB3	6	Mala cobertura,Mala señal	PEQUEÑA	COMUNICACIONES	LA FLORIDA	Hombre	SANTIAGO	Mas
+jLaRxkX2Wmjg	6	Siempre se puede mejorar	MICRO	VENTA DE BICICLETAS	PROVIDENCIA	Hombre	SANTIAGO	Mas
+0OdSLlD7kcA8	7	Buena conexión / conectividad,No ha tenido problemas,Buena atencion,Cobros claros	PEQUEÑA	Fabricación de partes y piezas	Región de Arica y Parinacota, comuna Arica	Hombre	REGIONES	Mas
+8sFOeoZKyY1k	6	Buenos precios / precios adecuados	MEDIANA	TRANSPORTE	CHILLAN VIEJO	Hombre	REGIONES	MasPrem
+QIDahz0duhLu	5	Mala cobertura	MEDIANA	VENTAS DE MONITOREO AMBIENTAL	SANTIAGO	Hombre	SANTIAGO	Mas
+RliyZlzooLFA	4	Lentas respuestas a solución de problemas	MEDIANA	consultoría	providencia	Hombre	SANTIAGO	MP
+8E6yviGQPxhx	6	Buen servicio / calidad servicio,Solucionan requerimientos	MICRO	consultoria	valparaiso	Mujer	REGIONES	Mas
+FXr7QVXJUmZ7	6	Mala señal	MICRO	AGRICOLA	CASA BLANCA	Hombre	REGIONES	MV
+nc0Q8K4XskPQ	5	Mala cobertura	GGEE	constructora	talca	Hombre	REGIONES	AV
+HChe5XxryQYB	5	Cambios de planes arbitrarios,Mal servicio internet / señal	MEDIANA	MUEBLES	PUERTO VARAS	Mujer	REGIONES	MP
+9GGn0VeVXbEa	7	Buen servicio / calidad servicio	PEQUEÑA	servicios técnico domiciliario	macul	Hombre	SANTIAGO	Mas
+gonQIL3pVztJ	7	Buena atencion,Buena cobertura	PEQUEÑA	AGRICOLA	CURICO	Hombre	REGIONES	Mas
+3LHbZBI6LxXk	5	Mala cobertura	PEQUEÑA	MAQUINARIA	REGION DE LOS RIOS COMUNA PAYACO	Mujer	REGIONES	MasPrem
+LmQAuojEIM4W	7	Disponibilidad del ejecutivo,Buena atencion	GGEE	AGRICOLA	CHILLAN	Mujer	REGIONES	AP
+vvDy6Nk3Bwgs	5	Caro	MICRO	COMPRA Y VENTA DE MAQUINARIA	TALCA	Mujer	REGIONES	Mas
+YSFuTrKv8AX0	7	Buen servicio / calidad servicio	PEQUEÑA	CONSULTORIA Y SERVICIOS	PROVIDENCIA	Hombre	SANTIAGO	Mas
+3B7gTBwkhAgu	5	Problema facturación	MICRO	servicios	las condes	Hombre	SANTIAGO	Mas
+WIk2y7fb1SVj	7	Buena señal,No ha tenido problemas	MICRO	CONSTRUCCIÓN	TALCA	Hombre	REGIONES	Mas
+rnyeM0g62KxA	5	No solucionan problemas	MICRO	COBRANZA Y DOCUMENTACION ,TRAMITACION DE REGISTRO CIVIL	PIRQUE	Hombre	SANTIAGO	Mas
+Q9zNua5IYM4Y	6	No ha tenido problemas	MICRO	consultoria	vitacura	Hombre	SANTIAGO	Mas
+l8WzHZHSVqJx	5	No solucionan problemas	MICRO	CASA DE REPOSO	LAS CONDES	Mujer	SANTIAGO	Mas
+yMEZdejnNfUD	6	Mala señal	MEDIANA	ILUMINACIÓN	NUÑOA	Hombre	SANTIAGO	Mas
+pRG0Jk9U5ryX	6	Mal servicio internet / señal	MICRO	ASESORIA	PROVIDENCIA ,SANTIAGO	Hombre	SANTIAGO	Mas
+AcfMNDHEeIyi	6	No ha tenido problemas,Rápida solución de problemas	PEQUEÑA	CORTINAS METALICAS	QUINTA NORMAL	Hombre	SANTIAGO	Mas
+eQ4YExDVpO8H	6	Buen servicio / calidad servicio	MEDIANA	TRATAMIENTO DE VEHICULOS	SANTIAGO	Mujer	SANTIAGO	MP
+znHHZA6jTbAc	6	Caro,Buen servicio / calidad servicio	MEDIANA	INSTALACIONES	SAN MIGUEL	Hombre	SANTIAGO	MV
+tDxhy18pgwv4	7	Buen servicio / calidad servicio,Buena señal	MICRO	SERVICIOS MEDICOS	LAS CONDES	Hombre	SANTIAGO	Mas
+1zfMNHYy6vME	5	Mala atención	MEDIANA	INSTALACIONES EN TERRENO DE TV CABLE	SANTIAGO Y PUERTO VARA	Mujer	SANTIAGO	MV
+zKzem8x2Gwlh	7	No ha tenido problemas	MICRO	asesoria de micro finansas	la reina	Mujer	SANTIAGO	Mas
+hF9NkpXCLWLr	6	Buen servicio / calidad servicio,Buena señal	MEDIANA	INGENIERÍA Y SERVICIO	ANTOFAGASTA	Mujer	REGIONES	AP
+mV4FCx7FOQZu	7	Buen servicio / calidad servicio	MEDIANA	CONSTRUCCION	HUALPEN	Hombre	REGIONES	AP
+Da8TPBPNrlXd	7	Buen servicio / calidad servicio,Facturación	PEQUEÑA	COMERCIAL AUTOMOTRIZ	quilicura	Hombre	SANTIAGO	Mas
+qH8Qal0JxxWJ	6	Buen servicio / calidad servicio	MICRO	insumos quimicos	Santiago	Mujer	SANTIAGO	Mas
+CZ48GcFGGRzZ	6	Buena conexión / conectividad,Mal servicio postventa	GGEE	COMERCIALIZA DORA DE PRODUCTOS	CERRILO SANTIAGO	Hombre	SANTIAGO	Mas
+26a74HaY7zAb	7	Buen servicio / calidad servicio	MICRO	editorial	san bernardo	Mujer	SANTIAGO	Mas
+5uZDOIHfo25B	5	Mal servicio internet / señal	MICRO	Construccion	San Pedro de la Paz Octava Region	Hombre	REGIONES	Mas
+vHkW4bbsJuMt	6	Buen servicio / calidad servicio	MICRO	servicio dentales	Concepcion	Hombre	REGIONES	Mas
+mDMMzfKLmPOR	7	Buena atencion,Atención personalizada,Buen servicio / calidad servicio	GGEE	importadores de acero	santiago , vitacura	Mujer	SANTIAGO	Mas
+9jfeSziQKbt5	5	No solucionan problemas,Mal servicio / calidad servicio	MICRO	TRANSPORTE Y MOVIMIENTO DE TIERRA.	CURICÓ.	Hombre	REGIONES	Mas
+RG32Lx772Iem	4	Caro,Cobros poco claros	MICRO	Cafeteria	Santiago centro	Mujer	SANTIAGO	Mas
+XSZ7LNPjp3fe	7	Buena atencion	PEQUEÑA	CAPASITACION	ANTOFAGASTA	Mujer	REGIONES	MV
+3KZAKcgzwdoz	7	Buen servicio / calidad servicio	PEQUEÑA	PANADERIA	CALERA DE TANGO	Hombre	SANTIAGO	Mas
+zhktPxjNHynq	7	Disponibilidad del ejecutivo,Solucionan requerimientos	MICRO	REPARACIONES DE INSTRUMENTOS MUSICALES	SANTIAGO CENTRO	Mujer	SANTIAGO	Mas
+TdlW7MFkRIdd	7	No ha tenido problemas,Buena atencion	MEDIANA	TRANSPORTE DE MAQUINARIAS  POR CARRETERA	CALAMA	Mujer	REGIONES	MasPrem
+F70Fobl7Fgfr	6	Mala atencion con ejecutivos	MEDIANA	SERVICIO JURIDICO	LAS CONDES	Mujer	SANTIAGO	MP
+LXVOZKKZJkYj	7	Buena atencion,Buen servicio / calidad servicio	GGEE	VENTA DE PRODUCTOS PARA CONSTRUCCION	LAMPA	Hombre	SANTIAGO	AP
+HSMLHqQ86atS	7	Buen servicio telefonico	PEQUEÑA	transporte	san miguel	Hombre	SANTIAGO	MV
+F3OEcKvElz1p	6	Buen servicio / calidad servicio,Buena atencion	PEQUEÑA	GASTRONOMICO	VALPARAISO	Mujer	REGIONES	MP
+5z5QN8sn4AhE	7	Buena cobertura	PEQUEÑA	Giro medico	Las condes	Hombre	SANTIAGO	Mas
+GFxD8T73ZkFw	6	Problemas con equipos / calidad /reposición /cambio	MEDIANA	DISTRIBUCION DE ALIMENTOS.	QUILPUE.	Mujer	REGIONES	Mas
+PxarM4S3XHEE	7	Rapida atencion ejecutivo,Buena cobertura	PEQUEÑA	SEGURIDAD PRIVADA	COQUIMBO	Hombre	REGIONES	AP
+NNp1Lf26nY17	6	Solucionan requerimientos,Rápidas respuestas	PEQUEÑA	COMPRA VENTA FRUTAS Y VERDURAS AL POR MAYOR FRIGORÍFICOS	OHIGGINS COMUNA RANCAGUA	Hombre	REGIONES	MV
+e4sBDghO14mt	5	Mala señal	PEQUEÑA	Dos empresas-Frutícola ,Movimiento de Tierra	Curicó	Hombre	REGIONES	Mas
+LpMhqeTzGfZ2	6	Mala atencion con ejecutivos	GGEE	IMPORTACION EXPORTACION DE MAQUINARIA DE PROCESAMIENTO AGRICOLA	CHILLAN	Hombre	REGIONES	AV
+v1gNOQeBdy11	5	Caro,Demora atención telefónica	MEDIANA	TRANSPORTE	SANTIAGO , QUINTA NORMAL	Hombre	SANTIAGO	Mas
+AYnxnctfii6e	5	Buena cobertura	GGEE	INMOVILIARIA , EXPORTACION , AGRICOLA	SANTIAGO	Hombre	SANTIAGO	Mas
+DtJe75zFeTY1	7	No Sabe/ No responde	PEQUEÑA	SERVICIO TECNICO LINEA BLANCA Y ELECTRODOMESTICO	NUNOOS	Mujer	SANTIAGO	Mas
+3BStqxQT67YC	6	Demora atención telefónica	GGEE	constructora	LAS CONDES	Hombre	SANTIAGO	AP
+jsMX2gzSV8m4	5	Lentas respuestas a solución de problemas	PEQUEÑA	MECANICA	ANTOFAGAS	Mujer	REGIONES	Mas
+dCwkshdREiXQ	4	Mala señal,Mal servicio internet / señal	PEQUEÑA	eventos deportivos	la florida	Mujer	SANTIAGO	Mas
+nrjVrIQgOMrp	5	Mal servicio / calidad servicio,Problemas con equipos / calidad /reposición /cambio	PEQUEÑA	TRANSPORTE DE CARGA POR CARRETERA	SANTA CRUZ	Mujer	REGIONES	Mas
+P9zrcaszkmED	5	Mala señal,Mal servicio internet / señal,Malas señal telefónica	PEQUEÑA	AUTOMOTRIZ.	PEDRO AGUIRRE CERDA.	Mujer	SANTIAGO	Mas
+Q7ljjXBXXQhz	5	Mala señal	PEQUEÑA	CONSTRUCCION DE OBRAS MENORES	PAINE	Hombre	REGIONES	Mas
+7ZrtUSpWpSh8	3	Mala señal,Demora atención telefónica	PEQUEÑA	arquitectura y construccion	quillota	Hombre	REGIONES	Mas
+4tx758mYklLK	7	Buen servicio / calidad servicio	PEQUEÑA	FINANZAS	SAN MIGUEL	Mujer	SANTIAGO	MV
+JlyLBN1RjY6c	7	Buen servicio / calidad servicio,Buena cobertura	MICRO	TRANSPORTE	QUILICURA	Hombre	SANTIAGO	Mas
+eC8fGSVbm6ZX	3	Mal servicio / calidad servicio	PEQUEÑA	comercializar	santiago	Mujer	SANTIAGO	Mas
+hdeCw11y4iFW	5	Demora atención telefónica	MICRO	TRANSPORTES	SAN BERNARDO	Hombre	SANTIAGO	Mas
+ECHiP1MvaQMm	4	Mala cobertura,Caro	MICRO	SERVICIOS MEDICOS Y ODONTOLOGICOS.	CONCEPCION	Mujer	SANTIAGO	Mas
+6bMOaryE1AJr	5	Mala cobertura	GGEE	CONSTRUCCION	SANTIAGO	Mujer	SANTIAGO	AV
+rRMlKmz3mYOE	7	No ha tenido problemas	GGEE	ventas de repuestos de vehículo	iquique , zofri	Mujer	REGIONES	MP
+lrSjNTk2Y95e	6	Mala atencion con ejecutivos	PEQUEÑA	INFORMATICA	SANTIAGO CENTRO	Hombre	SANTIAGO	Mas
+xgIr24TJ4J9G	6	Demora atención telefónica	MICRO	SERVICIOS LEGALES.	LA SERENA.	Hombre	REGIONES	Mas
+WaowwIbuJzZW	7	No ha tenido problemas	PEQUEÑA	AGRICOLA	RIO BUENO	Hombre	REGIONES	Mas
+lc10EbOnrwS4	6	Buen servicio / calidad servicio,Buena cobertura	PEQUEÑA	INGENIERÍA DE SERVICIO DE MINERÍA INDUSTRIAL	ANTOFAGASTA	Hombre	SANTIAGO	Mas
+L7vWcmuiHRmJ	3	Mal servicio internet / señal,Mala cobertura	MICRO	BANQUETERIA SON LOS COFFE BREAK EN LAS UNIVERSIDADES BAUTIZOS CUMPLEANOS	CERRO NAVIA SANTIAGO /  CURARAUTIN LA ARAUCANIA	Hombre	REGIONES	Mas
+HDoefXZ4vfRh	5	No solucionan problemas	MICRO	GRABADOS, REGALOS CORPOTATIVOS	SANTIAGO CENTRO	Mujer	SANTIAGO	Mas
+ArvkZSaG6gD7	7	Buen servicio / calidad servicio	MEDIANA	INGENIERIA ELCTRICA	SAN JOAQUIN	Mujer	SANTIAGO	MP
+O3AtMjOvmWgM	7	No ha tenido problemas,Buena cobertura,Buen servicio / calidad servicio	PEQUEÑA	OBRAS MENORES	VILLA RICA	Hombre	REGIONES	MP
+2ZQ9Dh1WA38b	6	Siempre se puede mejorar	PEQUEÑA	construccion y servicios	cerrillos	Hombre	SANTIAGO	Mas
+Z6IKXCDwMP1C	5	Mala atención	PEQUEÑA	servicios	las condes	Hombre	SANTIAGO	Mas
+jyq9p0yWlqdp	7	Buen servicio / calidad servicio	MEDIANA	FRAMACEUTICO.	LAS CONDES	Mujer	SANTIAGO	MV
+hSlHO84FuW1v	7	Buen servicio / calidad servicio,Buenos planes	MEDIANA	LABORATORIO CALIBRASION DE INSTRUMENTOS	SANTIAGO	Mujer	REGIONES	MP
+xxmiFR4c8SI7	5	Caro,Buen servicio / calidad servicio	PEQUEÑA	MINERO	ALTO AUSPICIO ,IQUIQUE	Mujer	SANTIAGO	Mas
+sES47cIhHR8e	5	Mala cobertura	MEDIANA	COMUNICACIONES ,CANAL DE TV	VALPARAISO	Mujer	REGIONES	Mas
+EHbp4XNBHWU6	4	Caro,Mala atención	PEQUEÑA	METAL MECANICO.	CORONEL	Hombre	REGIONES	Mas
+4MctdnFUa6aS	5	Problemas con equipos / calidad /reposición /cambio	MEDIANA	RESTAURAN	PROVIDENCIA	Hombre	SANTIAGO	MasPrem
+aNm2LXFfJiRK	7	No ha tenido problemas,Buena atencion	PEQUEÑA	INMOBILIARIA.	QUILLOTA.	Hombre	REGIONES	Mas
+6WGHv2EPtsy2	6	Buena atencion,No ha tenido problemas	MEDIANA	mantención y reparacion de motocicletas	cala blanca quinta region	Hombre	REGIONES	Mas
+pKBy81q3rrIu	6	Buen servicio / calidad servicio	GGEE	FORESTAL	LOS ANGELES	Hombre	REGIONES	AP
+8D4iApSTPvgP	7	No ha tenido problemas,Rápida solución de problemas	PEQUEÑA	COMERCIO Y TRANSPORTE	TALCA	Mujer	REGIONES	Mas
+1aJfzHNkDR6w	6	Mal servicio internet / señal	PEQUEÑA	MINERO	ANTOFAGASTA	Mujer	REGIONES	Mas
+YIEOlxjCLOSg	7	Buen servicio / calidad servicio	PEQUEÑA	CONSULTORIA	LAS CONDES	Hombre	SANTIAGO	Mas
+8CIdL8oFxnCQ	7	Buena conexión / conectividad,Buen servicio / calidad servicio	PEQUEÑA	COMERCIALIZADORA DE PRODUCTOS	QUILPUE	Hombre	REGIONES	Mas
+EE7uV8oOiF4J	7	Rápida solución de problemas,Disponibilidad del ejecutivo,Buen servicio internet	MEDIANA	CARNICERIA	ESTAMOS EN TODA LA QUINTA REGION, LA CASA MATRIZ ESTA EN PELLOTA Y QUILPUE	Mujer	REGIONES	MP
+I4KaWmb2svEe	5	Caro	PEQUEÑA	COMERCIAIZADORA	QUINTA NORMAL	Hombre	SANTIAGO	Mas
+micdxTWxFqrR	7	No ha tenido problemas,Buena comunicación,Buen servicio / calidad servicio	GGEE	TELECOMUNICACIONES	SAN MIGUEL	Hombre	SANTIAGO	AV
+vXhWcRtOKmUV	6	Buen servicio / calidad servicio,Mala señal,Mal servicio internet / señal	MEDIANA	MAESTRANZA MECANICA	CARDONAL BAJO PUERTO MONTT	Hombre	SANTIAGO	MV
+2hHl7bUtgH5R	5	Mala señal	PEQUEÑA	PUBLICIDAD	LA FLORIDA Y LAS CONDES	Hombre	SANTIAGO	Mas
+XRN7Q8U9DxFJ	6	Buena cobertura,Buena señal,Buena atencion,No ha tenido problemas	GGEE	supermecado	ovalle	Hombre	REGIONES	AP
+mCh452wpBuF8	5	Cambios de planes arbitrarios	MEDIANA	PANIFICADORA	QUILLOTA	Hombre	REGIONES	MP
+ydmoRqhhhVNf	3	Mal servicio internet / señal	MICRO	transporte	iquique	Hombre	REGIONES	Mas
+Fj6ZtWixlZMC	7	Buen servicio / calidad servicio	PEQUEÑA	SELECCION DE PERSONAL	PROVIDENCIA	Mujer	SANTIAGO	Mas
+ZnLJLkuslyBK	6	Siempre se puede mejorar	MICRO	SERVICIOS ODONTOLOGICOS	ÑUÑOA	Hombre	SANTIAGO	Mas
+04HXKrvQ8Hvg	6	Mala cobertura	PEQUEÑA	AGRICOLA	NANCAGUA	Hombre	REGIONES	MP
+mrDPi7TcgquA	5	Malas señal telefónica	MEDIANA	VENTA DE COMBUSTIBLES	TALAGANTE	Hombre	REGIONES	Mas
+6XLtUYPobkxo	7	Buena atencion,Buen servicio internet	PEQUEÑA	DISTRIBUIDORA DE PRODUCTO QUIMICOS.	SANTIAGO, SAN JOAQUIN.	Mujer	SANTIAGO	Mas
+X5mYHez8ldJw	5	Malas conexiones /conectividad	PEQUEÑA	TELECOMUNICACIONES	SAN MIGUEL	Mujer	SANTIAGO	Mas
+oPKdNJ4KL3J2	5	Caro,Problemas con equipos / calidad /reposición /cambio	MEDIANA	SISTEMA DE AUTOMATIZACIÓN	SANTIAGO, CONCHALÍ	Hombre	SANTIAGO	MV
+hbocG5MybLQ3	6	Problemas con equipos / calidad /reposición /cambio	PEQUEÑA	ASEO Y MANTENCION	PUERTO MONTT	Mujer	REGIONES	MP
+w4VHrSMCFBjP	7	Buen servicio / calidad servicio,Buena cobertura	MEDIANA	ENERGIA SOLAR	SANTIAGO ,SAN BERNARDO	Hombre	SANTIAGO	MP
+SoqCUqIQG4en	6	Buena cobertura,Buen servicio / calidad servicio	MICRO	CAPACITACION	PROVIDENCIA	Hombre	SANTIAGO	Mas
+UPr2dAMiokp3	6	Mala cobertura	GGEE	contruccion	santiago	Hombre	SANTIAGO	MV
+Q0w7ljlhAuo5	6	Caro,Problema facturación	PEQUEÑA	PROYECTOS METALURGICOS	SAN MIGUEL	Hombre	SANTIAGO	Mas
+XEpz7bfBC6A5	6	Buen servicio / calidad servicio	PEQUEÑA	LUBRICENTRO	PEUMO	Hombre	REGIONES	Mas
+VOLDHbzsAf7N	6	Lentitud de plataforma	PEQUEÑA	CONSTRUCCIÓN	CONCEPCIÓN	Hombre	REGIONES	MV
+m9gedODL3bfb	6	Siempre se puede mejorar	MICRO	TECNOLOGIA	CONCEPCION	Hombre	REGIONES	Mas
+G1HRS0A4dtoY	7	Buen servicio internet	MICRO	IMPORTACIONES Y DISTRIBUCION	VIÑA DEL MAR	Hombre	REGIONES	Mas
+6KEwblu5hHUB	7	Buen servicio / calidad servicio,Buena señal	GGEE	contruccion	providencia	Mujer	SANTIAGO	AV
+UqQqFH1ZaqfE	7	Buen servicio / calidad servicio	MEDIANA	Industria manufacturera	San Bernardo	Mujer	SANTIAGO	Mas
+XRYckwjrSYHP	4	Mal servicio postventa,Cobros poco claros	PEQUEÑA	SEGURIDAD PRIVADA.	SANTIAGO CENTRO.	Hombre	SANTIAGO	Mas
+m0j0JBpcCSQS	6	No ha tenido problemas,Buena atencion	MEDIANA	VENTA DE REPUESTOS DE TRACTOR	SANTIAGO	Mujer	SANTIAGO	Mas
+Umh3EGq42Gcq	6	Buen servicio / calidad servicio	PEQUEÑA	PUBLICIDAD	LA GRANJA	Hombre	SANTIAGO	Mas
+yEvgGamQBtaB	5	Mal servicio / calidad servicio	PEQUEÑA	Transporte	La pintana	Hombre	SANTIAGO	Mas
+uNDjkgZ0PGtR	5	Caro	PEQUEÑA	Transporte por carretera	Molina	Mujer	SANTIAGO	Mas
+5EspyiZhlu6g	7	Buena atencion,Disponibilidad del ejecutivo	MEDIANA	CONSTRUCTORA	CONCEPCION	Hombre	REGIONES	MP
+riGB1Vb03TQe	6	Buena señal	MICRO	ASESORIA ADMINISTRATIVAS Y CONTABILIDADES	PEÑALOLEN	Mujer	SANTIAGO	Mas
+2rONWKZoWzrw	7	Buen servicio / calidad servicio	MICRO	COMERCIO	SANTIAGO	Hombre	SANTIAGO	Mas
+w5BKztKYysuf	7	Buena cobertura	PEQUEÑA	VENTA MENOR DE COMBUSTIBLE.	ÑUÑOA.	Hombre	SANTIAGO	AP
+LKBTlr1lzqlw	7	No ha tenido problemas	MICRO	INMOBILIARIO	QUILLOTA	Hombre	REGIONES	Mas
+hPrrgQvcbADJ	7	Buena señal	PEQUEÑA	insumos medicos	Santiago	Mujer	SANTIAGO	Mas
+XFoI2KJXHG11	7	Buenos precios / precios adecuados	PEQUEÑA	TURISMO.	PICHILEMU.	Mujer	SANTIAGO	Mas
+MjlMzzRANv9T	7	Buen servicio / calidad servicio	PEQUEÑA	restaurant y construccion	las condes santiago	Hombre	SANTIAGO	Mas
+5dk8HOu3M2ue	7	Buena atencion,No ha tenido problemas	GGEE	FRUTAS Y VERDURAS	PEDRO AGUIRRE CERDA	Hombre	SANTIAGO	Mas
+L9SQbEFQLxBT	3	Demora atención telefónica,Mala atención	GGEE	SERVICIOS DE ASISTENCIA COMERCIAL DE PRODUCTOS DE EXPORTACION	HUECHURABA	Mujer	SANTIAGO	AV
+7kIa49RVUijR	3	Malas señal telefónica	MICRO	SERVICIOS MÉDICOS.	LOS ANGELES.	Mujer	REGIONES	MasPrem
+8191rOWHO0dT	7	Buen servicio / calidad servicio,Buena conexión / conectividad,Disponibilidad del ejecutivo	MEDIANA	seguridad	Pudahuel	Mujer	SANTIAGO	MP
+ojbUfZnNLkv4	6	Mala señal	PEQUEÑA	agrícola	la ligua	Hombre	REGIONES	AV
+IyOXhaU5nBfs	5	Buen servicio / calidad servicio	GGEE	CONSTRUCCION	LAS CONDES	Mujer	SANTIAGO	MasPrem
+PBmuAwnAheSI	6	Falta información	MICRO	SERVICIOS	SAN MIGUEL Y PROVIDENCIA	Hombre	SANTIAGO	MP
+Bo3LSjgEfHkK	6	No Sabe/ No responde	PEQUEÑA	COMERCIALIZADORA	SANTIAGO	Hombre	SANTIAGO	Mas
+TXEISJw3xpSN	7	Solucionan requerimientos,Buena señal,Rapida atencion ejecutivo	PEQUEÑA	INSUMOS PARA LA INDUSTRIA VINITILICOLA	RANCAGUA	Mujer	SANTIAGO	Mas
+bNsF2Ld4po9b	6	Buen servicio / calidad servicio,No ha tenido problemas	PEQUEÑA	transporte de carga	santiago	Hombre	SANTIAGO	Mas
+tZMbejUHTqyS	6	Buen servicio / calidad servicio	MEDIANA	AGRICOLA	HIJUELAS	Hombre	REGIONES	MV
+duc4ZovfKYtP	6	Mal servicio internet / señal,Mala señal	PEQUEÑA	AREA DE ENCURTIDO, ELSBORACION DE PRODUCTOS AJI, PICLKE, ACEITUNAS Y FRUTOS SECOS.	COMUNA DE PEDRO AGUIRRE CERDA.CASA MATRIZ LA GRANJA.	Mujer	SANTIAGO	Mas
+ZVUfGvlE5NnE	6	Buena conexión / conectividad	PEQUEÑA	INGENIERIA	LINARES	Hombre	REGIONES	Mas
+EZ6BSGwpFIRM	5	Mala cobertura	GGEE	COMERCIALIZADORA.	LO BARNECHEA.	Hombre	SANTIAGO	Mas
+Kq8Qp8Ga3gu7	7	Buen servicio / calidad servicio	GGEE	FONDAJE MINERO	COLINA	Hombre	SANTIAGO	AP
+8jBE9mtBkicH	7	Buen servicio / calidad servicio	PEQUEÑA	combustible	septima region del maule	Hombre	REGIONES	Mas
+eDkkXRgz7u03	5	Mala atención	MICRO	VENTAS DE ROPA DE NIÑOS	RECOLETA	Mujer	SANTIAGO	Mas
+h7Kbv0kejIq7	7	Buen servicio / calidad servicio	GGEE	CONSTRUCCION	LAS CONDES	Hombre	SANTIAGO	AV
+CwObNs0fFX7j	6	Caro	MICRO	ADMINISTRACION DE PROPIEDADES	IQUIQUE	Hombre	REGIONES	Mas
+BpCg6fRM5MUj	5	Mala señal,Mal servicio internet / señal,Caro	PEQUEÑA	TRANSPORTE DE PASAJERO Y TURISMO.	SAN MIGUEL COMUNA SAN IGNACIO, CHILLAN.	Hombre	REGIONES	Mas
+2WRm23jq5Gsm	2	Mal servicio / calidad servicio,Demora atención telefónica,Caro	MICRO	CAPACITACIÓN	CALAMA	Mujer	REGIONES	Mas
+V2vmN86nEL4V	4	Mala señal	MICRO	Ingeneria en consulturia	Calama	Mujer	REGIONES	Mas
+oKCgBGppfAoQ	5	Malas conexiones /conectividad	GGEE	corredores de seguros	las condes	Mujer	SANTIAGO	AV
+Dh3Ywk4SQffl	6	Buena cobertura,Mal servicio / calidad servicio	PEQUEÑA	SERVICIOS DE CONTROL DE CALIDAD	LA FLORIDA	Hombre	SANTIAGO	Mas
+aB5g8LTjDlzD	7	No ha tenido problemas,Solucionan requerimientos	PEQUEÑA	trasporte de carga	Carretera	Mujer	REGIONES	Mas
+iwMrp9mTzjbc	7	Buen servicio / calidad servicio,Buena cobertura	MEDIANA	DESARROLLO DE SOFTWARE	SAN MIGUEL	Hombre	SANTIAGO	MP
+6WcLyNv05Yn5	7	Buenos precios / precios adecuados,No ha tenido problemas	PEQUEÑA	CLINICA VETERINARIA.	QUILICURA	Hombre	SANTIAGO	Mas
+OjQJBImxeFnR	6	Buena cobertura	MEDIANA	CONSTRUCCION Y ELECTRICIDAD	ANTOFAGASTA	Hombre	REGIONES	MP
+pRHf6Hi0nHPF	3	Mal servicio postventa,Mala atencion con ejecutivos,Mal servicio / calidad servicio,No solucionan problemas	GGEE	AGRICOLA	CALERA DE TANGO	Mujer	SANTIAGO	Mas
+HSbI8nxfvj7R	7	Buen servicio / calidad servicio,Facturación	GGEE	CONSTRUCCION	QUINTERO	Hombre	REGIONES	AV
+vB8RiNXB0NvH	5	Mal servicio internet / señal,Malas señal telefónica	MICRO	TRANSPORTE	PAINE	Mujer	SANTIAGO	Mas
+nxYLpv40C9Ec	4	Mal servicio internet / señal	MICRO	COMPRAS EXCEDENTES INDUSTRIALES	MAIPU	Hombre	SANTIAGO	Mas
+jV8A5eGUx0Xt	7	Cumplen lo ofrecido,Buena comunicación,Buenos precios / precios adecuados	PEQUEÑA	VENTAS DE INSTRUMENTOS PARA LABORATORIOS	PEDRO AGUIRRE CERDA, SANTIAGO	Mujer	SANTIAGO	Mas
+JpDrIXPDqX46	7	Buen servicio / calidad servicio,Buena cobertura,Buena atencion,Rápida solución de problemas	PEQUEÑA	CONSTRUCCION DE OBRAS D EINGENIERIA	LIMACHE	Hombre	REGIONES	Mas
+0LtYGNUV0D3O	6	Mala señal	GGEE	RECURSOS HUMANOS	SAN MIGUEL	Hombre	SANTIAGO	AP
+IIhSqaIIFYi1	7	No ha tenido problemas,Buena conexión / conectividad,Buena cobertura	PEQUEÑA	CONSTRUCCION	TEMUCO	Hombre	REGIONES	Mas
+NG0tF98NSdgZ	5	Mala atención	PEQUEÑA	AUTOMOTRIZ	SANTIAGO CENTRO	Hombre	SANTIAGO	Mas
+aBRa3raPfLUt	7	Buena conexión / conectividad,Buenos precios / precios adecuados	MEDIANA	CONSTRUCCION.	BUIN.	Hombre	SANTIAGO	MP
+SFed9EnkeRPz	5	Mal servicio / calidad servicio	PEQUEÑA	mecánica industrial	lautaro	Hombre	REGIONES	Mas
+7RqN9Rpdw7kQ	6	Mal servicio internet / señal	MEDIANA	procesos industriales	puerto montt	Mujer	REGIONES	MP
+VIl9qyjgOqak	6	Mala señal,Buena atencion	PEQUEÑA	TRANSPORTES DE CARGA DE CARRETERA	TEMUCO	Mujer	REGIONES	Mas
+GrgoQaRzGaOB	6	Mala cobertura	PEQUEÑA	consultoría	Santiago	Hombre	SANTIAGO	Mas
+cJOqdYglijDE	6	Mala señal	GGEE	transporte	linares	Hombre	REGIONES	AP
+pvyzySgg6Asp	7	Facturación	MEDIANA	CONSTRUCCION	SANTIAGO	Hombre	SANTIAGO	AV
+s1njcQL8Ln1l	6	Mala cobertura	PEQUEÑA	servicios industriales electricos	curico	Hombre	REGIONES	Mas
+DSMMZxmRTfn2	6	No ha tenido problemas,Caro	MICRO	diseño	santiago centro	Hombre	SANTIAGO	Mas
+kDJkL6JhuPT7	7	Buena señal,Buen servicio / calidad servicio,Buenos precios / precios adecuados	PEQUEÑA	Venta mayorista de productos de carnicería y matadero	Puente alto.	Hombre	SANTIAGO	Mas
+tvGl5hEydOZq	5	Buen servicio / calidad servicio	PEQUEÑA	VENTA DE ARTÍCULOS DEPORTIVOS	ALGAROOBO	Mujer	REGIONES	Mas
+k11pO6kscQ2L	7	Buen servicio / calidad servicio,Buena cobertura,Buenos precios / precios adecuados	GGEE	ASEO INDUSTRIAL	RANCAGUA	Hombre	REGIONES	AP
+JAmnsXemxGSE	6	Buen servicio / calidad servicio	PEQUEÑA	SALUD.	PEÑALOLÉN.	Mujer	SANTIAGO	Mas
+KRGIrnfLFco1	6	Mala señal,Malas conexiones /conectividad,Buena atencion,Disponibilidad del ejecutivo	MEDIANA	CONSTRUCCION Y MONTAJE	ANTOFAGASTA	Mujer	REGIONES	AP
+1KMzGfLvMDgb	6	Buen servicio / calidad servicio,No ha tenido problemas,Buena atención telefónica	PEQUEÑA	elaboración y producción de alimentos	santiago	Hombre	SANTIAGO	Mas
+3BcsQZFTgibe	6	Mala atencion con ejecutivos	MICRO	TRANSPORTES	CHILLÁN	Hombre	REGIONES	Mas
+jG1iGAzL7Udp	6	Mala señal	PEQUEÑA	TRANSPORTE	SAN BERNARDO	Mujer	SANTIAGO	Mas
+ZyYa4b8D8X8G	7	Buena cobertura,Buena conexión / conectividad	PEQUEÑA	CONTRUCCION	SANTIAGO	Hombre	SANTIAGO	MP
+vdfqiUqd5kgF	6	Mala atencion con ejecutivos	MEDIANA	DISTRIBUIDORA Y VENTA DE GAS LICUADO	ANTOFAGASTA	Hombre	REGIONES	Mas
+aUUu5y5ol0Ke	1	Cobros poco claros	PEQUEÑA	TRANSPORTE DE CARGA.	ISLA DE MAIPO.	Hombre	SANTIAGO	Mas
+ieEGWNqEU6PV	7	Buen servicio / calidad servicio	PEQUEÑA	VENTA DE ALIMENTOS DE MASCOTAS	VALDIVIA	Hombre	REGIONES	Mas
+uTyUKTlPPgdG	4	Mal servicio / calidad servicio	PEQUEÑA	CONSTRUCCION	RANCAGUEA.	Hombre	REGIONES	Mas
+bD3iDfE20AxH	5	Mala señal	MICRO	agencia publicidad	comuna de saavedra 9na region2	Hombre	REGIONES	Mas
+vEPvtYYgaPZn	7	Buena señal,Buenos precios / precios adecuados	PEQUEÑA	PUBLICIDAD	SANTIAGO	Hombre	SANTIAGO	Mas
+hl1hksHPtXBH	4	Caro,Mala cobertura	PEQUEÑA	PUBLICIDAD	LA FLORIDA, SANTIAGO	Hombre	SANTIAGO	Mas
+ZeSicEgDcP9Q	6	No ha tenido problemas	PEQUEÑA	PROVEEDORES MINEROS	IQUIQUE	Hombre	REGIONES	Mas
+mGcjKGaqcbSL	7	Buena señal,Buena comunicación	GGEE	VENTAS DE MAQUINARIA AGRÍCOLA.	SAN BERNARDO, SANTIAGO.	Hombre	SANTIAGO	MV
+5PHZBVXVWNml	6	Mal servicio / calidad servicio	MEDIANA	AGENCIA DE PUBLICIDAD	PROVIDENCIA	Hombre	SANTIAGO	MP
+Ty4XJy6oMQIT	7	Buen servicio / calidad servicio,Buena señal,No ha tenido problemas,Solucionan requerimientos	MICRO	GIMNASIO	COYHAIQUE	Hombre	REGIONES	Mas
+kbovYAJZswb4	6	Buen servicio / calidad servicio	PEQUEÑA	CONSULTORIA.	LOBARNECHEA .	Hombre	SANTIAGO	Mas
+PMOpNnzYS5UT	7	Buenos planes,Buen servicio / calidad servicio	PEQUEÑA	ÁREA DE CONSULTORÍA DE PROYECTOS	SANTIAGO	Hombre	SANTIAGO	Mas
+Ncf1BHeH6Z7j	5	Buen servicio / calidad servicio	PEQUEÑA	Salud	Santiago, Vitacura.	Hombre	SANTIAGO	Mas
+qhZI818NeArg	7	Buen servicio / calidad servicio,Facturación	GGEE	INFORMATICA	SANTIAGO CENTRO	Hombre	SANTIAGO	MP
+Vd4otBwrsiAT	6	No ha tenido problemas,Siempre se puede mejorar	PEQUEÑA	INFORMATICA	PROVIDENCIA	Hombre	SANTIAGO	MV
+UuA6S4nzBE84	6	Cambios de planes arbitrarios	MEDIANA	SERVECIO DE ENVASADO SDE ALIMENTOS	VALPARAISO CUIDA LOS ANDES	Mujer	REGIONES	MP
+ui9erbNcMWXh	5	Mal servicio / calidad servicio	PEQUEÑA	FERRETERIA INDUSTRIAL Y SEGURIDAD INDUSTRIAL	COLINA	Mujer	SANTIAGO	Mas
+25LD89MWaEBe	4	Mal servicio internet / señal,Problema facturación	PEQUEÑA	TRANSPORTE DE CARGA POR CARRETERA	SANTA CRUZ	Hombre	REGIONES	Mas
+5pqcP6cV3jzD	5	Caro	PEQUEÑA	OFICINA DE ARQUITECTURA	TALCA, TALCA	Hombre	REGIONES	Mas
+Gx5sqJ5ZBG8n	6	Caro	PEQUEÑA	TRANSPORTE.	PUDAHUEL	Mujer	SANTIAGO	Mas
+BSrFyad8Wxx1	7	Buen servicio / calidad servicio,No ha tenido problemas	MEDIANA	IMPORTADORA	RENCA	Hombre	SANTIAGO	MP
+Zo85mkiQGuTo	7	Buen servicio / calidad servicio	MICRO	CONSULTORIA	TALCA	Mujer	REGIONES	Mas
+ZddOhDZ3208a	7	Buena atencion,Buen servicio / calidad servicio,No ha tenido problemas	MICRO	ASESORÍAS EMPRESARIALES	MAIPU	Hombre	SANTIAGO	Mas
+Zuzsl0tS8SLk	7	Buena señal	PEQUEÑA	Transporte por carretera	Melipilla	Hombre	SANTIAGO	Mas
+FKJrjWgu8N7c	6	Mala señal	MICRO	TRANSPORTE	QUILICURA	Mujer	SANTIAGO	Mas
+4PkCLRe9WGI2	6	Buen servicio / calidad servicio,Caro	MEDIANA	SUPERMERCADO	CHILLAN, ÑUBLE	Hombre	REGIONES	Mas
+1K39QbMihvXj	7	Buena señal,Buenos precios / precios adecuados	MICRO	ELECTRICIDAD	RANCAGUA	Hombre	REGIONES	Mas
+cQIZ71NwkiZK	5	Demora atención telefónica	PEQUEÑA	CONSULTORIA	SANTIAGO,LAS CONDES.	Hombre	SANTIAGO	Mas
+ySjvRIBFuuLD	4	Mala señal	PEQUEÑA	SERVICIOS. OBRAS CIVILES, ESTRUCTURA, AREAS VERDES, LOGISTICA.	NACIMIENTO. OCTAVA REGIÓN. BÍO BÍO.	Mujer	REGIONES	Mas
+VUyh2RsS52gc	7	Buen servicio / calidad servicio	PEQUEÑA	No acepta responder	No acepta responder	Hombre	SANTIAGO	Mas
+1RqpGRFlGhyn	7	Buen servicio / calidad servicio	PEQUEÑA	educacion	san pedro de la paz	Hombre	REGIONES	Mas
+MeyvVfMeAKlB	6	Buen servicio / calidad servicio,Buena atencion	MEDIANA	Servicio Informatico	Santiago	Hombre	SANTIAGO	MV
+micjcQyYdKUZ	6	Mala atencion con ejecutivos	MEDIANA	SUMINISTROS DE PERSONAL OUTSORCING	MAIPU	Hombre	SANTIAGO	AP
+IQMHZp1uxpMm	7	Buena atencion,Rapida atencion ejecutivo	GGEE	servicios y publicidad	huechuraba	Mujer	SANTIAGO	MV
+B1iHHQmiAl5Z	5	Malas señal telefónica	MICRO	INGENIERIA	COQUIMBO	Mujer	REGIONES	Mas
+JtwtDfz3uIVY	7	Buen servicio / calidad servicio,No ha tenido problemas	GGEE	EXPORTACIONES.	PUERTO MONTT.	Mujer	REGIONES	Mas
+pboLUDMBHXfW	5	Mal servicio / calidad servicio	PEQUEÑA	INGENIERIA ELECTRICA	VALPARAISO	Hombre	REGIONES	Mas
+cxq6xmr6gN6d	6	Buen servicio / calidad servicio	PEQUEÑA	ASESORIA	ES TELETRABAJO, LA REGION METROPOLITANA	Mujer	REGIONES	Mas
+VX1h7cQ1tpp0	7	Cumplen lo ofrecido	PEQUEÑA	INVERSIONES	SAN JAVIER	Hombre	REGIONES	Mas
+lpDLtVnBJPqX	5	Mala señal	PEQUEÑA	inmobiliaria	Talagante	Hombre	SANTIAGO	Mas
+FadGcyJ0hVEL	3	Mal servicio postventa	PEQUEÑA	CONSTRUCCION EN OBRAS CIVILES	CON CON	Hombre	REGIONES	MP
+W0va3rZDOs98	7	Buen servicio / calidad servicio,No ha tenido problemas	PEQUEÑA	DESAROLLO DE SOFTWARE	PROVIDENCIA	Hombre	SANTIAGO	Mas
+wxKWLnBrFGsN	4	Mal servicio internet / señal	MEDIANA	Contratista en mineria	Salamanca	Hombre	REGIONES	MP
+tf1Rjeb6kapp	6	No ha tenido problemas,Buen servicio / calidad servicio	MEDIANA	Distribuidora de repuestos automotrices y servicios automotrices.	SANTIAGO lAS CONDES	Hombre	SANTIAGO	AV
+QzyuZ1kU3V7D	6	Mala cobertura	PEQUEÑA	IMPORTACION PARA RESPUESTOS DE MAQUINARIAS	CONCEPCION	Hombre	REGIONES	Mas
+QfVHhPkB31SB	6	Buena atencion,Caro	PEQUEÑA	TRANSPORTES	SANTIAGO , LA FLORIDA	Hombre	SANTIAGO	Mas
+L80hMxkJLa4c	7	No ha tenido problemas	MEDIANA	SERVICIO DE ENVIOS Y EMBALAJE	CURICO	Mujer	REGIONES	MP
+n7eTULrDN7sO	6	Buena cobertura	MICRO	RESTAURACION AUTOMOTRIZ	LA GRANJA	Hombre	SANTIAGO	Mas
+PEpyQvyGPCOq	5	Problemas con equipos / calidad /reposición /cambio	PEQUEÑA	COMERCIALIZADORA DE MADERA	LOS ANGELES	Hombre	REGIONES	MP
+6fvH1FYyRPVj	4	Mal servicio / calidad servicio,Mala atención	MEDIANA	ENERGIA RENOVABLE.	LAS CONDES.	Mujer	SANTIAGO	AV
+OVHzHA38tVMa	7	No ha tenido problemas,Buena cobertura,Buena atencion	MEDIANA	TELECOMUNICACIONES	SAN MIGUEL	Hombre	SANTIAGO	MV
+u92oeuCNlhaC	7	Buen servicio / calidad servicio	MEDIANA	TRANSPORTE	SANTIAGO	Mujer	SANTIAGO	Mas
+ZMcy6viJHxsS	5	No Sabe/ No responde	PEQUEÑA	TRANSPORTE	LOS MUERMOS	Hombre	REGIONES	MP
+SiETvE8Xax4y	5	Mal servicio internet / señal	MEDIANA	FRUTICOLA	NACAGUA	Mujer	REGIONES	MP
+FqH17LmA193y	5	Mala señal,Rápida solución de problemas	PEQUEÑA	ASESORIA EN PREVENCION DE RIESGOS	PEÑAFL0R	Hombre	REGIONES	Mas
+AhgYCBabWdrN	6	Buen servicio / calidad servicio	MEDIANA	TRASPORTE Y MOVIMIENTO DE TIERRA.	SAN BERNARDO	Hombre	SANTIAGO	AV
+kagINPkChemw	7	Buen servicio / calidad servicio	MICRO	PRODUCTOS MEDICOS Y LABORATORIO	RANCAGUA	Hombre	REGIONES	Mas
+7aYF5sBFGgCi	6	Falta información,Problema facturación	MICRO	SERVICIOS DE INGENIERIA Y MINERIA.	PROVIDENCIA	Hombre	SANTIAGO	Mas
+tlcQQQccpwQZ	6	Buen servicio / calidad servicio,Malas conexiones /conectividad	MICRO	SERVICIO Y ASESORIA EN COMERCIO EXTERIOR	SANTIAGO, LAS CONDES	Mujer	SANTIAGO	Mas
+m1QpVPxmzDJc	7	No ha tenido problemas,Buenos precios / precios adecuados	PEQUEÑA	CONTABILIDAD	SANTIAGO CENTRO.	Mujer	SANTIAGO	Mas
+hOulEu8FIYCy	7	No ha tenido problemas	MICRO	RESIDENCIAL	RANCAGUA	Mujer	REGIONES	Mas
+MqiMVpvy6wKb	4	Mal servicio / calidad servicio	MICRO	GESTION INMOBILIARIA E IMPECCIONES TECNICAS.	CONCEPCION.	Hombre	REGIONES	Mas
+docrafYmgotT	6	Disponibilidad del ejecutivo	PEQUEÑA	SERVICIO TECNICO AUTOMOTRIZ	MAIPU	Hombre	SANTIAGO	MP
+P48MsSmIcY3b	5	Malas conexiones /conectividad,Mala señal,Mal servicio internet / señal	PEQUEÑA	construccion	talca	Hombre	REGIONES	Mas
+Aj38Dr5JwIJL	5	Caro	PEQUEÑA	CASINOS, CONCISIONES DE ALIMENTO UNIVERSITARIOS	PUENTE ALTO	Hombre	SANTIAGO	Mas
+4niE0MeMPzmY	6	Caro	PEQUEÑA	INMOBILIARIA.	HUECHURABA	Mujer	SANTIAGO	Mas
+fqOaFHjNlVbm	5	Mal servicio / calidad servicio,Mal servicio internet / señal	MEDIANA	TRASPORTE	LA CALERA	Mujer	REGIONES	MP
+kZ4cXDypNedZ	4	Mala señal,Mala atención	MEDIANA	CONSTRUCCION	LOS ANGELES	Hombre	REGIONES	Mas
+gjhyYoydz7oW	6	Buen servicio / calidad servicio	PEQUEÑA	COMERCIALIZADORA	LA CISTERNA	Hombre	SANTIAGO	Mas
+XK8B8ZIv2G0L	6	Mala señal	PEQUEÑA	AGRÍCOLA	CURICÓ	Hombre	REGIONES	MP
+w9uoulBh9ygz	6	Mala señal,Mal servicio internet / señal	PEQUEÑA	DISEÑO Y MANTENCIÓN DE AREAS VERDES.	LO MIRANDA. DOÑIHUE.	Mujer	REGIONES	Mas
+Ha29KuvgS6Av	5	Mal servicio internet / señal,Mal servicio postventa	MEDIANA	SERVICIOS FORESTALES	LOS ANGELES	Hombre	SANTIAGO	MasPrem
+yq3oSHSxehlU	7	Buen servicio / calidad servicio	MEDIANA	COMERCIO	VIÑA DEL MAR	Hombre	REGIONES	MasPrem
+O64oYm8B3Hip	5	Mal servicio postventa	MEDIANA	IMPORTADORA	SANTIAGO	Hombre	SANTIAGO	Mas
+xRsaM0ldIrAt	6	Mala señal,Mala cobertura	PEQUEÑA	ELECTRICIDAD	SANTIAGO	Hombre	SANTIAGO	Mas
+JiuYTUMhzp2I	7	Buen servicio / calidad servicio	PEQUEÑA	TELECOMUNICACIONES	MOLINA	Hombre	SANTIAGO	Mas
+icIMprW1RDtX	3	Mala cobertura,Mala señal	MEDIANA	TRANSPORTE DE CARGA	CONCEPCIÓN	Hombre	REGIONES	MV
+caijclDkRU1X	7	Buena atencion,Buena cobertura	PEQUEÑA	construccion	concepcion	Hombre	REGIONES	Mas
+JUhZEFJOCThv	6	Mala señal	MEDIANA	AGENTE DE CARGA	PUDAHUEL	Hombre	SANTIAGO	MV
+UEJnasBHTiWi	5	Mala señal	PEQUEÑA	MANUFACTURA	CONCEPCION	Hombre	REGIONES	Mas
+QfzdSd4ZfHir	6	Cobros poco claros	PEQUEÑA	TRANSPORTES	SAN ANTONIO	Hombre	SANTIAGO	Mas
+UoQ1TkNB3B0d	1	Mala señal,Mala cobertura,Mal servicio internet / señal	PEQUEÑA	NO DESEA	TALTAL SEGUNDA REGION	Hombre	REGIONES	Mas
+prBCZM5EVSTP	3	Mala atención,No solucionan problemas	PEQUEÑA	PROTECCION CONTRA INCENDIOS	ISLA DE MAIPO	Mujer	SANTIAGO	Mas
+GXn9y1O7M34e	6	Buen servicio / calidad servicio	MEDIANA	DISTRIBUIDORA DE ARTICULOS DE ASEO	QUINTA NORMAL	Hombre	SANTIAGO	Mas
+piAXFmKkwNTH	6	Siempre se puede mejorar	PEQUEÑA	INGENIERIA ELECTRICA	en la serena y concepcion	Hombre	REGIONES	Mas
+cdffJLDYLAOH	7	Buena atencion	PEQUEÑA	TRANSPORTE.	PROVIDENCIA.	Mujer	SANTIAGO	Mas
+KoENBW730Fbx	6	Siempre se puede mejorar	PEQUEÑA	TRANSPORTE.	PUREN.	Hombre	REGIONES	Mas
+znBI9cYevX2r	6	Buena cobertura,Buena señal	MICRO	SERVICIOS CONTABLES	EL BOSQUE	Hombre	SANTIAGO	Mas
+ba9N3DBcTmjW	5	Mal servicio / calidad servicio	MEDIANA	AGRICOLA	SANTIAGO	Hombre	SANTIAGO	MP
+MB0P9K1hpWIJ	7	Buen servicio telefonico,Solucionan requerimientos	MICRO	ASESORIA.	LO BARNECHEA.	Mujer	SANTIAGO	Mas
+4WrkTX44PZEc	3	Mala atencion con ejecutivos	MEDIANA	FABRICAMOS ESTRUCTURAS METALICAS.	LA PINTANA.	Hombre	SANTIAGO	MP
+3xqdsqi0iL8o	6	Mala señal	MICRO	CRIANZA DE SALMON	PUERTO MONTT	Mujer	REGIONES	Mas
+KnOsQFkmY1HQ	5	Problema facturación	PEQUEÑA	DESARROLLO Y COMERCIALIZACION DE SOFTWARE.	SANTIAGO CENTRO.	Hombre	SANTIAGO	MV
+nELowIqRz5Y4	6	Buena cobertura	PEQUEÑA	DISTRIBUCION Y COMERCIAIZACION DE GASES INDUSTRIALES	CONCEPCION	Hombre	REGIONES	Mas
+2KTN7mnDauWX	6	Buen servicio / calidad servicio,Siempre se puede mejorar	MEDIANA	MAESTRANZA DE LA CONSTRUCCION	SANTIAGO	Hombre	SANTIAGO	MV
+If2euV1eAS07	6	Buen servicio / calidad servicio	GGEE	CONSTRUCCIONES DEE EDIFICIOS	CONCEPCION	Hombre	REGIONES	MasPrem
+cAAUqaaOFHy8	6	Caro	MEDIANA	PUBLICIDAD	PROVIDENCIA	Hombre	SANTIAGO	Mas
+BWRXDbzpEoOL	5	Mal servicio internet / señal	MICRO	AGRICOLA	RIO CLARO	Hombre	REGIONES	Mas
+EFoXjWVjTO9X	6	Mal servicio / calidad servicio	PEQUEÑA	OPTICAS	SANTIAGO	Mujer	SANTIAGO	MP
+eAyeCJNZ3bDu	6	Buen servicio / calidad servicio,No ha tenido problemas	PEQUEÑA	MANTENCION.	LA REINA.	Hombre	SANTIAGO	Mas
+uk4wLVvf4Tw8	7	Cumplen lo ofrecido	GGEE	construccion	independencia	Hombre	SANTIAGO	AV
+5tbxyqZd1ORx	6	Mala cobertura,Mala señal	GGEE	COMBUSTIBLES.	COLINA.	Mujer	SANTIAGO	MP
+2ReNxIcwS2mp	6	Mal servicio internet / señal	MEDIANA	INGENIERIA Y MONTAJE ELECCTRICO	PUDAHUEL	Hombre	SANTIAGO	Mas
+csWmjETBA1Ev	4	Mala cobertura	PEQUEÑA	Optico	Providencia	Hombre	SANTIAGO	Mas
+cx1vTLZNm1pz	5	Mala atención	PEQUEÑA	telecomunicaciones	bio-bio	Hombre	REGIONES	Mas
+y6O3TdjCrwOW	6	Mala cobertura	MEDIANA	IMPORTACION DE FRUTAS AL POR MAYOR	SANTIAGO CENTRO	Hombre	SANTIAGO	Mas
+KGLCICf6JOnf	7	No ha tenido problemas,Buenos precios / precios adecuados,Solucionan requerimientos	MEDIANA	VENTA DE CONFITES AL POR MAYOR.	JORGE JACONAN	Hombre	SANTIAGO	Mas
+pBRPAM29T65t	5	Mal servicio / calidad servicio	MICRO	FUENTE DE SODA	LO ESPEJO	Mujer	SANTIAGO	Mas
+HPb4BcbZS4IG	6	Mala atencion con ejecutivos	MEDIANA	VENTAS DE FRUTAS Y VERDURAS	ANTOFAGASTA	Hombre	REGIONES	Mas
+P3qpAJ0ZFJPC	5	Siempre se puede mejorar	MEDIANA	VENTAS DE PRODUCTOS	LOS ANGELES	Mujer	REGIONES	MP
+QxzaqrmXnZfc	7	Buena señal,Buena atencion,Buenos precios / precios adecuados	MICRO	INFORMATICA	SANTIAGO CENTRO	Hombre	SANTIAGO	Mas
+EfTWZiukXmQ7	7	Buena cobertura,Buen servicio / calidad servicio,Buena señal	MICRO	ARRIENDO DE MAQUINARIA	VITACURA	Hombre	SANTIAGO	Mas
+DL6x8dgVNdvz	4	Buena señal,Mala atención	MICRO	MINIMARKET	PUERTO NATALES	Hombre	REGIONES	Mas
+tqTrf38WXjnG	5	No solucionan problemas	GGEE	ALIMENTOS	SANTIAGO - CERRILLOS	Hombre	SANTIAGO	AP
+qBGlgaD9064b	5	Caro,Mala atención	PEQUEÑA	TRANSPORTE	CABRERO	Hombre	REGIONES	Mas
+crKYszt73V0W	5	Mala señal	PEQUEÑA	CONSULTORIA	LAS CONDES	Hombre	SANTIAGO	Mas
+azKVsIM3B8vF	7	No ha tenido problemas,Buena señal	PEQUEÑA	ASESORIA Y CONSULTORIAS EMPRESARIAL	SANTIAGO	Hombre	SANTIAGO	Mas
+mEjEt8J0GKsT	5	Mala atención	PEQUEÑA	RECURSOS HUMANOS	CONCEPCION	Mujer	REGIONES	Mas
+RZ9QOrv1hWek	5	Mala señal,Mal servicio internet / señal,Malas señal telefónica	MICRO	DISEÑO TRANSPORTE Y EVENTOS	PUENTE ALTO	Hombre	SANTIAGO	Mas
+RTo0G2bCr4as	7	Buena señal	MICRO	CONSTRUCCION	MAIPU	Hombre	SANTIAGO	Mas
+OS5bH6JfH4j2	7	No ha tenido problemas,Rápida solución de problemas	PEQUEÑA	CONSTRUCION OBRAS MENORES Y VENTAS DE INSUMOS ACUICOLAS	PUERTO AYSEN	Mujer	REGIONES	Mas
+VgYtzLR46UKA	4	Mal servicio postventa	PEQUEÑA	CONSTRUCCION, SERVICIO DE INGENIERIA Y CONTRUCCION	CHILLAN Y SAN IGNACIO	Mujer	REGIONES	MP
+Z8uSG5nnR63T	6	Buen servicio / calidad servicio	MICRO	SERVICIOS ESPECIALIZADOS	PUERTO MONTT	Hombre	REGIONES	Mas
+dEJjkThNJfyW	6	Lentas respuestas a solución de problemas	GGEE	mineria	rancagua	Hombre	SANTIAGO	AP
+Wk2Xn0dV7AhA	5	Problemas con equipos / calidad /reposición /cambio	GGEE	CONSTRUCCION	VITACURA	Mujer	SANTIAGO	AV
+NzO90In4FIn9	7	Buen servicio / calidad servicio	GGEE	LOGISTICA	SANTIAGO	Hombre	SANTIAGO	AV
+EYXjnUWLY1gI	6	Lentas respuestas a solución de problemas	PEQUEÑA	ASESORIA DE LA MINERIA	ANTOFAGASTA	Mujer	REGIONES	Mas
+RY2Ax2l5Kmpu	6	Buen servicio / calidad servicio,Rápidas respuestas	PEQUEÑA	CONSILTORIA	VITACURA SANTIAGO	Hombre	SANTIAGO	Mas
+EDiMcMbl3Kr1	7	Buen servicio / calidad servicio,Buena atencion	PEQUEÑA	INGENIERIA	LAS CONDES	Hombre	SANTIAGO	Mas
+qDhflBZEwmB9	6	Buen servicio / calidad servicio	GGEE	TRANSPORTE	COLINA	Mujer	SANTIAGO	AV
+KUQ812l7ZsX2	7	Buen servicio / calidad servicio,Buenos precios / precios adecuados	MICRO	DISEÑO	SANTIAGO NUÑOA	Hombre	SANTIAGO	Mas
+rokqtLv6u20C	7	No ha tenido problemas	PEQUEÑA	SALUD	VITACURA	Hombre	SANTIAGO	Mas
+SdSVPyz0TUoi	6	No ha tenido problemas	MEDIANA	SERVICIOS ELECTRICOS INTEGRALES	TALCA	Hombre	REGIONES	AP
+kOdKLpDebynG	6	Mala cobertura	MICRO	AUTOMOTRIZ	CUARTA REGION (COQUIMBO)	Mujer	REGIONES	Mas
+GmFCWbCU4Ao7	7	Buena atencion	MICRO	TRANSPORTE	RANCAGUA	Mujer	REGIONES	Mas
+Cw0M2If05oaw	6	Buen servicio / calidad servicio	PEQUEÑA	CONSTRUCCIÓN	LAS CONDES	Hombre	SANTIAGO	Mas
+YeMFpDo7qbtW	6	Buena señal	MICRO	ELECTRICIDAD Y CONSTRUCCIÓN	SANTIAGO	Mujer	SANTIAGO	Mas
+ee4bTNj2HNSG	6	Buena atencion	MEDIANA	TRASNPORTES.	CURICO.	Hombre	REGIONES	MasPrem
+ZzJZiClcWewd	6	Demora atención telefónica	PEQUEÑA	ASESORIA FINANCIERA	SANTIAGO	Mujer	SANTIAGO	Mas
+FlnaYrjqT1kl	4	Falta atención personalizada	MICRO	servicios de aseo	concepcion	Hombre	REGIONES	Mas
+vCwmuAQvtd1W	6	Buena señal,Mal servicio internet / señal	GGEE	INMOBILIARIA	SANTIAGO Y HUECHURABA	Hombre	SANTIAGO	Mas
+QVLJKML5Dpm4	7	Rápida solución de problemas	MEDIANA	TRATAMIENTO DE AGUAS	SANTIAGO	Mujer	SANTIAGO	MV
+DghQuyHf7lKb	5	Problemas con equipos / calidad /reposición /cambio,Mala atención,Mal servicio / calidad servicio	MICRO	ARTICULOS DE LIMPIEZA DE HOGAR, AUTOMOTRIZ INDUSTRIAS	QUILICURA	Mujer	SANTIAGO	Mas
+3nDqbsjKROEZ	6	Mala atención	MEDIANA	INVENCIONES, REPARACIONES	SANTIAGO CENTRO	Hombre	SANTIAGO	Mas
+hqupc8Hx1wiP	4	Mal servicio postventa,Falta atención personalizada	MICRO	SERVICIOS PROFESIONALES AGRÍCOLA	VIÑA DEL MAR	Mujer	REGIONES	Mas
+rxnLw2ChXE9f	6	Caro	MEDIANA	SERVICIOS	SAN FERNANDO	Mujer	REGIONES	MV
+N3RWEECb42TQ	7	Buen servicio / calidad servicio,Buena señal,Cobros claros	MEDIANA	CONSTRUCCIÓN	CHILLAN	Hombre	REGIONES	Mas
+FXJrqKEoi38P	6	Mal servicio / calidad servicio	MEDIANA	Servicio	Antofagasta	Hombre	REGIONES	MP
+VINLAV6sPTlF	7	Buena señal,Buenos precios / precios adecuados,No ha tenido problemas	PEQUEÑA	ELABORACIÓN DE PRODUCTOS PLÁSTICOS	SAN MIGUEL	Hombre	SANTIAGO	Mas
+fFUWtVvNyzTv	5	Mal servicio / calidad servicio	PEQUEÑA	PERFORACION	OSORNO	Mujer	REGIONES	Mas
+TN9Dt6QZ95WK	6	No ha tenido problemas,Buen servicio / calidad servicio	PEQUEÑA	PUBLICIDAD	SAN MIGUEL	Hombre	SANTIAGO	Mas
+8QDUm4HSDlNJ	5	Cobros poco claros,Problema facturación	PEQUEÑA	FERRETERIA INDUSTRIAL	RANCAGUA	Mujer	REGIONES	Mas
+XbOYAgw2kyiE	7	Rápida solución de problemas,Buen servicio internet,Buena señal,Rápida solución de problemas,No ha tenido problemas	MEDIANA	ARRIENDO MAQUINARIAS	CONCEPCIÓN	Mujer	REGIONES	MP
+4wAfCmMKaxNQ	7	Buen servicio / calidad servicio	PEQUEÑA	CONSTRUCCION	SANTIAGO	Mujer	SANTIAGO	Mas
+T3bBxkEemt7m	5	Problemas con equipos / calidad /reposición /cambio,Mala atención	MICRO	CRIANZA DE GANADO	COLLAHIQUE	Mujer	REGIONES	Mas
+XiNXCIi0ZpMo	7	No ha tenido problemas	PEQUEÑA	MUEBLES	LA PINTANA	Hombre	SANTIAGO	Mas
+5D2Um8fzeZHV	7	Facturación,Buena señal	MEDIANA	IMPORTACION DE LUMINACION.	NUÑOA	Mujer	SANTIAGO	Mas
+ccHEboF17wOD	6	Buen servicio / calidad servicio	MICRO	TELECOMUNICACIONES	PROVIDENCIA SANTIAGO	Mujer	SANTIAGO	Mas
+5kJt79GGKBcU	6	Mal servicio / calidad servicio	MICRO	mecanico autoimotriz	la granja santiago	Mujer	SANTIAGO	Mas
+PODkk3iZqKJV	5	Mala señal,Lentitud de plataforma	PEQUEÑA	FERRETERIA	CURICO	Mujer	REGIONES	Mas
+8K8GNDgeNP10	7	Buena cobertura	MEDIANA	METAL MECANICA	LAMPA, SANTIAGO	Hombre	SANTIAGO	Mas
+BnT57gKTRBHx	7	Buena cobertura	PEQUEÑA	REVESTIMIENTO EN CAUCHO	SANTIAGO MAIPU	Hombre	SANTIAGO	Mas
+BBTHOG8KNhyo	7	No ha tenido problemas,Buen servicio / calidad servicio	MEDIANA	IMPRENTA	RECOLETA	Mujer	SANTIAGO	Mas
+CNn3toXs7eQ7	6	No solucionan problemas	MICRO	AGENCIA DE VIAJES	MAIPU	Hombre	SANTIAGO	Mas
+YvGHq2njSBFZ	7	Buenos precios / precios adecuados,Buen servicio / calidad servicio	PEQUEÑA	casas de reposo	con con v region	Hombre	REGIONES	MP
+GJia2rTOd75Z	6	Buen servicio / calidad servicio,Mala atención	MICRO	cConstruccion	Cabrero	Hombre	REGIONES	Mas
+mvDf6F4xLnwi	1	Mala cobertura	PEQUEÑA	CAPACITACION	PROVIDENCIA SANTIAGO	Mujer	SANTIAGO	Mas
+E9xjJSJGGxKi	6	Siempre se puede mejorar	PEQUEÑA	RESTAURANT	SAN JOSE	Mujer	SANTIAGO	Mas
+XRrYdfLMLzWl	7	No ha tenido problemas,Buen servicio / calidad servicio	PEQUEÑA	SERVICIOS DE TECNOLOGÍA DE INFORMACIÓN.	SANTIAGO.	Hombre	SANTIAGO	Mas
+3ZLgcTMYQVd3	7	Buen servicio / calidad servicio,Buena señal,Rápida solución de problemas	PEQUEÑA	CONTRATISTA TELECOMUNIACIONES.	LA FLORIDA	Hombre	SANTIAGO	MP
+nsNIkbsLBsaY	6	Mala atención	MEDIANA	CONSTRUCCION	MACHALI	Hombre	REGIONES	MV
+RuwW6ETjmMGV	7	Buen servicio / calidad servicio,Solucionan requerimientos	MICRO	TELECOMUNICACIONES	PELLUHUE	Hombre	REGIONES	Mas
+ip4xkfkwSLsK	5	Mala cobertura	MEDIANA	TRANSPORTE.	CALAMA.	Hombre	REGIONES	MV
+bnUrMRQpjDbd	1	Caro,Problema facturación,Demora atención telefónica	MICRO	CONSTRUCCIÓN Y ARRIENDO DE MAQUINARIAS	LOS ANGELES	Hombre	REGIONES	Mas
+fIAP9UpqB3Q6	7	Buena cobertura	PEQUEÑA	MONTAJE INDUSTRIALES	CONCÓN, VALPARAISO	Mujer	REGIONES	Mas
+EboDVzl2ufeF	5	Mal servicio internet / señal	GGEE	construccion	Quillota	Mujer	REGIONES	Mas
+bSjZF0hqjO5b	7	Facturación	MEDIANA	FORESTAL	COLLIPULLI	Hombre	REGIONES	MP
+ailRC1W3SbcX	6	Cobros poco claros	MEDIANA	climatizacion	talcahuano	Mujer	REGIONES	MasPrem
+9q0OPx0YoUSg	6	Buena cobertura	PEQUEÑA	COMERCIALIZADORA DE FRUTAS	CURICÓ	Hombre	REGIONES	Mas
+gmUmdYzGhMDq	7	Buen servicio / calidad servicio,No ha tenido problemas	MICRO	PASTELERIA	LAS CONDES	Mujer	SANTIAGO	Mas
+j1UlBd1Jsc7a	6	Buen servicio / calidad servicio,Caro,Buena señal	MICRO	BANQUERETRIA Y CAPACITACION	IQUIQUE	Mujer	REGIONES	Mas
+Wu7VpPKJT1tJ	6	Caro	PEQUEÑA	comercilizacion	providencia	Mujer	SANTIAGO	Mas
+DXVSrmqOBL5j	7	No ha tenido problemas,Rápida solución de problemas	PEQUEÑA	CONSTRUCCIÓN	MAIPU	Hombre	SANTIAGO	Mas
+GMNLt5PMbwnG	7	Buen servicio / calidad servicio,Disponibilidad del ejecutivo	GGEE	VENTA DE PRODUCTOS COSMETICOS.	SANTIAGO, PROVIDENCIA.	Hombre	SANTIAGO	AP
+v6VbmdyyD7Uf	7	No ha tenido problemas,Buen servicio telefonico	PEQUEÑA	AGRICOLA	REQUINOA	Mujer	REGIONES	Mas
+Iqr6STeTMClw	5	Buen servicio / calidad servicio	PEQUEÑA	TRANSPORTE DE CARGA POR CARRETERA	SANTIAGO	Hombre	SANTIAGO	Mas
+zj7c0KPKnUWz	6	Caro	MEDIANA	ACUICOLA	PUERTO MONTT	Hombre	REGIONES	Mas
+NW4DsR5ft7fI	6	Mala cobertura,Mala señal,Demora atención telefónica	MICRO	TRANSPORTE	ANTOFAGASTA	Hombre	REGIONES	Mas
+C0LAwEfFlfHH	6	Caro	MEDIANA	ESTACION DE SERVICIO PETROBRAS.	VIÑA DEL MAR.	Hombre	REGIONES	MP
+oRbukmmYlLVp	7	Buena señal,Solucionan requerimientos	MICRO	INFORMATICA	SANTIAGO	Hombre	SANTIAGO	Mas
+ypvt9n96kaAd	7	Buen servicio telefonico,Cobros claros	PEQUEÑA	METAL MECANICA.	CHILLAN VIEJO	Hombre	REGIONES	Mas
+k0hF4eMSuxe1	6	Cambios de planes arbitrarios,Buena atencion	GGEE	INVERSIONES	huechuraba	Hombre	SANTIAGO	AP
+BCDVQaRA64ar	7	No ha tenido problemas	MICRO	IMPORTACIONES Y DISTRIBUCION	CONCEPCION	Mujer	REGIONES	Mas
+Its2F9hOkU0J	5	Problemas con equipos / calidad /reposición /cambio	MEDIANA	CORREDORA DE PROPIEDADES	LAS CONDES	Hombre	SANTIAGO	Mas
+vmvzehu7En1q	7	Buena señal,Buen servicio / calidad servicio,Solucionan requerimientos	PEQUEÑA	transporte	san berrdo santiago	Hombre	SANTIAGO	Mas
+QY0i3wrKYbn9	7	No ha tenido problemas,Buena señal,Buena comunicación	PEQUEÑA	ESCUELA DE YOGA	LAS CONDES	Hombre	SANTIAGO	Mas
+C5lJcZzS59uJ	4	Caro	MICRO	ADMINISTRACION DE EMPRESAS	PEÑALOLEN	Mujer	REGIONES	Mas
+RwZBdCLU14O1	5	Mala señal	MEDIANA	construccion	puerto Montt	Hombre	REGIONES	Mas
+bKoyvxBmx0cY	7	No ha tenido problemas	PEQUEÑA	construccion	talca	Mujer	REGIONES	Mas
+fdgynjwCEZJM	7	No ha tenido problemas	PEQUEÑA	SEGURIDAD PRIVADA	LA PROVINCIA DE SANTIAGO	Hombre	SANTIAGO	MP
+dQ6bsWVOKF7W	6	No ha tenido problemas,Rápida solución de problemas	PEQUEÑA	CONSTRUCCION	NUÑOA	Hombre	SANTIAGO	Mas
+jTHRo6JasYp7	5	Buena señal	MICRO	SEGURIDAD INDUSTRIAL	ISLA DE MAIPO	Hombre	REGIONES	Mas
+Er1XnREtgIMZ	6	Buen servicio / calidad servicio	MICRO	AGROINDUSTRIA DE EXPORTACION	RENGO	Hombre	REGIONES	Mas
+e3g0SR7PQv5A	7	Buen servicio / calidad servicio,No ha tenido problemas	PEQUEÑA	PRESTADOR DE SERVICIOS	TALCA	Hombre	REGIONES	Mas
+XGIOqg8mtmGc	5	Malas conexiones /conectividad	PEQUEÑA	SERVICIOS	PROVIDENCIA	Hombre	SANTIAGO	MP
+t2QXKA9rbQHV	5	Caro	MICRO	TELECOMUNICACIONES	LOS ANGELES	Hombre	REGIONES	Mas
+8DzdPhVbF5bT	6	Malas conexiones /conectividad	PEQUEÑA	TURISMO Y HOTELERIA.	VILCUM.	Mujer	REGIONES	Mas
+KIxqsjA1ydij	5	No Sabe/ No responde	PEQUEÑA	MAQUINARIAS	SANTIAGO Y ANTOFAGASTA	Hombre	SANTIAGO	Mas
+mEErtuLFgYcX	5	Mala cobertura,No solucionan problemas	PEQUEÑA	INGENIERIA.	CONCEPCIÓN	Hombre	REGIONES	Mas
+l7K9RjIdmCTL	7	Buen servicio / calidad servicio	GGEE	AGRICOLA	COLTALCUO.	Hombre	REGIONES	AP
+ODbINEk9mbMp	1	Mal servicio internet / señal	MEDIANA	INMOBILIARIO	LO BARNECHEA	Hombre	SANTIAGO	Mas
+B89JGL5KAwCO	7	Buen servicio / calidad servicio,Buena atencion,No ha tenido problemas	GGEE	SERVICIOS TRANSITORIOS.	PROVIDENCIA	Hombre	SANTIAGO	AV
+miecQxEu7m1n	6	Mala señal	PEQUEÑA	TALLER MECANICO	OSORNO	Hombre	REGIONES	Mas
+BU6POodYXOuI	6	No ha tenido problemas	MICRO	INGENIERIA Y MANTENCIÓN INDUSTRIAL.	CHILLÁN.	Hombre	REGIONES	Mas
+Mv8ATHmD82nF	7	No ha tenido problemas,Rápida solución de problemas,Buena cobertura	MICRO	COBRANZA	CURICO	Hombre	REGIONES	Mas
+6IRJB9mRHK4O	7	Buen servicio / calidad servicio	MICRO	construcción	molina	Hombre	REGIONES	Mas
+STd92CvRywtd	4	Mala atencion con ejecutivos	MICRO	no acepta responer	No acepta responer	Mujer	REGIONES	Mas
+CA9HnKrZ2RY1	6	Mal servicio / calidad servicio	MEDIANA	contruccion	illapel	Hombre	REGIONES	MP
+Gu9D46Litk3P	6	Buen servicio / calidad servicio,Demora atención telefónica	MICRO	ALIMENTOS	SANTIAGO	Hombre	SANTIAGO	Mas
+eWOgKttOJ9Xu	7	No ha tenido problemas,Buen servicio internet	PEQUEÑA	FARMACEUTICO	ESTACION CENTRAL	Mujer	SANTIAGO	Mas
+z3Wt5e7wVo49	3	Mala cobertura,Cobros poco claros	PEQUEÑA	AGRICOLA	SAN IGNACIO	Hombre	SANTIAGO	Mas
+uGBZKzDnElxY	7	Buen servicio / calidad servicio,No ha tenido problemas,Buena señal	PEQUEÑA	Transporte	Santiago, comnuna de lampa	Hombre	SANTIAGO	Mas
+xSxzfHu2cgXQ	6	No solucionan problemas	MICRO	MADERA FORESTAL, SERVICIO FORESTAL	PADRE DE LAS CASAS	Mujer	REGIONES	Mas
+ZIcP6LbWpDfo	5	Caro	MEDIANA	CONSTRUCCIÓN	SAN BERNARDO	Hombre	SANTIAGO	MV
+KbHP0NOlm9Q4	5	Mal servicio / calidad servicio,Caro	MICRO	PUBLICIDAD.	ÑUÑOA.	Hombre	SANTIAGO	Mas
+9PG9EijMXjQ6	7	Buena atencion,Buena cobertura	PEQUEÑA	ASEOSRIAS	CONCEPCION	Hombre	REGIONES	Mas
+JhZNHZ3pQvCL	7	Buena señal	PEQUEÑA	VENTA DE REPUESTOS AGRÍCOLAS	SAN CRUZ	Hombre	REGIONES	Mas
+QgMRKMeAP7M3	6	Mal servicio postventa	MICRO	comercializadora	talca	Hombre	REGIONES	Mas
+ZXs6P7gLGqyh	7	No ha tenido problemas,Buena cobertura	MEDIANA	Servicios agrícolas.	Pto Montt.	Mujer	REGIONES	MP
+KANz1AzlUr0c	5	Malas señal telefónica	MICRO	INGENERIA	PUENTE ALTO	Hombre	SANTIAGO	Mas
+94dHtg70zeJY	7	No ha tenido problemas	PEQUEÑA	CONSTRUCCION	SANTIAGO CENTRO	Hombre	SANTIAGO	AV
+M5vXv9U0O37d	7	No ha tenido problemas,Buen servicio / calidad servicio	PEQUEÑA	FABRICACIÓN ESTRUCTURAS METÁLICAS	ARICA	Hombre	REGIONES	Mas
+p7mXsilqOT5q	5	Buen servicio / calidad servicio,Mala señal,Problema facturación	GGEE	RECURSOS HUMANOS	NUÑOA	Hombre	SANTIAGO	AV
+im6Gs6g0Pwsu	5	Caro,Problemas con equipos / calidad /reposición /cambio	GGEE	RECURSOS HUMANOS	NUÑOA SANTIAGO.	Hombre	SANTIAGO	AV
+viHqZEooJkyf	6	Mala cobertura	PEQUEÑA	SERVICIOS MEDICOS E INVERSIONES	PROVIDENCIA	Hombre	SANTIAGO	Mas
+xxTR6YPDgcIx	7	Cobros claros,Facturación,Buena comunicación	MEDIANA	MANTENCION	CERRILLOS	Mujer	SANTIAGO	MP
+yWnudxZtq7Ff	7	Buen servicio / calidad servicio,No ha tenido problemas	PEQUEÑA	EQUIPOS COMPUTACIONES	ESTACION CENTRAL	Mujer	SANTIAGO	Mas
+Bm79r9C62Vw1	5	Mala cobertura,Malas conexiones /conectividad	PEQUEÑA	INGENIERIA EN INFORMATICA	RECOLETA	Hombre	SANTIAGO	Mas
+Su9g078wsO30	7	Buen servicio / calidad servicio	MICRO	SERVICIOS VETERINARIOS	LA FLORIDA	Hombre	SANTIAGO	Mas
+eVbH3V7MP5vF	7	Buena cobertura,Buena señal	MICRO	Mnatencion mecanica	Iquique	Hombre	REGIONES	Mas
+bVS8F9T0BNVC	5	Mala cobertura	PEQUEÑA	SERVICIO DE SALUD	PEÑALOLEN	Hombre	SANTIAGO	Mas
+ZXfbhPDhiSPA	6	Mala cobertura	MICRO	ASESORIAS CONTABLES	PEÑAFLOR	Hombre	SANTIAGO	Mas
+nrYPPmgTuIg0	5	Caro	MICRO	TRANSPORTE	MAIPU	Hombre	SANTIAGO	Mas
+GjOOc0BwQTce	7	Buena señal,Rápida solución de problemas,Cobros claros	PEQUEÑA	CONSTRUCCIÓN	CONCEPCIÓN	Mujer	REGIONES	Mas
+CNTo0B3SJRI0	5	Caro	MEDIANA	FABRICACIÓN DE MUEBLES	QUILICURA	Hombre	SANTIAGO	MP
+xcrSCUgOWMd7	7	Buena atencion	MICRO	esparsimiento	colina/santiago	Mujer	SANTIAGO	Mas
+4cTyyOS0xiGv	6	Buen servicio / calidad servicio,Caro	PEQUEÑA	ASESORIA EN INGENIERIA	LO ESPEJO	Hombre	SANTIAGO	Mas
+jBSiTgI7N7nx	7	Buen servicio / calidad servicio,No ha tenido problemas	PEQUEÑA	ASEO Y JARDIN	SANTIAGO	Mujer	SANTIAGO	Mas
+ryor1IoobfY3	4	Mala cobertura	GGEE	serrv forestales	angol	Hombre	REGIONES	AV
+3VZPGF0sMStu	5	Mala atención	MICRO	CONSTRUCTORA	CONCEPCION	Hombre	REGIONES	Mas
+W4QA8ktupigf	7	Buena señal	MEDIANA	arrendaroes de maquinarias	machali rancagua	Hombre	REGIONES	MP
+Ad2rrqwKO4zU	6	Mal servicio internet / señal	MICRO	telecomunicaciones	providencia	Hombre	SANTIAGO	Mas
+BfhDgkuVe1vz	6	Buena cobertura	MICRO	TRANSPORTE DE CARGA.	PROVIDENCIA.	Hombre	SANTIAGO	Mas
+wmHDZp2wmYPc	5	Mal servicio / calidad servicio	PEQUEÑA	SERVICIOS DE INGENIERIA hardware	LA CONDES	Hombre	SANTIAGO	AV
+p6nLe9v6ekTR	7	Buena señal,Buenos planes	PEQUEÑA	CONSTRUCION Y ARRIENDO DE MAQUINARIA PESADA	VIÑA DEL MAR	Mujer	REGIONES	MP
+utPTwf57V833	6	Buen servicio / calidad servicio	PEQUEÑA	COMERCIALIZADORA Y PRODUCTOS ALIMENTICIOS	CHIGUALLANTE	Hombre	REGIONES	Mas
+OYmM9zzN40G1	5	Caro,Mala atención,No solucionan problemas	GGEE	IMPORTADORA.	SANTIAGO CENTRO.	Mujer	SANTIAGO	MP
+AeOtVYmPwxHd	6	Mal servicio internet / señal	PEQUEÑA	HOTELERIA Y AGRICOLA.	TEMUCO.	Hombre	REGIONES	Mas
+SRZl1GY2SfUF	6	Rapida atencion ejecutivo	PEQUEÑA	INFORMATICA	SANTIAGO	Hombre	SANTIAGO	AV
+ukkbFNjQ9DM3	6	Buen servicio / calidad servicio,No ha tenido problemas	MEDIANA	METALIZA INDUSTRIAL	SAN JOAQUIN SANTIAGO	Hombre	SANTIAGO	AP
+2yeIWUADSZ43	4	Mal servicio / calidad servicio	MICRO	ASESORIAS EMPRESARIAL	LOS ANGELES	Hombre	REGIONES	Mas
+EraVU7TkwUW9	6	Mal servicio internet / señal	PEQUEÑA	VENTAS DE INSUMOS INDUSTRIALES	CQUIMBO	Mujer	REGIONES	Mas
+XbAx4XEpBsbH	1	Cobros poco claros	PEQUEÑA	GENERACION DE AGUA ATMOSFÉRICA.	CALAMA.	Hombre	REGIONES	Mas
+nsU6Wyw73YFO	5	Caro,Mala cobertura,Mala atención	MEDIANA	INGENIERÍA EN INVERSIONES BIM SPA, CONSTRUCTORA	RÍO BUENO	Hombre	REGIONES	Mas
+b4Vea1yMYch3	6	Buen servicio / calidad servicio,Mal servicio internet / señal	MICRO	REPARACIONES ELECTRICAS DE INFRACTUCTURA	ALTO AUSPICIO, IQUIQUE	Hombre	SANTIAGO	Mas
+iSUafICgtKc4	7	Buen servicio / calidad servicio	MICRO	Consulturia de desarrollo de aplicaciones	Providencia, por tema de pandemia estan en la comuna de la Cisterna	Hombre	SANTIAGO	Mas
+d4oRTAmFga6G	5	Caro	MICRO	RESTAURANT	TALCA	Hombre	REGIONES	Mas
+vR6GItTg9T1G	1	Mala señal	PEQUEÑA	SERVICIOS	LOS ANDES	Hombre	REGIONES	Mas
+rxOWROlOqv6s	7	No Sabe/ No responde	MICRO	VENTA DE ALIMENTOS	MAIPU	Hombre	SANTIAGO	Mas
+8RCP61fav3I5	6	Buen servicio / calidad servicio	MICRO	LAVANDERIA	CONCEPCION	Hombre	REGIONES	Mas
+GKIXqfpplc0l	7	Buena atencion,Disponibilidad del ejecutivo,Buen servicio internet	MICRO	INSUMOS MEDICOS	SANTIAGO	Mujer	SANTIAGO	MasPrem
+fnGlv2i3QLj6	4	Mal servicio internet / señal	MICRO	AGRICOLA	SAGRADA FAMILIA	Hombre	REGIONES	Mas
+wZXwMY9xYrAy	1	Mala señal,Lentas respuestas a solución de problemas	PEQUEÑA	CONSTRUCCIÓN	CONCEPCIÓN, LA COMUNA DE YUNGAY	Hombre	REGIONES	Mas
+3Oj1nOywQO8M	5	No solucionan problemas,Problema facturación	MEDIANA	FABRICACION DE MOBILIARIA	LA PINTANA	Hombre	SANTIAGO	MV
+VGYxojr2hMjp	6	Buen servicio / calidad servicio	PEQUEÑA	RECICLAJE	LAMPA	Hombre	SANTIAGO	Mas
+Ncj5y1zWrZuF	7	Buena cobertura,Buen servicio internet	MICRO	SERVICIO TECNICO Y VENTAS DE ACCESORIOS	ANTOFAGASTA	Hombre	REGIONES	Mas
+r1EGexaqTAEr	3	Problema facturación,Mala atención	MICRO	CONSULTORA AGRICOLA	CHILLAN	Hombre	REGIONES	Mas
+P1fYk2s0iR3Q	1	Mala cobertura,No solucionan problemas	PEQUEÑA	Servicios Agricolas	Curico	Hombre	REGIONES	MV
+u87gyWsDVH3T	6	Buen servicio / calidad servicio,Buena cobertura	MICRO	SERVICIOS LEGALES	parral	Hombre	REGIONES	Mas
+DAvzy9zxWXDI	6	Mala señal	MICRO	REPUESTOS Y ACCESORIOS PARA BUSES.	CONCEPCIÓN.	Hombre	REGIONES	Mas
+w1PYeMSlj4K7	7	Mala señal	PEQUEÑA	AGENCIA DE PUBLICIDAD	LA REINA	Hombre	SANTIAGO	Mas
+BddWUZNMui2D	6	Buen servicio / calidad servicio	PEQUEÑA	ALAMCENAMIENTO Y DEPOSITO	IQUIQUE	Hombre	REGIONES	MasPrem
+Z58p80St7vJq	5	Buen servicio / calidad servicio,Solucionan requerimientos	MICRO	IMPORTACIONES Y COMERCIO	PROVIDENCIA	Hombre	SANTIAGO	Mas
+Cv25NaXeY0fe	7	Buena señal	MICRO	TRANSPORTE	PENCO	Hombre	SANTIAGO	Mas
+ppbwX14sz4Jz	7	Buen servicio / calidad servicio,Rápidas respuestas	MICRO	servicios alimenticios	antofagasta	Hombre	REGIONES	Mas
+26DF13rGxDFN	5	Mal servicio / calidad servicio	GGEE	ELECTRICIDAD	ÑUBLE	Hombre	REGIONES	AP
+e4f7sd8TqG9E	7	Buen servicio / calidad servicio	MICRO	IMPORTACIONES	PROVIDENCIA	Hombre	SANTIAGO	Mas
+QCsZSISTMoN3	7	Buen servicio / calidad servicio	MICRO	recinto deportivo	valdivia	Hombre	REGIONES	Mas
+kgG7E4FIG0vY	7	Buen servicio / calidad servicio	MICRO	CONFECCION MADERA	VIÑA DEL MAR	Hombre	SANTIAGO	Mas
+i3yJgpLUpsuz	7	Buen servicio / calidad servicio,Buenos precios / precios adecuados	PEQUEÑA	TRASPORTE PRIVADO DE PASAJEROS.	SANTIAGO.	Hombre	SANTIAGO	Mas
+ydVf54lCi8ME	5	Mala cobertura,Lentas respuestas a solución de problemas	MICRO	No tiene	no quiere responder	Hombre	REGIONES	Mas
+JqRbvmupKGZs	7	No ha tenido problemas	PEQUEÑA	TRASPORTE	VIÑA DEL MAR	Mujer	REGIONES	MasPrem
+06lXCpKLo8qi	7	Buena conexión / conectividad	MICRO	VENTA DE ALIMENTOS CONGELADOS	PUERTO MONT	Hombre	REGIONES	Mas
+5Ay3kiWsBXzR	7	Buen servicio / calidad servicio,No ha tenido problemas	MEDIANA	servicios	san tiago centro	Hombre	SANTIAGO	AP
+iXh6zCmjEa4N	5	Mal servicio internet / señal	MICRO	AGRICOLA Y AHORA MOBILIARIO	QUILLOTA	Hombre	REGIONES	Mas
+Hq5YHjEhGnBj	6	Mal servicio / calidad servicio	MICRO	PUBLICIDAD	CHIGUAYANTE,CONCEPCION.	Hombre	REGIONES	Mas
+OmP1DPdNBCo4	7	No ha tenido problemas	MICRO	CAPACIRTACIONES	IQUIQUE	Mujer	REGIONES	Mas
+b0f7qvd1k7Ws	7	Buen servicio / calidad servicio	MICRO	ASESORÍA CONTABLE Y TRANSPORTE.	VALPARAISO SAN ANTONIO	Hombre	REGIONES	Mas
+bR94aP4BIgLS	6	Mala cobertura	PEQUEÑA	VENTA DE TECNOLOGÍA	RANCAGUA	Hombre	REGIONES	MP
+7zXSdNqila4C	3	Mala atencion con ejecutivos	PEQUEÑA	SALUD	SANTIAGO , PUENTE ALTO	Mujer	SANTIAGO	MP
+ltreWVs8mLtl	7	Buenos precios / precios adecuados,Buena atencion,Buen servicio / calidad servicio	MICRO	SERVICIOS DE PUBLICIDAD POR EMPRESAS	VALDIVIA	Hombre	REGIONES	Mas
+mXQslDarhYUD	7	Buen servicio / calidad servicio	MICRO	LOGISTICA Y DISTRIBUCION	PEÑALOLEN	Hombre	SANTIAGO	Mas
+oeIdyY3HLHsq	6	Buen servicio / calidad servicio	MEDIANA	FORESTAL	DECIMA REGION DE LOS LAGOS OSORNO	Mujer	REGIONES	MasPrem
+Q7m9JaVg4NTw	6	Mal servicio internet / señal	PEQUEÑA	MAESTRANZA Y AGENCIA DE VIAJES	PUERTO MONTT	Hombre	REGIONES	Mas
+fvpuJyIih5ML	1	Cambios de planes arbitrarios,Caro,Mala señal	PEQUEÑA	AGRÍCOLA.	SAN FERNANDO.	Hombre	REGIONES	Mas
+jVAqkMAN2rgu	7	No ha tenido problemas,Buena cobertura	MEDIANA	SALUD	CURICO	Mujer	REGIONES	MP
+umusr4cTlqb9	3	Problemas con equipos / calidad /reposición /cambio,Mala señal	MEDIANA	MADERAS Y SERVICIOS.	TALCA.	Hombre	REGIONES	MP
+vCyC4osibgrq	5	Mala señal	MEDIANA	Servicio de alimentacion	Curico	Mujer	REGIONES	AP
+NrOm9rHxR4XF	5	Cumplen lo ofrecido	MEDIANA	PRODUCTOS DE USO COTIDIANO.	SANTIAGO.	Hombre	SANTIAGO	Mas
+jSTvYxMTzPwK	6	Mala señal	MEDIANA	CONSTRUCCION	QUINTA NORMAL	Hombre	SANTIAGO	MP
+Uc0mqhhFsUUW	7	Buen servicio / calidad servicio,Buenos precios / precios adecuados	MEDIANA	FABRICA E IMPORTADORA DE MAQUINARIA	RECOLETA Y COLINA	Mujer	SANTIAGO	AV
+iKbde2soPTHt	6	Empresa segura	GGEE	ventas de motocicletas y accesorios	maipu	Hombre	SANTIAGO	MV
+7Grah4kYfBF3	5	Mala señal,Mal servicio internet / señal	MICRO	SERVICIOS MEDICOS	QUINTERO	Mujer	SANTIAGO	Mas
+1x5H08qPxvqa	3	Mal servicio / calidad servicio	MICRO	SERVICIO DE CONSTRUCCIÓN Y MONTAJE	CONCEPCIÓN	Hombre	REGIONES	Mas
+dDnf9PP2R7Ck	6	Buen servicio / calidad servicio	GGEE	AGRICOLA.	OSORNO.	Mujer	REGIONES	MV
+8NwXQdFA4Zh3	5	Malas conexiones /conectividad,Cobros poco claros	PEQUEÑA	SERVICIOS MEDICOS	QUILLOTA	Hombre	REGIONES	Mas
+5WW0FEi6HDjc	7	Buen servicio / calidad servicio	MICRO	informática	metropolitana	Hombre	SANTIAGO	Mas
+6v5EXEBTcVKJ	5	Problemas con equipos / calidad /reposición /cambio	GGEE	electrica	PUENTE ALTO	Hombre	SANTIAGO	AV
+JHmRGSX8osil	5	Buena atencion,Disponibilidad del ejecutivo	PEQUEÑA	PUBLICIDAD	SAN MIGUEL	Mujer	SANTIAGO	Mas
+kZeCuxauIKKb	5	Mal servicio internet / señal,Demora atención telefónica	MICRO	SERVICIOS	ARICA	Hombre	SANTIAGO	Mas
+6pEMKcn2bawz	6	Mala atencion con ejecutivos	PEQUEÑA	TRANSPORTE	LOS ANDES	Mujer	REGIONES	Mas
+XnSsCMuUweDK	6	Rapida atencion ejecutivo	MEDIANA	vitiminicola	molina/septima region	Hombre	REGIONES	Mas
+wAPLL8zPqayu	3	Mala señal,Mala cobertura	MEDIANA	AGRICULTURA LECHERIA	FUTRONOS	Hombre	REGIONES	Mas
+a8bQgZN0PEn9	5	Mal servicio internet / señal	GGEE	combustible	illapel	Hombre	REGIONES	MP
+LAMhPYJVwtHR	5	Mala cobertura	MEDIANA	CONSTRUCCION	SANTIAGO Y LA SERENA	Hombre	SANTIAGO	MP
+R22nY8m0KdGo	5	Mal servicio internet / señal,Cobros poco claros,Problema facturación	PEQUEÑA	TELECOMUNICAION	QUILICURA	Hombre	SANTIAGO	MP
+TVSspQPBaMk9	5	Mala atención	PEQUEÑA	PRESTACIONES MEDICAS	LA REINA	Hombre	SANTIAGO	Mas
+EKXQiz6lSyZn	5	Mala atención,Mala cobertura	MICRO	agricola y fruticola	coihueco	Hombre	REGIONES	Mas
+AlOItj2urodh	2	Mala señal	PEQUEÑA	AGRICOLA Y FORESTAL	PAILLACO PROVINCIA DE VALDIVIA	Hombre	REGIONES	MP
+0WZB83UuRlto	3	Caro	MICRO	servicios medicos	concepcion	Hombre	REGIONES	Mas
+EYLmTma5WxXM	6	Malas conexiones /conectividad	MICRO	SERVICIOS	PUERTO MONTT	Mujer	REGIONES	Mas
+prYKxJCw9MgE	7	Buen servicio / calidad servicio	MEDIANA	MADERERO.	LOS ANGELES.	Hombre	REGIONES	Mas
+Hu9TtaA7Du9G	5	Problemas con equipos / calidad /reposición /cambio	PEQUEÑA	SERVICIOS ESPECIALIZADOS A MINERAS	RANCAGUA	Hombre	SANTIAGO	Mas
+3WkrGRgHhlHN	6	Demora atención telefónica	PEQUEÑA	SERVICIOS	LAS CONDES	Hombre	SANTIAGO	Mas
+S1zdIF0NqDMy	5	Problema facturación	PEQUEÑA	ferreteria	Talca	Hombre	REGIONES	Mas
+Veb4YglXx0tW	4	Mala señal	GGEE	contruccion	santiago	Mujer	SANTIAGO	AV
+x1aUAbasRIzI	7	Buen servicio / calidad servicio,Solucionan requerimientos	PEQUEÑA	DISEÑO	NUÑOA	Mujer	SANTIAGO	Mas
+OP8Q8DR3JUGn	7	No ha tenido problemas	PEQUEÑA	TELECOMUNICACIONES	VIÑA DEL MAR	Hombre	REGIONES	Mas
+9GXKvX6rILmk	5	Mal servicio / calidad servicio	PEQUEÑA	AGRICOLA	SAGRADA FAMILIA	Hombre	REGIONES	Mas
+Wi2uu9kHRBms	6	Malas conexiones /conectividad	PEQUEÑA	CAPACITACION	TALCA	Hombre	REGIONES	Mas
+xxdZT6Qw5IpI	4	Mala señal	PEQUEÑA	AGRICOLA Y TRANSPORTE	SALAMANCA	Hombre	REGIONES	Mas
+UU21HZyrQjAs	7	Buen servicio / calidad servicio,No ha tenido problemas	GGEE	farmacéutica	vitacura	Mujer	SANTIAGO	MV
+gjT780SLsVlR	7	No ha tenido problemas,Rápida solución de problemas	GGEE	AGRICOLA	CURICO	Mujer	REGIONES	AV
+udAZtC4OHPU1	6	No Sabe/ No responde	MICRO	AGRICOLA.	LINARES	Hombre	REGIONES	Mas
+amF5wA5D6QBL	5	Mal servicio internet / señal	MEDIANA	SERVICIO AGRICOLA	LA CALERA	Hombre	REGIONES	MP
+gzIqhwB2zkn2	7	Buen servicio / calidad servicio,Buenos precios / precios adecuados	PEQUEÑA	CONSTRUCTORA	QUILPUE	Hombre	REGIONES	Mas
+6VpHdzXR0Vte	7	No ha tenido problemas	PEQUEÑA	SUPERMERCADO	OSORNO	Hombre	SANTIAGO	Mas
+oDiAWa7ca6id	7	No ha tenido problemas,Buenos precios / precios adecuados	PEQUEÑA	SERVICIOS FORESTALES	VALDIVIA	Hombre	REGIONES	MP
+BHXA9GVSEyHD	7	No Sabe/ No responde	MEDIANA	ACEO INDUSTRIAL	LA CALERA	Hombre	REGIONES	AP
+EFPN3tj3VM6u	6	Mala cobertura	MEDIANA	TRANSPORTE.	LOS LAGOS LLANQUIHUE.	Mujer	REGIONES	MP
+XNI8CwegXfto	6	Solucionan requerimientos	MICRO	MADERA.	EL MONTE.	Mujer	SANTIAGO	Mas
+SyvHqzoKGGID	6	Mala señal	MEDIANA	MAESTRANZA	CONCEPCION.	Hombre	REGIONES	MP
+I6aHiQYGdQfs	6	No ha tenido problemas	GGEE	topografías	santiago ,providencia	Hombre	SANTIAGO	MV
+XugXk8qKZpD6	1	Mala señal,Mal servicio internet / señal	PEQUEÑA	AGRICOLA	GRANEROS	Hombre	REGIONES	Mas
+mPvWITT9mf4S	3	Mala atención	PEQUEÑA	COMUNICACIONES Y DISTRIBUCIÓN DE COMBUSTIBLE	MELIPEUCO	Hombre	REGIONES	Mas
+thEJVBZkov0V	6	Buen servicio / calidad servicio	GGEE	AGRICOLA	LA FLORIDA	Hombre	SANTIAGO	AV
+X93Ow7TDXCBm	5	No solucionan problemas	MICRO	ARRIENDO DE VEHICULOS SIN CHOFER	MACUL	Hombre	SANTIAGO	Mas
+PAP68GyBhWL8	3	Mala atencion con ejecutivos,No solucionan problemas,Cobros poco claros	GGEE	tratamiento de agua	las condes , santiago	Hombre	SANTIAGO	MV
+oDTxZHpCLRLe	7	Facturación,Buen servicio / calidad servicio,No ha tenido problemas	MICRO	NO QUIERE DAR LA INFORMACION	SANTIAGO	Hombre	SANTIAGO	Mas
+noZWOlxygTjJ	6	Mala señal	GGEE	estación de servicio	santiago	Mujer	SANTIAGO	Mas
+SWpuhMRROOFE	6	Buen servicio / calidad servicio	MEDIANA	INMOILIARIA.	IQUIQUE.	Hombre	REGIONES	MV
+FLRd2DBGNDh7	5	Malas señal telefónica	MEDIANA	INDUSTRIA PESQUERA.	SANTIAGO	Hombre	SANTIAGO	Mas
+4bgQqYbJkqb2	5	Buen servicio / calidad servicio	MICRO	MAQUINARIAS	LAS CONDES	Hombre	SANTIAGO	Mas
+Qr7O9KArQ0Un	5	No Sabe/ No responde	PEQUEÑA	INGENIERIA	VIÑA DEL MAR	Hombre	REGIONES	Mas
+p1JoGY5L9yXk	6	No ha tenido problemas	PEQUEÑA	ABOGADOS	LAS CONDES	Mujer	SANTIAGO	MV
+QqCYF2jb4fHJ	4	Mal servicio / calidad servicio	MEDIANA	EDUCACION	SAN MIGUEL	Mujer	SANTIAGO	MP
+WzJTGclXYqRK	6	Siempre se puede mejorar	GGEE	CONSTRUCCION	CURICO	Hombre	REGIONES	AP
+pHw9YljSkjvh	7	No ha tenido problemas	MEDIANA	combustible	ñuñoa	Hombre	SANTIAGO	Mas
+P9WCEtSCSU1u	5	Malas conexiones /conectividad,Malas señal telefónica	PEQUEÑA	MANTENCION	SANTIAGO	Mujer	SANTIAGO	Mas
+t3LXVTD97VLy	6	Buena conexión / conectividad	PEQUEÑA	HOTEL	PROVIDENCIA	Hombre	SANTIAGO	Mas
+ti6DVxWey9Xr	6	Buen servicio / calidad servicio,No ha tenido problemas	GGEE	INVERSIONES	LAS CONDES	Hombre	SANTIAGO	Mas
+bIAkFUr2ca6S	6	Buen servicio / calidad servicio	MICRO	ASESORIAS	LAS CONDES	Hombre	SANTIAGO	Mas
+jK1nm1Nas3BU	6	Mala atencion con ejecutivos	GGEE	AGENCIA DE ADUANA	SANTIAGO CENTRO	Hombre	SANTIAGO	AV
+EUKGoCPYHOBe	6	Buen servicio / calidad servicio,Rápidas respuestas	GGEE	SEGURIDAD Y ELECTRONICA.	NUÑOA.	Mujer	SANTIAGO	AV
+QIDHrxJ0zHBI	7	Buen servicio internet,Buen servicio telefonico,Buena comunicación,Disponibilidad del ejecutivo	MEDIANA	CONSTRUCCIÓN	QUINTA NORMAL	Mujer	SANTIAGO	AP
+kKoH4NIc6BHc	5	Mala atención	MEDIANA	EDUCACIÓN.	SANTIAGO.	Mujer	SANTIAGO	Mas
+CZxCBqzb51Lu	6	Buena conexión / conectividad	GGEE	construcción	concepción	Hombre	REGIONES	AP
+QT43RLV0dHZL	7	No ha tenido problemas,Buen servicio / calidad servicio,Cumplen lo ofrecido	MEDIANA	LABORATORIO CLÍNICO	ÑUÑOA	Mujer	SANTIAGO	AP
+StKDValqp71c	7	Rápida solución de problemas	MEDIANA	TRASNPORTE.	TALCA.	Mujer	REGIONES	MP
+jsxrhavfJR2P	7	Buena cobertura,Rápida solución de problemas	GGEE	COFECCION Y DISTRIBUIMOS ROPA DE CAMA	CERRILLOS	Mujer	SANTIAGO	AP
+9TSTNBmvdSsP	6	Buena comunicación	MICRO	CRIA DE AVES Y AGRICOLA	PEÑAFLOR	Hombre	REGIONES	Mas
+IwfV7yHGruen	7	No ha tenido problemas	MICRO	AGENCIA DE VIAJES	COYHAIQUE	Mujer	REGIONES	Mas
+cwx0t23hywmy	5	Mala cobertura	MEDIANA	Desarrollo sobla	santiago	Hombre	SANTIAGO	MV
+ACUXLtcTStMN	4	Mal servicio / calidad servicio	MEDIANA	TURISMO	PROVIDENCIA	Mujer	SANTIAGO	MV
+StZqKZIIz5u6	5	Buena cobertura	PEQUEÑA	INGENIERIA DE TELECOMUNICACIONES	HUECHURABA	Hombre	SANTIAGO	Mas
+8Hez2jNM5Sl0	5	Mal servicio internet / señal	MICRO	Transporte	Santiago	Hombre	SANTIAGO	Mas
+rLekpOCsBpwq	7	No ha tenido problemas,Buen servicio telefonico	MEDIANA	INSUMOS TEXTILES	INDEPENDENCIA	Hombre	SANTIAGO	AP
+wzitADWddbj3	7	Solucionan requerimientos	GGEE	CONSTRUCCION	5 QUINTA NORMAL	Mujer	SANTIAGO	AP
+UNbQgrAnIHdQ	7	Buen servicio / calidad servicio,Buenos precios / precios adecuados	GGEE	FINANCIERA	HUECHURABA	Mujer	SANTIAGO	AV
+iMSmwg0062Dn	6	No Sabe/ No responde	PEQUEÑA	MEDICO	MAIPU	Hombre	SANTIAGO	Mas
+DRbJ4a37Bh00	5	Malas conexiones /conectividad,Mala señal	MEDIANA	TRANSPORTE Y FORESTAL	CONCEPCION	Hombre	REGIONES	MV
+Y2sSw2bzhho5	7	No ha tenido problemas,Buena cobertura,Buena señal	MEDIANA	PANADERÍA	VIÑA DEL MAR	Mujer	REGIONES	MP
+7NAyUv07xbTv	7	Buena señal,Buen servicio / calidad servicio	MICRO	AGRICOLA	TENO	Hombre	REGIONES	Mas
+Fc1RbtygWsUU	7	No ha tenido problemas,Buena cobertura,Rápida solución de problemas	PEQUEÑA	COMERCIALIZACIÓN	LOS ANGELES	Hombre	REGIONES	Mas
+OmvFUDGSeHr2	6	Mal servicio internet / señal	MEDIANA	TECNOLOGIA	PROVIDENCIA	Hombre	SANTIAGO	MP
+MF5XVkXz5XpT	7	Buena comunicación	MEDIANA	forestal	constitucion	Mujer	REGIONES	MV
+y0vRWNoqkxT9	6	Buen servicio / calidad servicio,Demora atención telefónica	MEDIANA	EMPRESA DE SERVICIOS	ÑUÑOA	Hombre	SANTIAGO	MP
+ZLCV4UarkdV2	6	Mala cobertura	PEQUEÑA	topografia	san pedro de la paz	Hombre	REGIONES	Mas
+mV8sDLNB7A05	7	Buen servicio / calidad servicio,No ha tenido problemas,Buena conexión / conectividad	MEDIANA	DISTRIBUCIÓN DE ALIMENTOS	ARICA	Hombre	REGIONES	MV
+8g9GULpCHPOw	5	Mala cobertura,Mal servicio / calidad servicio	GGEE	COMERCIALIZADORA DE PRENDAS DE VESTIR.	SANTIAGO, CONCHALI.	Hombre	SANTIAGO	Mas
+7RkaHvaynI8v	7	Buena atencion,Buena cobertura,Empresa segura	GGEE	CONSTRUCCION	CONCHALI	Mujer	SANTIAGO	AV
+f88EcSkGFHJa	6	Buen servicio / calidad servicio	GGEE	MAQUINARIA.	BUIN.	Mujer	SANTIAGO	AV
+5PwFL8oQaTjn	6	Mala atención,Buena cobertura	PEQUEÑA	ARRIENDO EQUIPOS DE CONSTRUCCION	ÑUÑOA	Hombre	SANTIAGO	Mas
+imWN9REia5jI	3	Caro	PEQUEÑA	INMOBILIARIO	MELIPILLA	Mujer	SANTIAGO	Mas
+bfzUCqBjvl8e	6	Mala cobertura	MEDIANA	IMPORTADORA DE ARTICULOS MEDICOS	PROVIDENCIA	Mujer	SANTIAGO	Mas
+7uxhg22ZhWYb	3	Cobros poco claros,Mala cobertura,Mal servicio internet / señal	PEQUEÑA	supermercado	pucon	Hombre	REGIONES	Mas
+u3o2DWCx15TY	5	Mal servicio internet / señal	MEDIANA	COMERCIALIZADORA	PUERTO MONTT	Hombre	REGIONES	MP
+BYrNMLEL84Hw	6	Mala cobertura	MICRO	ventas y comercialización de alimentos	las condes santiago	Hombre	SANTIAGO	Mas
+xyqBMLmd8Ele	6	Buen servicio / calidad servicio	PEQUEÑA	INVERSIONES	CONCEPCION	Hombre	REGIONES	Mas
+6DrXhSfqFlOs	7	Buen servicio / calidad servicio	MEDIANA	NO ENTREGA INFORMACION. INDICA SER CONFIDENCIAL	6 REGION DE LIBERTADOR BERNARDO OHHIGINS	Mujer	REGIONES	MP
+6T5AGoxyxfUq	7	Buena conexión / conectividad	MICRO	MECANICA AUTOMOTRIZ	MACUL	Hombre	SANTIAGO	Mas
+MZiOWB3F1wDb	7	Buena señal,Rápida solución de problemas	MEDIANA	EXTRACCION DE ARIDOS MOVIMIENTO DE TIERRA Y CONSTRUCCION	SANTO DOMINGO	Hombre	REGIONES	MV
+qntQP3ZSQO5V	6	Mala cobertura	MEDIANA	transporte	molina	Hombre	REGIONES	Mas
+IgEQ8d6am3kB	6	Caro	MEDIANA	SERVICIOS DE INGENIERÍA	VIÑA DEL MAR	Mujer	REGIONES	MasPrem
+yJ0IYXIRf5sk	6	Caro	MEDIANA	EDUCACION	COPIAPO	Hombre	REGIONES	MP
+1BVVnglQTcx8	5	No Sabe/ No responde	PEQUEÑA	VENTAS AL POR MAYOR Y MENOR	SANTIAGO CENTRO	Hombre	SANTIAGO	Mas
+c145oW5wWSFm	6	Buen servicio / calidad servicio,Buena señal	MEDIANA	Importacion	Santiago	Mujer	SANTIAGO	Mas
+upWpXMtbgJvA	6	Caro	PEQUEÑA	PUBLICIDAD	TEMUCO	Hombre	REGIONES	Mas
+rG92tA8z4UyG	6	No ha tenido problemas	PEQUEÑA	IMPORTADORA Y DISTRIBUIDORA	SANTIAGO	Hombre	SANTIAGO	Mas
+dnX5dDEuzrfM	6	Buen servicio / calidad servicio	MEDIANA	SERVICIOS.	ESTACION CENTRAL.	Mujer	SANTIAGO	MV
+E60uiN7ec57N	7	No ha tenido problemas	MEDIANA	GRAFICO	ANTOFAGASTA	Hombre	REGIONES	MP
+qqDyNGkkRW9b	5	Mala atencion con ejecutivos	MEDIANA	SERVICIOS INMOBILIARIOS	CURICÓ	Hombre	REGIONES	MV
+xwPWw6aPiVXn	5	Mala atención,Mal servicio postventa	PEQUEÑA	seguros	temuco	Hombre	REGIONES	Mas
+pQVkH7vNbLwZ	6	Buen servicio / calidad servicio	GGEE	VENTA Y COMERCIALIZACION DE BUSES Y CAMNIONES Y REPUESTOS	COMUNA SAN BERNARDO	Hombre	SANTIAGO	MP
+pMhjEByW166G	5	Malas conexiones /conectividad,Mala cobertura	GGEE	fabrica y comercializadora de alimentos de mascotas	santiago , lampa	Hombre	SANTIAGO	AP
+WBieSW9e8Yp0	6	No ha tenido problemas	PEQUEÑA	FARMACIA Y CLINICA VETERINARIA	QUILPUES	Mujer	REGIONES	Mas
+MogCXzDGe2Zs	5	Mala cobertura,Mala señal	PEQUEÑA	TRANSPORTE	PUNTA ARENAS	Hombre	REGIONES	Mas
+WWTvyvvhDuIR	6	Mala señal,Mala cobertura	PEQUEÑA	METALURGICA ELECTRICA	RECOLETA	Hombre	SANTIAGO	Mas
+my4MsgcyvDMg	6	Mala cobertura	GGEE	SERVICIOS DE ALIMENTACIÓN	HUECHURABA, REGIÓN METROPOLNATA	Hombre	SANTIAGO	AP
+kcn2NmJKcnVc	7	Buena señal,Rápida solución de problemas	MEDIANA	VENTA DE REPUESTOS AUTOMOTRIZ	SAN MIGUEL	Hombre	SANTIAGO	MP
+1RBqDtPY1I3V	7	Buen servicio / calidad servicio,Buena cobertura	MEDIANA	METALURGICA.	CERRILLOS , SANTIAGO.	Hombre	SANTIAGO	MP
+x4wQaNESyKx9	4	Mala atención,Mal servicio internet / señal,No solucionan problemas	PEQUEÑA	INGENIERIA	VITACURA ,SANTIAGO	Mujer	SANTIAGO	Mas
+aaFuABny8knX	6	Caro	GGEE	contruccion	peñalolen, santiago	Hombre	SANTIAGO	AP
+ySrhQMsYokuI	7	No ha tenido problemas	MEDIANA	INGENERIA ELECTRICA	NUÑOA	Hombre	SANTIAGO	MV
+xD1FZ4kTbXRc	6	Solucionan requerimientos,Buena comunicación	MEDIANA	SERVICIO DE INGENERIA	SANTIAGO CENTRO	Mujer	SANTIAGO	AP
+qobJxZqFhX3T	5	Caro	GGEE	ESTACIONES DE SERIVICIOS	RANCAGUA	Hombre	REGIONES	MP
+Y9HwXoibJwWu	6	Caro	GGEE	inversiones	las condes	Mujer	SANTIAGO	MV
+YXMVMauk5rw6	4	Mala cobertura	MEDIANA	AGRICOLA.	SAN FERNANDO.	Hombre	REGIONES	MP
+UH07DEq98EAn	6	No ha tenido problemas	GGEE	servicio industrial	santiago , san joaquin	Hombre	SANTIAGO	AV
+3HuWNWEAq2Tp	7	Buena atencion,Buenos planes	MEDIANA	INGENIERÍA Y CONSTRUCCIÓN	RENCA	Mujer	SANTIAGO	MP
+RWy55npuV06R	7	Buena señal	PEQUEÑA	CONSTRUCCION	SAN JOSE DE LA MARIQUINA	Hombre	REGIONES	Mas
+Tdq5Nx8baPPV	7	Buen servicio / calidad servicio,Buena señal	GGEE	HOTELES.	PUERTO VARAS.	Hombre	REGIONES	AP
+oNmqT27uxzGQ	4	Problemas con equipos / calidad /reposición /cambio	MEDIANA	CONSTRUCCION DE EDIFICOS	TALCAHUANO	Hombre	REGIONES	AP
+HWf9goMk6QEg	6	Buen servicio / calidad servicio	MICRO	Lubricantes de automotriz	Quillota	Mujer	REGIONES	Mas
+K5MMpk53Lq6v	4	Buena cobertura,Buen servicio internet,Mala atención	MEDIANA	VENTA DE MATERIALES DE CONSTRUCCIÓN, FERRETERÍA	VALLENAR	Hombre	REGIONES	Mas
+gZvVJbYh7IHh	7	Buena cobertura	PEQUEÑA	RECEPTOR JUDICIAL	SANTIAGO	Hombre	SANTIAGO	MasPrem
+weBWPPz9vV65	6	No ha tenido problemas	GGEE	VENTA DE VESTUARIO Y CALZADO	SANTIAGO	Hombre	SANTIAGO	AP
+E6ASjW53jzkP	6	Buen servicio / calidad servicio,Buena atencion	GGEE	METALURGICA	QUILICURA	Hombre	SANTIAGO	AV
+JcmG1DIvdinb	6	Caro	MEDIANA	PANADERIA	VALAPARAISO	Mujer	REGIONES	MP
+Z7oDcF4xsET9	5	No Sabe/ No responde	MEDIANA	AGRICOLA.	MELIPILLA	Hombre	SANTIAGO	AP
+x7W32xXXE5bO	5	Caro	PEQUEÑA	CONSTRUCCIÓN	ARICA	Hombre	REGIONES	Mas
+4twl21CNq7Ke	6	Caro	GGEE	servicio de ingenieria	santiago	Mujer	SANTIAGO	AV
+rZokp97TCCGu	6	Buen servicio / calidad servicio	GGEE	alimentos	santiago	Hombre	SANTIAGO	AP
+wjuWUPwpKK6Z	7	No ha tenido problemas	MICRO	COMERCIO	CON CON	Mujer	REGIONES	Mas
+UpXWhYaDpEVL	6	Mala señal	MEDIANA	computacion e instrumentos musicales	viña del mar	Mujer	REGIONES	MP
+3dXHA6w8XJAg	7	No ha tenido problemas	MEDIANA	metal mecanica	Talcahuano	Hombre	SANTIAGO	AP
+jGeOvTBEFO3x	5	Problema facturación	GGEE	explotación de litio	antofagasta	Hombre	REGIONES	AV
+r5fjUzO4oc2b	6	Lentas respuestas a solución de problemas	PEQUEÑA	TRANSPORTE DE PASAJEROS.	REGION METROPOLITANA COMUNA EL BOSQUE.	Hombre	SANTIAGO	Mas
+jM73ytWJ8f55	4	Demora atención telefónica	MICRO	PUBLICIDAD .	SAN JOAQUIN.	Hombre	SANTIAGO	Mas
+jizYBdSHWfXf	5	Buen servicio / calidad servicio,Mala atencion con ejecutivos	GGEE	DISTRIBUIDORA	RANCAGUA	Mujer	REGIONES	Mas
+unZSDI0GBkFI	6	No Sabe/ No responde	MICRO	venta de abarrotes	nogales 5ta región	Mujer	REGIONES	Mas
+gQixoLoJLzSm	6	Siempre se puede mejorar	GGEE	mayorista	comuna pudahuel	Mujer	SANTIAGO	MP
+Ohu5LgN5S4LX	6	No ha tenido problemas	MEDIANA	VENTA DE RESPUESTOS INDUSTRIALES.	SANTIAGO CENTRO	Hombre	SANTIAGO	Mas
+p807SkVg6VJO	3	Caro	GGEE	CAPACITACION EN IDIOMAS	PROVIDENCIA	Hombre	SANTIAGO	Mas
+NON6o0TAL4rq	6	No ha tenido problemas	PEQUEÑA	consejo de administracion de edificios	TOME/CONCEPCION	Hombre	REGIONES	AP
+878wu8L5UX4R	4	Mal servicio / calidad servicio,Mal servicio internet / señal	MEDIANA	AGRÍCOLA	VALLE ARAUCO MELIPILLA	Hombre	REGIONES	MV
+r9As09SIujBP	7	Buena señal	MEDIANA	CONSTRUCCION	VIÑA DEL MAR	Hombre	REGIONES	AP
+AvJ5W7W1ug5A	5	Problemas con equipos / calidad /reposición /cambio	MEDIANA	CONSTRUCCIÓN.	CONCEPCIÓN.	Mujer	REGIONES	AP
+IW4tJFPedBNM	4	Mal servicio / calidad servicio	MICRO	TRANSPORTE	SAN FELIPE	Hombre	REGIONES	Mas
+QJPsqaIv110F	7	Buena atencion,Buena cobertura,Buena señal	GGEE	licitación publicas de áreas verdes	providencia	Hombre	SANTIAGO	AV
+z5PUhBIJNbA8	6	Buen servicio / calidad servicio	MICRO	COMERCIO	YERBAS BUENAS	Hombre	REGIONES	Mas
+bZfXb66mGnqd	4	Mala atencion con ejecutivos	GGEE	CONSTRUCCION	PUERTO MONTT	Mujer	REGIONES	AV
+dccm3DiaHBzp	6	Buen servicio / calidad servicio,Mala cobertura	MICRO	COMERCIO	HUECHURABA	Mujer	SANTIAGO	Mas
+Avh63FVDAeCJ	6	Siempre se puede mejorar	MICRO	DISEÑO	SANTIAGO CENTRO	Hombre	SANTIAGO	Mas
+W6WWMuOm6CS4	5	Mala cobertura,Cambios de planes arbitrarios	MICRO	telecomunicaciones y otras actividades economicas	santiago , pudahuel	Hombre	SANTIAGO	Mas
+tCqG5Ux8Xm3e	6	Cobros poco claros	GGEE	HOLDING MINERO	SANTIAGO QUINTA NORMAL	Hombre	SANTIAGO	MV
+jbq3KiZvH4DV	6	Mal servicio / calidad servicio	GGEE	venta y suministros de minería	las condes	Hombre	SANTIAGO	AV
+mBLtC1yQrRSg	6	Buena señal,Buena conexión / conectividad,Rápida solución de problemas	PEQUEÑA	TURISMO.	SANTIAGO	Mujer	SANTIAGO	Mas
+AlDBBNOusp0t	6	Mal servicio / calidad servicio	PEQUEÑA	TRANSPORTE DE PASAJEROS	CASTRO - CHILOE	Hombre	REGIONES	MasPrem
+1ILso8LLT9IY	6	Buena señal	MICRO	RESPUESTOS AUTOMOTRICES	ARICA	Mujer	REGIONES	Mas
+OxerXntivtXm	6	Mal servicio / calidad servicio	PEQUEÑA	VENTAS DE MATERIALES DE CONSTRUCCION	RENCA	Hombre	SANTIAGO	Mas
+DTmlz6MDW8If	5	Mala señal	PEQUEÑA	agricola	los andes polpaico y parral	Hombre	REGIONES	Mas
+8ezwuQUpTPo0	6	Empresa segura,No ha tenido problemas	MICRO	TRANSPORTE	CASA BLANCA	Hombre	REGIONES	Mas
+NNPI8SJXG8wx	6	Buen servicio / calidad servicio,Caro	MICRO	PRODUCCION DE MIEL Y CEREZAS	CHILE CHICO	Hombre	REGIONES	Mas
+N4fkz3tPnugS	2	Caro	GGEE	artículos ortopédicos	santiago	Hombre	SANTIAGO	AP
+jWR21BzkzdoR	5	Buen servicio / calidad servicio	GGEE	FABRICACION DE ARTICULOS DE LIMPIEZA	CERRILLOS	Hombre	SANTIAGO	AV
+nVyka0N4fuOj	6	Buena señal,Buena conexión / conectividad	GGEE	DISTRIBUCION DE PRODUCTOS DE PAPELES  E INSUMOS	PUDAHUEL	Hombre	SANTIAGO	AV
+b6bw25OeRXM4	7	No ha tenido problemas,Buen servicio / calidad servicio,Buena atencion,Buenos precios / precios adecuados	PEQUEÑA	JOYERÍA	LAS CONDES SANTIAGO	Hombre	SANTIAGO	Mas
+HeA2PXoyX4Yv	3	Mala cobertura	PEQUEÑA	AGRÍCOLA	HUECHURABA, SANTIAGO	Hombre	SANTIAGO	Mas
+CKsew4JXvrvN	7	Buena cobertura,Buenos precios / precios adecuados,Buena comunicación	MICRO	OBRAS SANITARIAS	QUINTA NORMAL	Hombre	SANTIAGO	Mas
+EXBo9HotkcFM	5	Demora atención telefónica	MICRO	PROYECTOS ELECTRICOS	SAN BERNARDO	Hombre	SANTIAGO	Mas
+B8JAAtmzq7uf	5	Buen servicio / calidad servicio	MICRO	CONSTRUCCION Y SERVICIO AUTOMOTRIZ.	TALCAHUANO.	Hombre	REGIONES	Mas
+O0PxvFcBJyOe	6	Demora atención telefónica	PEQUEÑA	PANADERIA	CURICO, REGION DEL MAULE	Mujer	REGIONES	Mas
+g6ktQr0YKisA	5	Problemas con equipos / calidad /reposición /cambio	MEDIANA	CONSTRUCTORA	ARICA, COMUNA ARICA	Hombre	REGIONES	AP
+Dpz1xicyPl4p	6	Caro,Mala señal	GGEE	SERVICIOS INFORMATICOS.	SANTIAGO.	Hombre	SANTIAGO	AP
+tT74IIj3kjtG	6	Mal servicio / calidad servicio	MEDIANA	FRIGORIFICOS	MAIPU	Mujer	SANTIAGO	AP
+lmRuoyRAoSRe	7	No ha tenido problemas	GGEE	INDUSTRIA.	LAMPA.	Mujer	SANTIAGO	MP
+TvBNA74Uyx06	5	Mala atención	PEQUEÑA	Fabrica de alimento para animales	Linares	Hombre	REGIONES	Mas
+dPtmiu0zDotA	7	Rápida solución de problemas	GGEE	ALIMENTACION	PUDAHUEL	Hombre	SANTIAGO	AV
+JlZ1hxaJXllG	7	Buen servicio / calidad servicio,Rápidas respuestas	GGEE	MARITIMO	PUERTO MONTT	Mujer	SANTIAGO	AP
+V3Runl4frzZE	5	Mala cobertura	MEDIANA	EXPORTACIONES	TALGANTE	Hombre	REGIONES	Mas
+I3GdVVrCzgDQ	6	Cambios de planes arbitrarios	MEDIANA	EXPORTACIÓN.	CONCEPCIÓN.	Hombre	REGIONES	MP
+u235BEHSJ3sF	7	Buen servicio / calidad servicio	MICRO	INMOBILIARIA	SANTIAGO	Mujer	SANTIAGO	Mas
+KvLAhRpgTlRP	5	Lentas respuestas a solución de problemas	MEDIANA	CONSTRUCCION.	PUENTE ALTO	Mujer	SANTIAGO	AP
+6Kw3bevBB0Jj	7	Buena cobertura,Buen servicio / calidad servicio	GGEE	VENTAS DE INSUMOS MÉDICOS	PUDAHUEL	Mujer	SANTIAGO	AV
+fedVtFp6eOov	7	Buena comunicación,Facturación,Buen servicio / calidad servicio	MEDIANA	TELECOMUNICACIONES	VALPARAÍSO	Hombre	REGIONES	MV
+OcDWyI7FOKXC	6	Buen servicio / calidad servicio,No ha tenido problemas	GGEE	ARRIENDO DE INMUEBLES	LO BARNECHEA	Hombre	SANTIAGO	Mas
+FfXU7bJyiVJ4	4	Mal servicio internet / señal	GGEE	COMERCIALIZADORA.	LA REINA.	Mujer	SANTIAGO	MP
+lUSL8XGikWG3	5	Mala cobertura	MEDIANA	AGRICOLA	LAS CABRAS	Hombre	REGIONES	MP
+RsQI65y6UJaA	7	Buena atencion,Buena cobertura,Buena señal	GGEE	GRANDES TIENDAS	COYHAIQUE	Hombre	REGIONES	AP
+a4gffMqVkxiT	5	Mala cobertura,Mal servicio internet / señal,Malas señal telefónica	GGEE	CONSTRUCCION	LIMACHE	Hombre	REGIONES	AP
+0cs9ZEAelltV	7	Buen servicio / calidad servicio	MEDIANA	CONSTRUCCION	ARICA	Hombre	REGIONES	MP
+ki1eyjExAb2n	6	No ha tenido problemas	MEDIANA	PUBLICIDAD	LAS CONDES	Hombre	SANTIAGO	AP
+ttaDvktLzTrh	4	Mala atencion con ejecutivos,Caro,Buena señal	MEDIANA	ACTIVIDADES INMOBILIARIAS.	LAS CONDES	Hombre	SANTIAGO	AP
+1iuhjkQXCMAJ	7	Buen servicio / calidad servicio	MEDIANA	PRODUCTORES DE EVENTOS	PROVIDENCIA	Hombre	SANTIAGO	MV
+nBXmtUrr5aUG	4	Mal servicio internet / señal	PEQUEÑA	TRANSPORTE.	SANTIAGO ESTACION CENTRAL	Hombre	SANTIAGO	Mas
+Ejab19okRNUJ	5	Mala cobertura	GGEE	INGENIERIA	PROVIDENCIA	Hombre	SANTIAGO	AP
+D42fGQX2obCA	7	Buena comunicación,Solucionan requerimientos	GGEE	agrícola	comuna santa maría , valparaiso	Mujer	REGIONES	AP
+DzMac5TBTwHR	7	Cumplen lo ofrecido	MICRO	MARCAS Y PATENTES COMERCIALES	PROVIDENCIA	Mujer	SANTIAGO	Mas
+tZ0lQ4X27c7Y	7	Buenos precios / precios adecuados	MICRO	SERVICIOS INFORMATICOS	VITACURA	Hombre	SANTIAGO	Mas
+CRBZ63QTSiZK	6	Mal servicio / calidad servicio	PEQUEÑA	arriendo departamentos amueblados	Santiago	Mujer	SANTIAGO	Mas
+7raL16MQ9rcf	6	Problema facturación,Disponibilidad del ejecutivo	MEDIANA	Inversiones, inmobiliaria	vitacura santiago	Mujer	SANTIAGO	AV
+r0RqxnTgVoIH	7	Buenos planes,Buena cobertura	GGEE	Agrícola	Santiago , Providencia	Hombre	SANTIAGO	AP
+gbPp7eitzgk4	4	Mala cobertura,Mala atencion con ejecutivos	PEQUEÑA	PRODUCTOS LACTEOS	CURICÓ	Hombre	REGIONES	Mas
+QJE7tVu7LVqv	7	Rápida solución de problemas,Buena cobertura,Buena señal	MEDIANA	CERTIFICACION	PROVIDENCIA	Hombre	SANTIAGO	MV
+FnjeDpkKu1BG	5	Mal servicio internet / señal,Mal servicio postventa	GGEE	ADMINISTRACION DE AUTOPISTA	SANTIAGO	Hombre	SANTIAGO	Mas
+xTsoze2zzPIb	5	Cobros poco claros	PEQUEÑA	ARRIENDO Y MANTENCION DE BAÑO QUIMICOS	LOS ANDES	Mujer	REGIONES	Mas
+UTLwSxky5hqF	5	Mal servicio / calidad servicio	MEDIANA	ASESORIAS	LAS CONDES	Hombre	SANTIAGO	Mas
+tpI45J7T558Q	4	Caro	GGEE	ALIMENTOS	URRANQUE, REGION DE LOS LAGOS	Mujer	REGIONES	MP
+jsYYSe7A6PQY	6	Buen servicio / calidad servicio	GGEE	DISTRIBUICION Y VENTA DE EQUIPO DE COCINA A NIVEL INDUSTRIAL Y HOGAREÑO	RECOLETA	Hombre	SANTIAGO	AV
+AvWl8GU9QI0n	6	Buen servicio / calidad servicio,Siempre se puede mejorar	MICRO	BAR	TALCAHUANO	Hombre	REGIONES	Mas
+EMP7WsRSBwIw	7	Buena señal	PEQUEÑA	MAANTENCIONES.	PUENTE ALTO	Mujer	SANTIAGO	MV
+vlt11c2ieNqV	6	Mala cobertura	PEQUEÑA	diseñadores	santiago	Mujer	SANTIAGO	Mas
+A8QcCBuXBRDL	6	Demora atención telefónica	GGEE	exportador agrícola	linares	Hombre	REGIONES	AV
+333Y27wDWitU	7	Buena atencion,Buen servicio / calidad servicio,Cobros claros	GGEE	transporte internacional	pudahuel , santiago	Hombre	SANTIAGO	AV
+nZiEtOfK0Ywb	6	Mala cobertura	PEQUEÑA	CONSTRUCCION	CONCEPCION	Hombre	REGIONES	Mas
+cC9bhxLzO2vQ	7	Buen servicio / calidad servicio	MEDIANA	DISTRIBUIDAORA	ÑUÑOA	Mujer	SANTIAGO	MV
+45A27UQhaPpT	7	Rápida solución de problemas,Disponibilidad del ejecutivo	GGEE	transporte	santiago	Hombre	SANTIAGO	AV
+WUYVv2oCOyTs	5	Siempre se puede mejorar	GGEE	CONSECIONES	LA CISTERNA	Hombre	SANTIAGO	MP
+CDIJMa3gr0T7	6	Mal servicio postventa	GGEE	TERMINAL PORTUARIO	ARICA	Hombre	REGIONES	AP
+Wweq3LwuBOtD	5	Mala atención	GGEE	PUBLICIDAD	LAS CONDES	Mujer	SANTIAGO	AV
+vwcjsnatpmOD	6	Buena comunicación	MICRO	CAPACITACIÓN.	VIÑA DEL MAR.	Hombre	REGIONES	Mas
+2sbRhoCsP68K	7	Buen servicio / calidad servicio,Buen servicio telefonico	GGEE	AGRÍCOLA	SANTIAGO, LAS CONDES	Hombre	SANTIAGO	MP
+8HooyaIwwJSo	7	No ha tenido problemas	GGEE	CONTRUCTORA.	IQUIQUE ARICA	Hombre	REGIONES	AP
+gv6jjeAfBE6u	7	No ha tenido problemas	MICRO	IMPRENTA	TEMUCO	Hombre	REGIONES	Mas
+QrdwF54slN9D	6	Buen servicio internet,Buen servicio / calidad servicio	GGEE	NA	NA	Mujer	SANTIAGO	Mas
+QrdwF54slN9D	5	Mala cobertura	MEDIANA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	5	Mal servicio postventa	GGEE	NA	NA	Hombre	SANTIAGO	AP
+QrdwF54slN9D	6	Mala señal	GGEE	NA	NA	Hombre	SANTIAGO	AP
+QrdwF54slN9D	6	Buen servicio / calidad servicio,Buena señal,Cambios de planes arbitrarios	MEDIANA	NA	NA	Hombre	REGIONES	MP
+QrdwF54slN9D	5	Mala atención	MICRO	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	6	Lentitud de plataforma	GGEE	NA	NA	Hombre	REGIONES	AV
+QrdwF54slN9D	6	Buen servicio / calidad servicio,Empresa segura	GGEE	NA	NA	Hombre	SANTIAGO	AV
+QrdwF54slN9D	5	Lentas respuestas a solución de problemas	GGEE	NA	NA	Hombre	SANTIAGO	AV
+QrdwF54slN9D	6	Buen servicio / calidad servicio,Solucionan requerimientos	MICRO	NA	NA	Mujer	SANTIAGO	Mas
+QrdwF54slN9D	7	No ha tenido problemas	PEQUEÑA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	2	Caro	GGEE	NA	NA	Hombre	SANTIAGO	AP
+QrdwF54slN9D	5	Buen servicio / calidad servicio	MEDIANA	NA	NA	Hombre	SANTIAGO	AP
+QrdwF54slN9D	7	Buen servicio / calidad servicio	PEQUEÑA	NA	NA	Hombre	REGIONES	MP
+QrdwF54slN9D	5	Mal servicio internet / señal,Mala señal	GGEE	NA	NA	Hombre	SANTIAGO	MP
+QrdwF54slN9D	4	Mal servicio / calidad servicio	MICRO	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	6	Demora atención telefónica	MEDIANA	NA	NA	Hombre	REGIONES	MV
+QrdwF54slN9D	4	Mal servicio / calidad servicio	PEQUEÑA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	4	Caro	MEDIANA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	6	Siempre se puede mejorar	MEDIANA	NA	NA	Hombre	SANTIAGO	AP
+QrdwF54slN9D	7	Buena conexión / conectividad	GGEE	NA	NA	Mujer	REGIONES	MP
+QrdwF54slN9D	7	No ha tenido problemas	GGEE	NA	NA	Hombre	SANTIAGO	MP
+QrdwF54slN9D	5	Malas conexiones /conectividad	MICRO	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	5	Mal servicio internet / señal,Mal servicio / calidad servicio	GGEE	NA	NA	Hombre	SANTIAGO	AP
+QrdwF54slN9D	7	No ha tenido problemas,Buena señal	PEQUEÑA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	5	Mala cobertura,Mala atención	GGEE	NA	NA	Hombre	REGIONES	MP
+QrdwF54slN9D	6	Siempre se puede mejorar	PEQUEÑA	NA	NA	Mujer	REGIONES	Mas
+QrdwF54slN9D	4	Mal servicio / calidad servicio	MICRO	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	5	Mala cobertura,Malas conexiones /conectividad	PEQUEÑA	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	7	Buena cobertura,Buen servicio / calidad servicio	PEQUEÑA	NA	NA	Mujer	SANTIAGO	Mas
+QrdwF54slN9D	5	Mala atencion con ejecutivos,Mal servicio / calidad servicio	GGEE	NA	NA	Hombre	SANTIAGO	AP
+QrdwF54slN9D	6	Buen servicio / calidad servicio	MICRO	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	4	Caro	MICRO	NA	NA	Mujer	REGIONES	MasPrem
+QrdwF54slN9D	7	Buena atencion	GGEE	NA	NA	Hombre	SANTIAGO	MP
+QrdwF54slN9D	7	Facturación,Buena conexión / conectividad,Buena atención telefónica	MEDIANA	NA	NA	Mujer	REGIONES	AP
+QrdwF54slN9D	5	Mala cobertura	MEDIANA	NA	NA	Hombre	REGIONES	AP
+QrdwF54slN9D	6	Mal servicio internet / señal	PEQUEÑA	NA	NA	Hombre	REGIONES	MP
+QrdwF54slN9D	6	Mala señal	MICRO	NA	NA	Mujer	REGIONES	Mas
+QrdwF54slN9D	5	No Sabe/ No responde	PEQUEÑA	NA	NA	Mujer	SANTIAGO	Mas
+QrdwF54slN9D	6	Mala señal	PEQUEÑA	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	6	Mala señal	MICRO	NA	NA	Mujer	SANTIAGO	Mas
+QrdwF54slN9D	5	Mala señal,Mala cobertura	PEQUEÑA	NA	NA	Mujer	REGIONES	Mas
+QrdwF54slN9D	6	Buen servicio / calidad servicio,Buena señal	PEQUEÑA	NA	NA	Hombre	REGIONES	MP
+QrdwF54slN9D	6	Buena cobertura,Rapida atencion ejecutivo,Buenos precios / precios adecuados	PEQUEÑA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	6	Buen servicio / calidad servicio,Buena cobertura	MICRO	NA	NA	Mujer	SANTIAGO	Mas
+QrdwF54slN9D	4	Cambios de planes arbitrarios,Mal servicio internet / señal	PEQUEÑA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	7	Buen servicio / calidad servicio	PEQUEÑA	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	7	No ha tenido problemas	PEQUEÑA	NA	NA	Mujer	REGIONES	MP
+QrdwF54slN9D	6	Buen servicio / calidad servicio,No ha tenido problemas	MICRO	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	5	Buen servicio / calidad servicio,Mala atención	GGEE	NA	NA	Hombre	SANTIAGO	AP
+QrdwF54slN9D	4	Mal servicio internet / señal	MICRO	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	7	Buen servicio / calidad servicio,Buena señal	MEDIANA	NA	NA	Hombre	SANTIAGO	MP
+QrdwF54slN9D	7	Buen servicio internet	PEQUEÑA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	7	Buen servicio / calidad servicio	PEQUEÑA	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	7	Buen servicio / calidad servicio,Buenos precios / precios adecuados	MICRO	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	5	Cambios de planes arbitrarios	MICRO	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	7	Rápida solución de problemas	MICRO	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	6	Buen servicio / calidad servicio,Buena señal	MICRO	NA	NA	Mujer	SANTIAGO	Mas
+QrdwF54slN9D	6	Buena atencion,Buena señal,Buena cobertura	MEDIANA	NA	NA	Mujer	SANTIAGO	Mas
+QrdwF54slN9D	6	Mal servicio internet / señal	MICRO	NA	NA	Mujer	SANTIAGO	AP
+QrdwF54slN9D	5	Mala cobertura	MEDIANA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	7	Buen servicio / calidad servicio,Buenos precios / precios adecuados	PEQUEÑA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	5	Buen servicio / calidad servicio,Lentas respuestas a solución de problemas	MICRO	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	7	No ha tenido problemas	PEQUEÑA	NA	NA	Mujer	REGIONES	Mas
+QrdwF54slN9D	6	Buen servicio / calidad servicio,Caro	PEQUEÑA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	6	Rápida solución de problemas	PEQUEÑA	NA	NA	Mujer	SANTIAGO	Mas
+QrdwF54slN9D	7	Buen servicio / calidad servicio	GGEE	NA	NA	Hombre	REGIONES	AP
+QrdwF54slN9D	5	Siempre se puede mejorar	PEQUEÑA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	6	No solucionan problemas	PEQUEÑA	NA	NA	Hombre	SANTIAGO	MP
+QrdwF54slN9D	5	Mala señal	MEDIANA	NA	NA	Mujer	REGIONES	Mas
+QrdwF54slN9D	5	Mala señal,Mal servicio internet / señal	MEDIANA	NA	NA	Mujer	SANTIAGO	Mas
+QrdwF54slN9D	5	Mala cobertura	MEDIANA	NA	NA	Mujer	SANTIAGO	MasPrem
+QrdwF54slN9D	6	Buen servicio / calidad servicio,Buena cobertura,Solucionan requerimientos	MEDIANA	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	6	Buena cobertura,Buen servicio internet,Caro	MICRO	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	5	Caro	MEDIANA	NA	NA	Mujer	REGIONES	MV
+QrdwF54slN9D	6	Buena cobertura	MEDIANA	NA	NA	Hombre	REGIONES	AP
+QrdwF54slN9D	6	Mala señal	PEQUEÑA	NA	NA	Mujer	REGIONES	Mas
+QrdwF54slN9D	6	Cobros poco claros,Mala señal	MEDIANA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	5	Mal servicio internet / señal,Mala cobertura	MICRO	NA	NA	Mujer	REGIONES	Mas
+QrdwF54slN9D	6	No Sabe/ No responde	MEDIANA	NA	NA	Mujer	REGIONES	MP
+QrdwF54slN9D	6	Buen servicio / calidad servicio,Buen servicio internet	MICRO	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	6	Siempre se puede mejorar	MEDIANA	NA	NA	Hombre	REGIONES	MP
+QrdwF54slN9D	6	Mala cobertura,Caro	MICRO	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	6	Buena cobertura	PEQUEÑA	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	4	No solucionan problemas	GGEE	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	6	Buen servicio / calidad servicio	MEDIANA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	5	Caro	MICRO	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	7	Buena señal,Buen servicio / calidad servicio	PEQUEÑA	NA	NA	Hombre	SANTIAGO	AP
+QrdwF54slN9D	5	Mal servicio / calidad servicio	PEQUEÑA	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	7	Buen servicio / calidad servicio,Buena atencion	MEDIANA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	6	Buen servicio / calidad servicio	PEQUEÑA	NA	NA	Mujer	SANTIAGO	Mas
+QrdwF54slN9D	5	Caro	MICRO	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	6	Buen servicio / calidad servicio	PEQUEÑA	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	7	Buen servicio / calidad servicio	MICRO	NA	NA	Mujer	REGIONES	Mas
+QrdwF54slN9D	6	Siempre se puede mejorar	PEQUEÑA	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	5	Caro	MICRO	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	4	No solucionan problemas	PEQUEÑA	NA	NA	Mujer	REGIONES	Mas
+QrdwF54slN9D	7	Buen servicio / calidad servicio,Solucionan requerimientos,Disponibilidad del ejecutivo	MEDIANA	NA	NA	Mujer	REGIONES	MP
+QrdwF54slN9D	5	Mala señal,Buena atencion,Mal servicio internet / señal	GGEE	NA	NA	Mujer	REGIONES	MP
+QrdwF54slN9D	4	Mala atención,Mal servicio internet / señal	PEQUEÑA	NA	NA	Hombre	SANTIAGO	MP
+QrdwF54slN9D	5	Mal servicio internet / señal	PEQUEÑA	NA	NA	Mujer	REGIONES	Mas
+QrdwF54slN9D	6	Mal servicio / calidad servicio	PEQUEÑA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	7	No ha tenido problemas	PEQUEÑA	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	7	No ha tenido problemas,Buen servicio internet	PEQUEÑA	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	5	Mal servicio postventa	GGEE	NA	NA	Hombre	SANTIAGO	MP
+QrdwF54slN9D	7	Buen servicio / calidad servicio	MICRO	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	5	Mala señal	GGEE	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	6	Buen servicio / calidad servicio	MICRO	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	6	Buena atencion	GGEE	NA	NA	Hombre	SANTIAGO	AV
+QrdwF54slN9D	7	Buen servicio / calidad servicio	MEDIANA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	5	Mal servicio internet / señal	MICRO	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	6	Demora atención telefónica	MEDIANA	NA	NA	Mujer	REGIONES	MP
+QrdwF54slN9D	6	Mala señal	MEDIANA	NA	NA	Hombre	REGIONES	MP
+QrdwF54slN9D	7	Buen servicio / calidad servicio,Buena cobertura	PEQUEÑA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	5	Mala atención,Lentas respuestas a solución de problemas	MICRO	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	7	Buen servicio / calidad servicio	MEDIANA	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	6	Mala atención	PEQUEÑA	NA	NA	Mujer	REGIONES	Mas
+QrdwF54slN9D	7	Rápidas respuestas	GGEE	NA	NA	Hombre	REGIONES	AP
+QrdwF54slN9D	4	No solucionan problemas	MEDIANA	NA	NA	Hombre	REGIONES	AP
+QrdwF54slN9D	5	Mal servicio internet / señal,Malas señal telefónica	PEQUEÑA	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	5	Mala cobertura,Mal servicio internet / señal	PEQUEÑA	NA	NA	Mujer	REGIONES	MP
+QrdwF54slN9D	5	Caro,Malas conexiones /conectividad	GGEE	NA	NA	Mujer	SANTIAGO	MV
+QrdwF54slN9D	6	Caro	PEQUEÑA	NA	NA	Mujer	SANTIAGO	Mas
+QrdwF54slN9D	7	Buena conexión / conectividad,Buena atencion	MEDIANA	NA	NA	Mujer	SANTIAGO	MP
+QrdwF54slN9D	5	Mala cobertura,Mala señal	MICRO	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	6	Buena cobertura	MICRO	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	6	No ha tenido problemas	PEQUEÑA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	6	Buen servicio internet,Problema facturación	MICRO	NA	NA	Mujer	SANTIAGO	Mas
+QrdwF54slN9D	6	Caro	MICRO	NA	NA	Mujer	REGIONES	Mas
+QrdwF54slN9D	7	Buen servicio / calidad servicio	MICRO	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	5	Mal servicio / calidad servicio,Mala señal	MICRO	NA	NA	Mujer	SANTIAGO	Mas
+QrdwF54slN9D	7	Buena señal	PEQUEÑA	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	5	Demora atención telefónica,Caro	MICRO	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	7	Buen servicio / calidad servicio,Buena cobertura,Facturación	MICRO	NA	NA	Mujer	REGIONES	Mas
+QrdwF54slN9D	6	Mal servicio / calidad servicio	GGEE	NA	NA	Hombre	REGIONES	MP
+QrdwF54slN9D	7	Buena cobertura,Buen servicio internet	PEQUEÑA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	6	No ha tenido problemas,Solucionan requerimientos,Buenos precios / precios adecuados	PEQUEÑA	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	4	Cambios de planes arbitrarios,Mala atencion con ejecutivos	MEDIANA	NA	NA	Mujer	SANTIAGO	AP
+QrdwF54slN9D	2	Mal servicio / calidad servicio	PEQUEÑA	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	3	Mal servicio / calidad servicio	GGEE	NA	NA	Hombre	SANTIAGO	MV
+QrdwF54slN9D	7	No ha tenido problemas	MICRO	NA	NA	Hombre	SANTIAGO	Mas
+QrdwF54slN9D	3	Caro	MICRO	NA	NA	Hombre	REGIONES	Mas
+QrdwF54slN9D	6	Buen servicio / calidad servicio	MEDIANA	NA	NA	Hombre	REGIONES	MP
+QrdwF54slN9D	7	Buena señal,Solucionan requerimientos	MICRO	NA	NA	Mujer	SANTIAGO	Mas
+QrdwF54slN9D	5	Mala cobertura,Mal servicio internet / señal	GGEE	NA	NA	Hombre	SANTIAGO	MasPrem
