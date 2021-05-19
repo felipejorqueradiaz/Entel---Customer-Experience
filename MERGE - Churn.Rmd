@@ -1,0 +1,274 @@
+---
+title: "Merge - Churn"
+author: "Felipe Jorquera"
+date: "16/5/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Librerias
+
+```{r, message=FALSE}
+
+library(data.table)
+library(dplyr)
+library(Hmisc)
+library(ggplot2)
+library(tidyr)
+library(lubridate)
+library(scales)
+library(fastDummies)
+```
+
+## Facturaciones
+
+Dado que facturaciones posee la información de todos los clientes, se utilizará como base para unificar a las otras bases como columnas.
+
+```{r, message=FALSE}
+setwd("C:/Users/Felipe/Documents/GitHub/2021-1/Entel---Customer-Experience")
+setwd("Data plana")
+
+f1 <- fread("7Facturacion/Fijo/Fact Fijo 2019-1.txt")
+f2 <- fread("7Facturacion/Fijo/Fact Fijo 2019-2.txt")
+f3 <- fread("7Facturacion/Fijo/Fact Fijo 2019-3.txt")
+f4 <- fread("7Facturacion/Fijo/Fact Fijo 2020-1.txt")
+f5 <- fread("7Facturacion/Fijo/Fact Fijo 2020-2.txt")
+facturacion_fijo <- rbind(f1, f2, f3, f4, f5)
+rm(list = c("f1", "f2", "f3", "f4", "f5"))
+ 
+churn_fijo <- fread("5Churn/Churn Fijo.txt")
+
+rfijo_comercial <- fread("3Reclamos/reclamos_f_com.txt")
+
+rfijo_tec <- fread("3Reclamos/R_Fijo_Tec_Consolidado2.txt")
+```
+### Facturación fijo
+
+Quitamos columnas que no aportan información:
+
+```{r}
+facturacion_fijo2 <- facturacion_fijo %>%
+  select(encriptado, MES, PRODUCTO, SUBSEGMENTO_BSE, MONTO_NETO) %>%
+  group_by(encriptado, MES, PRODUCTO, SUBSEGMENTO_BSE) %>%
+  summarise(MONTO = mean(MONTO_NETO))
+
+rm(list = c("facturacion_fijo"))
+```
+### Churn Fijo
+
+Quitamos columnas que no aportan información:
+
+```{r}
+churn_fijo2 <- churn_fijo %>%
+  select(c(encriptado, Mes, DESC_MOVIMIENTO_ACCF,
+           DESC_PRODUCTO_DEF, FACTURACION, TIPO_TRABAJO, SEGMENTO)) %>%
+  rename(MES = Mes, PRODUCTO = DESC_PRODUCTO_DEF, SUBSEGMENTO_BSE = SEGMENTO) %>%
+  mutate(CHURN = 1) %>%
+  mutate(SUBSEGMENTO_BSE = recode(SUBSEGMENTO_BSE,
+                                  'GRAN CUENTA' = 'GRANDES CUENTAS',
+                                  'GGCC' = 'GRANDES CUENTAS',
+                                  'GGEE' = 'EMPRESAS',
+                                  'PEQUENAS' = 'PEQUEÑAS'))
+
+rm(list = c("churn_fijo"))
+```
+
+## Reclamos comerciales
+
+```{r}
+
+rfijo_comercial <- rfijo_comercial %>%
+  select(encriptado, FECHA_DE_LA_NOTIFICACION, FECHA_DE_CIERRE, SUB_PRODUCTO,
+         SUB_CATEGORIA, CLASIFICACION, GLOSA_RESOLUCION) %>%
+  rename(MES = FECHA_DE_LA_NOTIFICACION, PRODUCTO = SUB_PRODUCTO,
+         TIPO_RECLAMO = SUB_CATEGORIA, SUBSEGMENTO_BSE = CLASIFICACION) %>%
+  mutate(SUBSEGMENTO_BSE = recode(SUBSEGMENTO_BSE,
+                                  'GRAN CUENTA' = 'GRANDES CUENTAS',
+                                  'EMPRESA' = 'EMPRESAS',
+                                  'PEQUEÑA' = 'PEQUEÑAS',
+                                  'MEDIANA' = 'MEDIANAS'),
+         ESTADO = recode(GLOSA_RESOLUCION,
+                         'APROBADO AUTOMATICO' = 'APROBADO',
+                         'APROBADO DESPUES DE ESTUDIO' = 'APROBADO',
+                         'APROBADO FORZADO' = 'APROBADO',
+                         'APROBADO TRATAMIENTO MANUAL' = 'APROBADO',
+                         'ANULADO POR JEFE' = 'ANULADO',
+                         'ANULADO AUTOMÁTICO' = 'ANULADO',
+                         'CURSADO' = 'ANULADO',
+                         'EN ESTUDIO' = 'EN CURSO',
+                         'EN NEGOCIACISN' = 'EN CURSO')) %>%
+  arrange(encriptado, MES, PRODUCTO)
+
+
+rfijo_comercial <- dummy_cols(rfijo_comercial, select_columns = 'TIPO_RECLAMO',
+                              remove_selected_columns = TRUE)
+rfijo_comercial <- dummy_cols(rfijo_comercial, select_columns = 'ESTADO',
+                              remove_selected_columns = TRUE)
+
+
+rfijo_comercial$MES <- as.Date(rfijo_comercial$MES, format = '%d-%m-%Y')
+rfijo_comercial$FECHA_DE_CIERRE <- as.Date(rfijo_comercial$FECHA_DE_CIERRE, format = '%d-%m-%Y')
+
+
+
+rfijo_comercial2 <- rfijo_comercial %>%
+  mutate(ESPERA = as.numeric(FECHA_DE_CIERRE - MES)) %>%
+  select(-c(FECHA_DE_CIERRE, GLOSA_RESOLUCION)) %>%
+  mutate(MES = format(MES, '%Y%m')) %>%
+  group_by(encriptado, MES, PRODUCTO, SUBSEGMENTO_BSE) %>%
+  summarise_all(sum)
+
+rfijo_comercial2$RECLAMOS_VALIDOS = rowSums(rfijo_comercial2[5:14], na.rm = TRUE)
+rfijo_comercial2$RECLAMOS_VALIDOS[rfijo_comercial2$RECLAMOS_VALIDOS == 0] <- NA
+
+rfijo_comercial2$ESPERA_PROM = rfijo_comercial2$ESPERA / rfijo_comercial2$RECLAMOS_VALIDOS
+```
+
+```{r}
+rfijo_tec <- rfijo_tec %>%
+  select(-c(DR_ExtremoA, Responsabilidad_Falla, Segmento)) %>%
+  rename(MES = `Reported Date`, PRODUCTO = Producto,
+         SUBSEGMENTO_BSE = `CategorÃ­a Cliente`) %>%
+  mutate(SUBSEGMENTO_BSE = recode(SUBSEGMENTO_BSE,
+                                  'GRAN CUENTA' = 'GRANDES CUENTAS',
+                                  'EMPRESA' = 'EMPRESAS',
+                                  'PEQUEÑA' = 'PEQUEÑAS',
+                                  'MEDIANA' = 'MEDIANAS'),
+         RECLAMO_TECNICO = 1) %>%
+  arrange(encriptado, MES, PRODUCTO)
+
+
+rfijo_tec$MES <- as.Date(rfijo_tec$MES, format = '%d/%m/%Y')
+rfijo_tec$`Closed Date` <- as.Date(rfijo_tec$`Closed Date`, format = '%d/%m/%Y')
+
+
+rfijo_tec2 <- rfijo_tec %>%
+  mutate(ESPERA_tec = as.numeric(`Closed Date` - MES)) %>%
+  select(-c(`Closed Date`)) %>%
+  mutate(MES = format(MES, '%Y%m')) %>%
+  group_by(encriptado, MES, PRODUCTO, SUBSEGMENTO_BSE) %>%
+  summarise(RECLAMOS_TEC = sum(RECLAMO_TECNICO),
+            ESPERA_T = sum(ESPERA_tec))
+
+rfijo_tec2$ESPERA_PROM_tec = rfijo_tec2$ESPERA_T / rfijo_tec2$RECLAMOS_TEC
+```
+
+
+LEFT JOIN
+
+```{r}
+unif <- merge(facturacion_fijo2, churn_fijo2,
+              by=c('encriptado', 'MES', 'PRODUCTO', 'SUBSEGMENTO_BSE'),
+              all.x = TRUE)
+
+unif <- merge(unif, rfijo_comercial2,
+              by=c('encriptado', 'MES', 'PRODUCTO', 'SUBSEGMENTO_BSE'),
+              all.x = TRUE)
+
+unif <- merge(unif, rfijo_tec2,
+              by=c('encriptado', 'MES', 'PRODUCTO', 'SUBSEGMENTO_BSE'),
+              all.x = TRUE)
+
+unif$CHURN[is.na(unif$CHURN)] <- 0
+```
+
+```{r, heigth = 15}
+myusers <- unif[(unif$CHURN == 1) & (unif$DESC_MOVIMIENTO_ACCF == 'Churn Voluntario'), "encriptado"]
+unif_churn <- unif[unif$encriptado %in% myusers,]
+unif_churn$ENOJADO <- 1
+
+unif_nochurn <- unif[!(unif$encriptado %in% myusers),]
+unif_nochurn$ENOJADO <- 0
+
+unif_e <- rbind(unif_churn, unif_nochurn)
+
+unif_e$RECLAMOS_TEC[is.na(unif_e$RECLAMOS_TEC)] <- 0
+unif_e$RECLAMOS_VALIDOS[is.na(unif_e$RECLAMOS_VALIDOS)] <- 0
+
+
+```
+
+
+```{r, height = 15, width = 10}
+unif_e %>%
+  filter(RECLAMOS_TEC <=10) %>%
+  ggplot(., aes(x=factor(RECLAMOS_TEC), fill = factor(ENOJADO)))+
+    geom_bar(position = 'fill')+
+    facet_wrap(SUBSEGMENTO_BSE ~ ., ncol = 2)
+```
+
+```{r, height = 20, width = 8}
+unif_e %>%
+  filter(RECLAMOS_VALIDOS <=5) %>%
+  ggplot(., aes(x=factor(RECLAMOS_VALIDOS), fill = factor(ENOJADO)))+
+    geom_bar(position = 'fill')+
+    facet_wrap(SUBSEGMENTO_BSE ~ ., ncol = 2)
+```
+
+
+
+```{r, height = 15, width = 10}
+unif_e %>%
+  filter(RECLAMOS_VALIDOS <=5, MONTO>=0, MONTO <= 50000) %>%
+  ggplot(., aes(x=factor(RECLAMOS_TEC), y=MONTO))+
+  geom_boxplot()+
+  facet_wrap(SUBSEGMENTO_BSE ~ ., ncol = 2)
+```
+
+
+```{r}
+u <- unif2
+```
+
+
+```{r}
+unif <- unif %>%
+  filter(Monto > 0) %>%
+  mutate(grupo = ifelse(SUBSEGMENTO_BSE == SEGMENTO, 1, 0))
+
+unif$grupo <- as.factor(unif$grupo)
+```
+
+
+
+```{r}
+lil_unif <- sample_n(unif, 500000)
+
+lil_unif <- lil_unif %>%
+  filter(Monto > 0, Monto <= 1000000)
+
+rm(list = c("unif"))
+rm(list = c("facturacion_d", 'churn_fijo2'))
+```
+
+```{r, width = 10}
+ggplot(unif, aes(SUBSEGMENTO_BSE, group = factor(CHURN))) + 
+          geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count") +
+          geom_text(aes( label = scales::percent(..prop..),
+                   y= ..prop.. ), stat= "count", vjust = -.5) +
+          scale_y_continuous(labels=scales::percent) +
+          ylab("relative frequencies") +
+          facet_grid(~factor(CHURN))+
+          theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+                legend.position = "none")
+```
+
+```{r, width = 10}
+lil_unif %>%
+  filter(Monto < 250000, Monto > 0) %>%
+  ggplot(., aes(y = SUBSEGMENTO_BSE, x = Monto, fill = SUBSEGMENTO_BSE))+
+    geom_boxplot()+
+    facet_grid(factor(CHURN) ~ .)
+```
+
+```{r}
+lil_unif %>%
+  filter(Monto < 50000, Monto > 0) %>%
+  ggplot(., aes(x=Monto, fill=SUBSEGMENTO_BSE))+
+    geom_density()+
+    facet_grid(SUBSEGMENTO_BSE ~ factor(CHURN))
+```
+
