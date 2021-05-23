@@ -23,9 +23,6 @@ library(scales)
 library(fastDummies)
 ```
 
-## Facturaciones
-
-Dado que facturaciones posee la información de todos los clientes, se utilizará como base para unificar a las otras bases como columnas.
 
 ```{r, message=FALSE}
 setwd("C:/Users/Felipe/Documents/GitHub/2021-1/Entel---Customer-Experience")
@@ -45,52 +42,53 @@ rfijo_comercial <- fread("3Reclamos/reclamos_f_com.txt")
 
 rfijo_tec <- fread("3Reclamos/R_Fijo_Tec_Consolidado2.txt")
 ```
-### Facturación fijo
+## Limpieza
 
-Quitamos columnas que no aportan información:
+Existen muchos formatos de fecha entre las bases, por lo cual se deberá usar la más agregada (de forma mensual). Para un mejor análisis, se prefiere utilizar un formato de tiempo numérico por sobre un formato de fecha para poder analizar a los clientes en tiempos discretos.
 
+Además, dado que *facturaciones* es la base de datos que posee mayor información, se utilizará como base para unir los datos de *churn* y *reclamos*.
+
+Primero, facturaciones posee muchos NAs en *producto* por lo cual agrupar por esta columna no es conveniente. Se agrupará por *subsegmento_bse* ya que posee menos missing values y todas las bases poseen la misma codificación. En segundo lugar, dado que hay algunos NAs y el segmento del cliente puede no coincidir entre bases, es imperativo lograr un segmento único por cliente entre todas las bases a unificar.
+
+### Churn
 ```{r}
-facturacion_fijo2 <- facturacion_fijo %>%
-  select(encriptado, MES, PRODUCTO, SUBSEGMENTO_BSE, MONTO_NETO) %>%
-  group_by(encriptado, MES, PRODUCTO, SUBSEGMENTO_BSE) %>%
-  summarise(MONTO = mean(MONTO_NETO))
+#Primero, limpiamos la base de churneados
 
-rm(list = c("facturacion_fijo"))
-```
-### Churn Fijo
+churn_fijo <- churn_fijo %>%
+  select(c(encriptado, Mes, DESC_MOVIMIENTO_ACCF, TIPO_TRABAJO, SEGMENTO)) %>%
+  rename(MES = Mes) %>%
+  mutate(CHURN = 1) %>% #Agregamos la columna CHURN (binaria)
+  mutate(SEGMENTO = recode(SEGMENTO,
+                           'GRAN CUENTA' = 'GRANDES CUENTAS',
+                           'GGCC' = 'GRANDES CUENTAS',
+                           'GGEE' = 'EMPRESAS',
+                           'PEQUENAS' = 'PEQUEÑAS'))
 
-Quitamos columnas que no aportan información:
-
-```{r}
-churn_fijo2 <- churn_fijo %>%
-  select(c(encriptado, Mes, DESC_MOVIMIENTO_ACCF,
-           DESC_PRODUCTO_DEF, FACTURACION, TIPO_TRABAJO, SEGMENTO)) %>%
-  rename(MES = Mes, PRODUCTO = DESC_PRODUCTO_DEF, SUBSEGMENTO_BSE = SEGMENTO) %>%
-  mutate(CHURN = 1) %>%
-  mutate(SUBSEGMENTO_BSE = recode(SUBSEGMENTO_BSE,
-                                  'GRAN CUENTA' = 'GRANDES CUENTAS',
-                                  'GGCC' = 'GRANDES CUENTAS',
-                                  'GGEE' = 'EMPRESAS',
-                                  'PEQUENAS' = 'PEQUEÑAS'))
-
-rm(list = c("churn_fijo"))
 ```
 
-## Reclamos comerciales
+### Reclamos Comerciales
 
 ```{r}
+#Fecha a formato fecha
 
+rfijo_comercial$FECHA_DE_LA_NOTIFICACION <- as.Date(rfijo_comercial$FECHA_DE_LA_NOTIFICACION,
+                                                    format = '%d-%m-%Y')
+
+rfijo_comercial$FECHA_DE_CIERRE <- as.Date(rfijo_comercial$FECHA_DE_CIERRE,
+                                           format = '%d-%m-%Y')
+
+#Limpieza general
 rfijo_comercial <- rfijo_comercial %>%
-  select(encriptado, FECHA_DE_LA_NOTIFICACION, FECHA_DE_CIERRE, SUB_PRODUCTO,
-         SUB_CATEGORIA, CLASIFICACION, GLOSA_RESOLUCION) %>%
-  rename(MES = FECHA_DE_LA_NOTIFICACION, PRODUCTO = SUB_PRODUCTO,
-         TIPO_RECLAMO = SUB_CATEGORIA, SUBSEGMENTO_BSE = CLASIFICACION) %>%
-  mutate(SUBSEGMENTO_BSE = recode(SUBSEGMENTO_BSE,
-                                  'GRAN CUENTA' = 'GRANDES CUENTAS',
-                                  'EMPRESA' = 'EMPRESAS',
-                                  'PEQUEÑA' = 'PEQUEÑAS',
-                                  'MEDIANA' = 'MEDIANAS'),
-         ESTADO = recode(GLOSA_RESOLUCION,
+  select(encriptado, FECHA_DE_LA_NOTIFICACION, FECHA_DE_CIERRE,
+         CLASIFICACION, GLOSA_RESOLUCION) %>%
+  rename(MES = FECHA_DE_LA_NOTIFICACION, SEGMENTO = CLASIFICACION,
+         RESOLUCION = GLOSA_RESOLUCION) %>%
+  mutate(SEGMENTO = recode(SEGMENTO,
+                           'GRAN CUENTA' = 'GRANDES CUENTAS',
+                           'EMPRESA' = 'EMPRESAS',
+                           'PEQUEÑA' = 'PEQUEÑAS',
+                           'MEDIANA' = 'MEDIANAS'),
+         RESOLUCION = recode(RESOLUCION,
                          'APROBADO AUTOMATICO' = 'APROBADO',
                          'APROBADO DESPUES DE ESTUDIO' = 'APROBADO',
                          'APROBADO FORZADO' = 'APROBADO',
@@ -99,176 +97,198 @@ rfijo_comercial <- rfijo_comercial %>%
                          'ANULADO AUTOMÁTICO' = 'ANULADO',
                          'CURSADO' = 'ANULADO',
                          'EN ESTUDIO' = 'EN CURSO',
-                         'EN NEGOCIACISN' = 'EN CURSO')) %>%
-  arrange(encriptado, MES, PRODUCTO)
+                         'EN NEGOCIACISN' = 'EN CURSO'),
+         RECLAMO_COM = 1)
 
-
-rfijo_comercial <- dummy_cols(rfijo_comercial, select_columns = 'TIPO_RECLAMO',
-                              remove_selected_columns = TRUE)
-rfijo_comercial <- dummy_cols(rfijo_comercial, select_columns = 'ESTADO',
+rfijo_comercial <- dummy_cols(rfijo_comercial, select_columns = 'RESOLUCION',
                               remove_selected_columns = TRUE)
 
+rfijo_comercial <- rfijo_comercial %>%
+  mutate(ESPERA_COM = as.numeric(FECHA_DE_CIERRE - MES)) %>%
+  select(-c(FECHA_DE_CIERRE)) %>%
+  mutate(MES = format(MES, '%Y%m'))
 
-rfijo_comercial$MES <- as.Date(rfijo_comercial$MES, format = '%d-%m-%Y')
-rfijo_comercial$FECHA_DE_CIERRE <- as.Date(rfijo_comercial$FECHA_DE_CIERRE, format = '%d-%m-%Y')
-
-
-
-rfijo_comercial2 <- rfijo_comercial %>%
-  mutate(ESPERA = as.numeric(FECHA_DE_CIERRE - MES)) %>%
-  select(-c(FECHA_DE_CIERRE, GLOSA_RESOLUCION)) %>%
-  mutate(MES = format(MES, '%Y%m')) %>%
-  group_by(encriptado, MES, PRODUCTO, SUBSEGMENTO_BSE) %>%
-  summarise_all(sum)
-
-rfijo_comercial2$RECLAMOS_VALIDOS = rowSums(rfijo_comercial2[5:14], na.rm = TRUE)
-rfijo_comercial2$RECLAMOS_VALIDOS[rfijo_comercial2$RECLAMOS_VALIDOS == 0] <- NA
-
-rfijo_comercial2$ESPERA_PROM = rfijo_comercial2$ESPERA / rfijo_comercial2$RECLAMOS_VALIDOS
 ```
 
+### Reclamos Técnicos
+
 ```{r}
-rfijo_tec <- rfijo_tec %>%
-  select(-c(DR_ExtremoA, Responsabilidad_Falla, Segmento)) %>%
-  rename(MES = `Reported Date`, PRODUCTO = Producto,
-         SUBSEGMENTO_BSE = `CategorÃ­a Cliente`) %>%
-  mutate(SUBSEGMENTO_BSE = recode(SUBSEGMENTO_BSE,
-                                  'GRAN CUENTA' = 'GRANDES CUENTAS',
-                                  'EMPRESA' = 'EMPRESAS',
-                                  'PEQUEÑA' = 'PEQUEÑAS',
-                                  'MEDIANA' = 'MEDIANAS'),
-         RECLAMO_TECNICO = 1) %>%
-  arrange(encriptado, MES, PRODUCTO)
-
-
-rfijo_tec$MES <- as.Date(rfijo_tec$MES, format = '%d/%m/%Y')
+#Fecha a formato fecha
+rfijo_tec$`Reported Date` <- as.Date(rfijo_tec$`Reported Date`, format = '%d/%m/%Y')
 rfijo_tec$`Closed Date` <- as.Date(rfijo_tec$`Closed Date`, format = '%d/%m/%Y')
 
-
-rfijo_tec2 <- rfijo_tec %>%
-  mutate(ESPERA_tec = as.numeric(`Closed Date` - MES)) %>%
+rfijo_tec <- rfijo_tec %>%
+  select(-c(DR_ExtremoA, Responsabilidad_Falla, Segmento, Producto)) %>%
+  rename(MES = `Reported Date`, SEGMENTO = `CategorÃ­a Cliente`) %>%
+  mutate(SEGMENTO = recode(SEGMENTO,
+                           'GRAN CUENTA' = 'GRANDES CUENTAS',
+                           'EMPRESA' = 'EMPRESAS',
+                           'PEQUEÑA' = 'PEQUEÑAS',
+                           'MEDIANA' = 'MEDIANAS'),
+         RECLAMO_TEC = 1,
+         ESPERA_TEC = as.numeric(`Closed Date` - MES)) %>%
   select(-c(`Closed Date`)) %>%
-  mutate(MES = format(MES, '%Y%m')) %>%
-  group_by(encriptado, MES, PRODUCTO, SUBSEGMENTO_BSE) %>%
-  summarise(RECLAMOS_TEC = sum(RECLAMO_TECNICO),
-            ESPERA_T = sum(ESPERA_tec))
-
-rfijo_tec2$ESPERA_PROM_tec = rfijo_tec2$ESPERA_T / rfijo_tec2$RECLAMOS_TEC
+  mutate(MES = format(MES, '%Y%m'))
 ```
 
-
-LEFT JOIN
+### Facturaciones
 
 ```{r}
-unif <- merge(facturacion_fijo2, churn_fijo2,
-              by=c('encriptado', 'MES', 'PRODUCTO', 'SUBSEGMENTO_BSE'),
-              all.x = TRUE)
+facturacion_fijo <- facturacion_fijo %>%
+  select(encriptado, MES, SUBSEGMENTO_BSE, MONTO_NETO)
 
-unif <- merge(unif, rfijo_comercial2,
-              by=c('encriptado', 'MES', 'PRODUCTO', 'SUBSEGMENTO_BSE'),
-              all.x = TRUE)
-
-unif <- merge(unif, rfijo_tec2,
-              by=c('encriptado', 'MES', 'PRODUCTO', 'SUBSEGMENTO_BSE'),
-              all.x = TRUE)
-
-unif$CHURN[is.na(unif$CHURN)] <- 0
+facturacion_fijo[facturacion_fijo == ''] <- NA
 ```
 
-```{r, heigth = 15}
-myusers <- unif[(unif$CHURN == 1) & (unif$DESC_MOVIMIENTO_ACCF == 'Churn Voluntario'), "encriptado"]
-unif_churn <- unif[unif$encriptado %in% myusers,]
-unif_churn$ENOJADO <- 1
-
-unif_nochurn <- unif[!(unif$encriptado %in% myusers),]
-unif_nochurn$ENOJADO <- 0
-
-unif_e <- rbind(unif_churn, unif_nochurn)
-
-unif_e$RECLAMOS_TEC[is.na(unif_e$RECLAMOS_TEC)] <- 0
-unif_e$RECLAMOS_VALIDOS[is.na(unif_e$RECLAMOS_VALIDOS)] <- 0
-
-
-```
-
-
-```{r, height = 15, width = 10}
-unif_e %>%
-  filter(RECLAMOS_TEC <=10) %>%
-  ggplot(., aes(x=factor(RECLAMOS_TEC), fill = factor(ENOJADO)))+
-    geom_bar(position = 'fill')+
-    facet_wrap(SUBSEGMENTO_BSE ~ ., ncol = 2)
-```
-
-```{r, height = 20, width = 8}
-unif_e %>%
-  filter(RECLAMOS_VALIDOS <=5) %>%
-  ggplot(., aes(x=factor(RECLAMOS_VALIDOS), fill = factor(ENOJADO)))+
-    geom_bar(position = 'fill')+
-    facet_wrap(SUBSEGMENTO_BSE ~ ., ncol = 2)
-```
-
-
-
-```{r, height = 15, width = 10}
-unif_e %>%
-  filter(RECLAMOS_VALIDOS <=5, MONTO>=0, MONTO <= 50000) %>%
-  ggplot(., aes(x=factor(RECLAMOS_TEC), y=MONTO))+
-  geom_boxplot()+
-  facet_wrap(SUBSEGMENTO_BSE ~ ., ncol = 2)
-```
-
+Ahora, se unificaran los segmentos de clientes que aparece en cada base para poder hacer el cruce.
 
 ```{r}
-u <- unif2
+#Definimos la función Moda:
+Moda <- function(x) {
+  ux <- unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+}
+
+facturacion_segmento <- facturacion_fijo %>%
+  select(encriptado, SUBSEGMENTO_BSE) %>%
+  group_by(encriptado) %>%
+  summarise(SEG_FACT = Moda(SUBSEGMENTO_BSE))
+
+churn_segmento <- churn_fijo %>%
+  select(c(encriptado, SEGMENTO)) %>%
+  group_by(encriptado) %>%
+  summarise(SEG_CHURN = Moda(SEGMENTO))
+
+comercial_segmento <- rfijo_comercial %>%
+  select(c(encriptado, SEGMENTO)) %>%
+  group_by(encriptado) %>%
+  summarise(SEG_COM = Moda(SEGMENTO))
+
+tecnico_segmento <- rfijo_tec %>%
+  select(c(encriptado, SEGMENTO)) %>%
+  group_by(encriptado) %>%
+  summarise(SEG_TEC = Moda(SEGMENTO))
+
+segmentos <- merge(facturacion_segmento, churn_segmento, by='encriptado',
+                   all.x = TRUE)
+segmentos <- merge(segmentos, comercial_segmento, by='encriptado',
+                   all.x = TRUE)
+segmentos <- merge(segmentos, tecnico_segmento, by='encriptado',
+                   all.x = TRUE)
+
+segmentos <- segmentos %>%
+  mutate(final = SEG_FACT) %>%
+  mutate(final = ifelse(is.na(SEG_FACT), SEG_CHURN, SEG_FACT)) %>%
+  mutate(final = ifelse(is.na(final), SEG_CHURN, final)) %>%
+  mutate(final = ifelse(is.na(final), SEG_TEC, final)) %>%
+  mutate(final = ifelse(is.na(final), SEG_COM, final)) %>%
+  mutate(final = ifelse(is.na(final), 'S/I', final))
 ```
 
+Procedemos a unificar los formatos de fechas y segmentos de clientes:
 
 ```{r}
-unif <- unif %>%
-  filter(Monto > 0) %>%
-  mutate(grupo = ifelse(SUBSEGMENTO_BSE == SEGMENTO, 1, 0))
-
-unif$grupo <- as.factor(unif$grupo)
+#Definimos el vector de fechas: el mes 1 es Enero-2019.
+dates_levels <- seq(as.Date('2019-01-01'),as.Date('2021-12-01'), by="months")
+dates_labels <- c(1:36)
 ```
 
-
+Cambiamos las fechas a numérico:
 
 ```{r}
-lil_unif <- sample_n(unif, 500000)
+#Facturaciones
+facturacion_fijo$MES <- as.Date(paste(facturacion_fijo$MES,"01",sep=""), format='%Y%m%d')
+facturacion_fijo$MES <- dates_labels[match(facturacion_fijo$MES,dates_levels)]
 
-lil_unif <- lil_unif %>%
-  filter(Monto > 0, Monto <= 1000000)
+#Churn
+churn_fijo$MES <- as.Date(paste(churn_fijo$MES,"01",sep=""), format='%Y%m%d')
+churn_fijo$MES <- dates_labels[match(churn_fijo$MES,dates_levels)]
 
-rm(list = c("unif"))
-rm(list = c("facturacion_d", 'churn_fijo2'))
+#Reclamo Comercial
+rfijo_comercial$MES <- as.Date(paste(rfijo_comercial$MES,"01",sep=""), format='%Y%m%d')
+rfijo_comercial$MES <- dates_labels[match(rfijo_comercial$MES,dates_levels)]
+
+#Reclamo Tecnico
+rfijo_tec$MES <- as.Date(paste(rfijo_tec$MES,"01",sep=""), format='%Y%m%d')
+rfijo_tec$MES <- dates_labels[match(rfijo_tec$MES,dates_levels)]
 ```
 
-```{r, width = 10}
-ggplot(unif, aes(SUBSEGMENTO_BSE, group = factor(CHURN))) + 
-          geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count") +
-          geom_text(aes( label = scales::percent(..prop..),
-                   y= ..prop.. ), stat= "count", vjust = -.5) +
-          scale_y_continuous(labels=scales::percent) +
-          ylab("relative frequencies") +
-          facet_grid(~factor(CHURN))+
-          theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
-                legend.position = "none")
-```
+## Estrategia de agrupación
 
-```{r, width = 10}
-lil_unif %>%
-  filter(Monto < 250000, Monto > 0) %>%
-  ggplot(., aes(y = SUBSEGMENTO_BSE, x = Monto, fill = SUBSEGMENTO_BSE))+
-    geom_boxplot()+
-    facet_grid(factor(CHURN) ~ .)
-```
+Dado que *facturaciones* es la base de datos que posee mayor información, se utilizará como base para unir los datos de *churn* y *reclamos*.
+
+Primero, facturaciones posee muchos NAs en *producto* por lo cual agrupar por esta columna no es conveniente. Se agrupará por *subsegmento_bse* ya que posee menos missing values y todas las bases poseen la misma codificación.
+
+En segundo lugar, dado que hay algunos NAs y el segmento del cliente puede no coincidir entre bases, es imperativo lograr un segmento único por cliente entre todas las bases a unificar.
+
+
+
+Unificamos las bases:
 
 ```{r}
-lil_unif %>%
-  filter(Monto < 50000, Monto > 0) %>%
-  ggplot(., aes(x=Monto, fill=SUBSEGMENTO_BSE))+
-    geom_density()+
-    facet_grid(SUBSEGMENTO_BSE ~ factor(CHURN))
+#Agrupamos clientes por mes
+facturacion_fijo <- facturacion_fijo %>%
+  select(encriptado, MES, MONTO_NETO) %>%
+  group_by(encriptado, MES) %>%
+  summarise(MONTO = sum(MONTO_NETO))
+
+rfijo_comercial <- rfijo_comercial %>%
+  select(-c(SEGMENTO)) %>%
+  group_by(encriptado, MES) %>%
+  summarise_all(sum)
+rfijo_comercial$ESPERA_COM_PROM <- rfijo_comercial$ESPERA_COM / rfijo_comercial$RECLAMO_COM
+
+
+rfijo_tec <- rfijo_tec %>%
+  select(-c(SEGMENTO)) %>%
+  group_by(encriptado, MES) %>%
+  summarise_all(sum)
+rfijo_tec$ESPERA_TEC_PROM = rfijo_tec$ESPERA_TEC / rfijo_tec$RECLAMO_TEC
 ```
+
+Combinamos los dataframes:
+
+```{r}
+data <- merge(facturacion_fijo, churn_fijo, by=c('encriptado', 'MES'), all.x = TRUE)
+data <- merge(data, rfijo_comercial, by=c('encriptado', 'MES'), all.x = TRUE)
+data <- merge(data, rfijo_tec, by=c('encriptado', 'MES'), all.x = TRUE)
+```
+
+Añadimos el segmento del cliente:
+
+```{r}
+seg_levels <- segmentos$encriptado
+seg_labels <- segmentos$final
+
+data$SEGMENTO <- seg_labels[match(data$encriptado,seg_levels)]
+
+data[c("CHURN", "RECLAMO_COM", "RECLAMO_TEC")][is.na(data[c("CHURN", "RECLAMO_COM", "RECLAMO_TEC")])] <- 0
+
+```
+
+Tiempo entre reclamos
+```{r}
+data2 <- data %>%
+  arrange(encriptado, MES) %>%
+  mutate(tmpG = cumsum(c(FALSE, as.logical(diff(RECLAMO_TEC))))) %>%
+  group_by(encriptado) %>%
+  mutate(tmp_a = c(0, diff(MES)) * !RECLAMO_TEC,
+         tmp_b = c(diff(MES), 0) * !RECLAMO_TEC) %>%
+  group_by(tmpG) %>%
+  mutate(tae = cumsum(tmp_a),
+         tbe = rev(cumsum(rev(tmp_b)))) %>%
+  ungroup() %>%
+  select(-c(tmp_a, tmp_b, tmpG))
+
+data2 <- data %>%
+  filter(RECLAMO_TEC>0) %>%
+  arrange(encriptado, MES) %>%
+  group_by(encriptado) %>%
+  mutate(sinceLast = c(NA, diff(MES)))
+
+```
+
+
+
+
 
