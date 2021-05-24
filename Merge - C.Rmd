@@ -135,12 +135,18 @@ rmovil_tec_com <- arreglando_datos(rmovil_tec_com)
 
 Nos quedamos solo con columnas útiles, agrupamos por encriptado, e id_mes y reenombramos variables.
 ```{r}
-facturacion_movil1 <- facturacion_movil %>%
-  select(encriptado, id_mes, total) %>%
-  group_by(encriptado, id_mes) %>%
-  summarise(monto = mean(total)) %>%
+facturacion_movil1 <- facturacion_movil %>% select(encriptado, id_mes, total) %>%
+  group_by(encriptado, id_mes) %>% summarise(monto = mean(total)) %>%
   rename(mes = id_mes) #, subsegmento_bse = segmento... .groups = 'drop'
+
+dates_levels <- seq(as.Date('2019-01-01'),as.Date('2021-12-01'), by="months")
+dates_labels <- c(1:36)
+
+
+facturacion_movil1$mes <- as.Date(paste(facturacion_movil1$mes,"01",sep=""), format='%Y%m%d')
+facturacion_movil1$mes <- dates_labels[match(facturacion_movil1$mes,dates_levels)]
 facturacion_movil1
+
 ```
 
 
@@ -149,38 +155,50 @@ facturacion_movil1
 
 Nos quedamos solo con columnas útiles, agrupamos por encriptado, e id_mes y reenombramos variables.
 ```{r}
+churn_movil1 <- churn_movil %>% select(c(encriptado, id_dia)) %>%
+  mutate(churn = 1) %>% rename(mes = id_dia)
+  #movimiento, desc_plan,negocio,`sub segmento`))
 
-churn_movil1 <- churn_movil %>%
-  select(c(encriptado, id_dia)) %>% # movimiento, desc_plan,negocio,`sub segmento`))
-  mutate(churn = 1) %>%
-  rename(mes = id_dia)#, subsegmento_bse = `sub segmento`#, desc_movimiento_accf =movimiento, plan=desc_plan
+churn_movil1 <- churn_movil1 %>% separate(mes, c("dia", "mes", "anho"), "/")
+churn_movil1$mes <- as.integer(churn_movil1$mes)
+churn_movil1$mes <- ifelse(churn_movil1$anho=="2020", churn_movil1$mes+12,
+                            churn_movil1$mes)
+churn_movil1$mes <- ifelse(churn_movil1$anho=="2021", churn_movil1$mes+24,
+                            churn_movil1$mes)
 
-churn_movil1 <- churn_movil1  %>%
-  group_by(encriptado, mes) %>%
-  summarise_all(sum)
 
+churn_movil1 <- churn_movil1  %>% select(-c(dia, anho))%>%  
+  group_by(encriptado, mes) %>% summarise_all(sum)
+
+churn_movil1
 ```
 
 ## Reclamos comerciales
 
 ```{r}
 rmovil_tec_com1 <- rmovil_tec_com %>%
-  select(encriptado, fecha_de_la_notificacion, #fecha_de_cierre, #causa,segmento_fijo
-          reclamo, estado)%>%
+  select(encriptado, fecha_de_la_notificacion,reclamo, estado)%>% #fecha_de_cierre, #causa,segmento_fijo
   rename(mes = fecha_de_la_notificacion,tipo_reclamo=reclamo)
+
+
+rmovil_tec_com1 <- rmovil_tec_com1[grepl("-", rmovil_tec_com1$mes),] #quitamos las que no tienen el formato de fecha
+
+
+rmovil_tec_com1 <- rmovil_tec_com1 %>% separate(mes, c("dia", "mes", "anho"), "-")
+rmovil_tec_com1$mes <- as.integer(rmovil_tec_com1$mes)
+rmovil_tec_com1$mes <- ifelse(rmovil_tec_com1$anho=="2020", rmovil_tec_com1$mes+12,
+                            rmovil_tec_com1$mes)
+rmovil_tec_com1$mes <- ifelse(rmovil_tec_com1$anho=="2021", rmovil_tec_com1$mes+24,
+                            rmovil_tec_com1$mes)
+
+rmovil_tec_com1 <- rmovil_tec_com1 %>% select(-c(dia, anho))%>% mutate(reclamo = 1)%>%
+    group_by(encriptado, mes,tipo_reclamo,estado) %>% summarise_all(sum)
 rmovil_tec_com1
 ```
 
 ```{r}
-rmovil_tec_com1$mes <- as.Date(rmovil_tec_com1$mes, format = '%d-%m-%Y')
-#rmovil_tec_com1$fecha_de_cierre <- as.Date(rmovil_tec_com1$fecha_de_cierre, format = '%d-%m-%Y')
-rmovil_tec_com1 <- rmovil_tec_com1 %>%
-  mutate(mes = format(mes, '%Y%m'))
-
-rmovil_tec_com1$reclamo <- 1
 #rmovil_tec_com1 <- dummy_cols(rmovil_tec_com1, select_columns = 'estado',
 #                              remove_selected_columns = TRUE)
-
 ```
 
 
@@ -210,86 +228,3 @@ unif2$churn[is.na(unif2$churn)] <- 0
 unif2$reclamo[is.na(unif2$reclamo)] <- 0
 View(unif2)
 ```
-
-
-
-```{r, height = 15, width = 10}
-unif_e %>%
-  filter(RECLAMOS_TEC <=10) %>%
-  ggplot(., aes(x=factor(RECLAMOS_TEC), fill = factor(ENOJADO)))+
-    geom_bar(position = 'fill')+
-    facet_wrap(SUBSEGMENTO_BSE ~ ., ncol = 2)
-```
-
-```{r, height = 20, width = 8}
-unif_e %>%
-  filter(RECLAMOS_VALIDOS <=5) %>%
-  ggplot(., aes(x=factor(RECLAMOS_VALIDOS), fill = factor(ENOJADO)))+
-    geom_bar(position = 'fill')+
-    facet_wrap(SUBSEGMENTO_BSE ~ ., ncol = 2)
-```
-
-
-
-```{r, height = 15, width = 10}
-unif_e %>%
-  filter(RECLAMOS_VALIDOS <=5, MONTO>=0, MONTO <= 50000) %>%
-  ggplot(., aes(x=factor(RECLAMOS_TEC), y=MONTO))+
-  geom_boxplot()+
-  facet_wrap(SUBSEGMENTO_BSE ~ ., ncol = 2)
-```
-
-
-```{r}
-u <- unif2
-```
-
-
-```{r}
-unif <- unif %>%
-  filter(Monto > 0) %>%
-  mutate(grupo = ifelse(SUBSEGMENTO_BSE == SEGMENTO, 1, 0))
-
-unif$grupo <- as.factor(unif$grupo)
-```
-
-
-
-```{r}
-lil_unif <- sample_n(unif, 500000)
-
-lil_unif <- lil_unif %>%
-  filter(Monto > 0, Monto <= 1000000)
-
-rm(list = c("unif"))
-rm(list = c("facturacion_d", 'churn_fijo2'))
-```
-
-```{r, width = 10}
-ggplot(unif, aes(SUBSEGMENTO_BSE, group = factor(CHURN))) + 
-          geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count") +
-          geom_text(aes( label = scales::percent(..prop..),
-                   y= ..prop.. ), stat= "count", vjust = -.5) +
-          scale_y_continuous(labels=scales::percent) +
-          ylab("relative frequencies") +
-          facet_grid(~factor(CHURN))+
-          theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
-                legend.position = "none")
-```
-
-```{r, width = 10}
-lil_unif %>%
-  filter(Monto < 250000, Monto > 0) %>%
-  ggplot(., aes(y = SUBSEGMENTO_BSE, x = Monto, fill = SUBSEGMENTO_BSE))+
-    geom_boxplot()+
-    facet_grid(factor(CHURN) ~ .)
-```
-
-```{r}
-lil_unif %>%
-  filter(Monto < 50000, Monto > 0) %>%
-  ggplot(., aes(x=Monto, fill=SUBSEGMENTO_BSE))+
-    geom_density()+
-    facet_grid(SUBSEGMENTO_BSE ~ factor(CHURN))
-```
-
