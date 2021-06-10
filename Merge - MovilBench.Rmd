@@ -1,0 +1,37 @@
+---
+title: "Presentacion 4 Presentación del problema y posibles soluciones"
+author: "Constanza Peña"
+date: "11-05-2021"
+output: html_document
+---
+
+```{r, message=FALSE}
+library(data.table)
+library(dplyr)
+library(Hmisc)
+library(ggplot2)
+library(tidyr)
+library(lubridate)
+library(scales)
+library(fastDummies)
+library(tm)
+```
+
+```{r}
+path<- "C:/Users/Asus/Documents/GitHub/Entel---Customer-Experience/Data plana/"
+dir(path)
+
+movil <- fread(paste0(path,"uni_fac_recla_churn_movil.txt"))
+benc <- fread(paste0(path,"datos_bench_stock.txt"))
+bench <-benc[,-c(1,2)]
+```
+
+
+
+```{r}
+movil
+bench
+```
+
+
+

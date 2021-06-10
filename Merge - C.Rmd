@@ -12,6 +12,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Librerias
 
 ```{r, message=FALSE}
+rm(list=ls())#Limpiar espacio de trabajo
+graphics.off()#Borrar graficos de sesiones anteriores
 library(data.table)
 library(dplyr)
 library(Hmisc)
@@ -22,7 +24,7 @@ library(scales)
 library(fastDummies)
 library(tm)
 ```
-
+FUNCIONES
 ```{r}
 arreglando_datos <- function(data){
   data <- unique(data)
@@ -116,28 +118,44 @@ m1 <- fread(paste0(path,"7Facturacion/Movil/Fact Movil 2019-1.txt"))
 m2 <- fread(paste0(path,"7Facturacion/Movil/Fact Movil 2019-2.txt"))
 m3 <- fread(paste0(path,"7Facturacion/Movil/Fact Movil 2020-1.txt"))
 m4 <- fread(paste0(path,"7Facturacion/Movil/Fact Movil 2020-2.txt"))
-m1
+
 m1 <- arreglando_datos(m1)
 m2 <- arreglando_datos(m2)
 m3 <- arreglando_datos(m3)
 m4 <- arreglando_datos(m4)
 
 facturacion_movil <- fast.rbind(m1, m2, m3, m4,method="common")
+#View(facturacion_movil)
 
-churn_movil <- fread(paste0(path,"5Churn/Churn Movil.txt"))
-churn_movil <- arreglando_datos(churn_movil)
+churn_movil0 <- fread(paste0(path,"5Churn/Churn Movil.txt"))
+churn_movil0 <- arreglando_datos(churn_movil0)
 
 rmovil_tec_com <-fread(paste0(path,"3Reclamos/reclamos_m_tec_com.txt"))
+
 colnames(rmovil_tec_com)[20] <- "estado2"
 rmovil_tec_com <- arreglando_datos(rmovil_tec_com)
 ```
+
+
+
+
+
+```{r}
+facturacion_movil
+churn_movil0
+rmovil_tec_com
+```
+
+
+
 ### Facturación fijo
 
 Nos quedamos solo con columnas útiles, agrupamos por encriptado, e id_mes y reenombramos variables.
 ```{r}
-facturacion_movil1 <- facturacion_movil %>% select(encriptado, id_mes, total) %>%
+facturacion_movil1 <- facturacion_movil %>%
   group_by(encriptado, id_mes) %>% summarise(monto = mean(total)) %>%
   rename(mes = id_mes) #, subsegmento_bse = segmento... .groups = 'drop'
+
 
 dates_levels <- seq(as.Date('2019-01-01'),as.Date('2021-12-01'), by="months")
 dates_labels <- c(1:36)
@@ -146,7 +164,6 @@ dates_labels <- c(1:36)
 facturacion_movil1$mes <- as.Date(paste(facturacion_movil1$mes,"01",sep=""), format='%Y%m%d')
 facturacion_movil1$mes <- dates_labels[match(facturacion_movil1$mes,dates_levels)]
 facturacion_movil1
-
 ```
 
 
@@ -155,7 +172,7 @@ facturacion_movil1
 
 Nos quedamos solo con columnas útiles, agrupamos por encriptado, e id_mes y reenombramos variables.
 ```{r}
-churn_movil1 <- churn_movil %>% select(c(encriptado, id_dia)) %>%
+churn_movil1 <- churn_movil0 %>% select(c(encriptado, id_dia,movimiento)) %>%
   mutate(churn = 1) %>% rename(mes = id_dia)
   #movimiento, desc_plan,negocio,`sub segmento`))
 
@@ -165,21 +182,27 @@ churn_movil1$mes <- ifelse(churn_movil1$anho=="2020", churn_movil1$mes+12,
                             churn_movil1$mes)
 churn_movil1$mes <- ifelse(churn_movil1$anho=="2021", churn_movil1$mes+24,
                             churn_movil1$mes)
-
-
-churn_movil1 <- churn_movil1  %>% select(-c(dia, anho))%>%  
-  group_by(encriptado, mes) %>% summarise_all(sum)
-
-churn_movil1
+#Obtenemos una base de datos de churn por mes de encriptado:
+churn_movil_C <- subset(churn_movil1,select=-c(dia, anho,movimiento))
+churn_movil_C <- churn_movil_C  %>% group_by(encriptado, mes) %>%   summarise_all(sum) 
+#Obtenemos una base de datos de movimiento en churn por mes de encriptado:
+churn_movil_M <- subset(churn_movil1,select=-c(dia, anho,churn))
+churn_movil_M <- churn_movil_M  %>% group_by(encriptado, mes) %>%
+  summarise(movimientos_churn=paste(movimiento ,collapse='*'))  
+  
+  
+churn_movil <- merge(churn_movil_C, churn_movil_M,
+              by=c('encriptado', 'mes'),
+              all = TRUE)
 ```
+
 
 ## Reclamos comerciales
 
 ```{r}
 rmovil_tec_com1 <- rmovil_tec_com %>%
-  select(encriptado, fecha_de_la_notificacion,reclamo, estado)%>% #fecha_de_cierre, #causa,segmento_fijo
+  select(encriptado, fecha_de_la_notificacion,reclamo, estado, causa)%>% 
   rename(mes = fecha_de_la_notificacion,tipo_reclamo=reclamo)
-
 
 rmovil_tec_com1 <- rmovil_tec_com1[grepl("-", rmovil_tec_com1$mes),] #quitamos las que no tienen el formato de fecha
 
@@ -191,40 +214,53 @@ rmovil_tec_com1$mes <- ifelse(rmovil_tec_com1$anho=="2020", rmovil_tec_com1$mes+
 rmovil_tec_com1$mes <- ifelse(rmovil_tec_com1$anho=="2021", rmovil_tec_com1$mes+24,
                             rmovil_tec_com1$mes)
 
-rmovil_tec_com1 <- rmovil_tec_com1 %>% select(-c(dia, anho))%>% mutate(reclamo = 1)%>%
-    group_by(encriptado, mes,tipo_reclamo,estado) %>% summarise_all(sum)
-rmovil_tec_com1
+#Obtenemos una base de datos de reclamos por mes de encriptado:
+rmovil_tec_com_Ca <- subset(rmovil_tec_com1,select=-c(dia, anho,tipo_reclamo,estado))
+rmovil_tec_com_Ca <- rmovil_tec_com_Ca  %>% group_by(encriptado, mes) %>%  
+  summarise(causa_reclamo=paste(causa ,collapse='*')) 
+
+#Obtenemos una base de datos de movimiento en churn por mes de encriptado:
+rmovil_tec_com_Ti <- subset(rmovil_tec_com1,select=-c(dia, anho,estado,causa))
+rmovil_tec_com_Ti <- rmovil_tec_com_Ti  %>% group_by(encriptado, mes) %>%
+  summarise(tipo_reclamo=paste(tipo_reclamo ,collapse='*'))  
+
+#Obtenemos una base de datos de movimiento en churn por mes de encriptado:
+rmovil_tec_com_Es <- subset(rmovil_tec_com1,select=-c(dia, anho,causa,tipo_reclamo))
+rmovil_tec_com_Es <- rmovil_tec_com_Es  %>% group_by(encriptado, mes) %>%
+  summarise(estado_reclamo=paste(estado ,collapse='*'))  
+
+rmovil_tec_com2 <- merge(rmovil_tec_com_Ca, rmovil_tec_com_Ti,
+              by=c('encriptado', 'mes'),
+              all = TRUE)
+rmovil_tec_com3 <- merge(rmovil_tec_com2, rmovil_tec_com_Es,
+              by=c('encriptado', 'mes'),
+              all = TRUE)
+rmovil_tec_com3$reclamo <- 1
 ```
 
-```{r}
-#rmovil_tec_com1 <- dummy_cols(rmovil_tec_com1, select_columns = 'estado',
-#                              remove_selected_columns = TRUE)
-```
 
 
-```{r}
-facturacion_movil1
-churn_movil1
-rmovil_tec_com1
-```
-
-LEFT JOIN
+Encuestas -stock y tracking
 
 ```{r}
 #rmovil_tec_com1$subsegmento_bse <- tolower(rmovil_tec_com1$subsegmento_bse)
 #churn_movil1$subsegmento_bse <- tolower(churn_movil1$subsegmento_bse)
 #facturacion_movil1$subsegmento_bse <- tolower(facturacion_movil1$subsegmento_bse)
 
-unif <- merge(facturacion_movil1, churn_movil1,
+unif <- merge(facturacion_movil1, churn_movil,
               by=c('encriptado', 'mes'),
               all.x = TRUE)
 
 #describe(unif)
-unif2 <- merge(unif, rmovil_tec_com1,
+unif2 <- merge(unif, rmovil_tec_com3,
               by=c('encriptado', 'mes'),
               all.x = TRUE)
 unif2
 unif2$churn[is.na(unif2$churn)] <- 0
 unif2$reclamo[is.na(unif2$reclamo)] <- 0
 View(unif2)
+describe(unif2)
+
+write.table(unif2, paste0(path,'fac_recla_churn_movil.txt'), append = FALSE, sep = "\t", dec = ".",
+            row.names = TRUE, col.names = TRUE)
 ```
