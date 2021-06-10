@@ -266,6 +266,75 @@ data[c("CHURN", "RECLAMO_COM", "RECLAMO_TEC")][is.na(data[c("CHURN", "RECLAMO_CO
 
 ```
 
+```{r}
+write.table(data, file = "fijo_consolidado.txt", sep = "\t",
+            row.names = FALSE)
+```
+
+
+```{r}
+rm(list=ls())
+setwd("~/GitHub/2021-1/Entel---Customer-Experience")
+data <- fread("fijo_consolidado.txt")
+data <- data %>%
+  select(encriptado, MES, MONTO, CHURN, RECLAMO_COM, RECLAMO_TEC,
+         SEGMENTO, DESC_MOVIMIENTO_ACCF, TIPO_TRABAJO) %>%
+  mutate(DESC_MOVIMIENTO_ACCF = recode(DESC_MOVIMIENTO_ACCF,
+                           'Churn Voluntario' = 'Voluntario',
+                           'Recuperados de Cobranza' = 'De Cobranza',
+                           'Churn Involuntario ( Inhabilitados y Desactivados por Cobranza )' = 'Involuntario'))
+
+data$DESC_MOVIMIENTO_ACCF[is.na(data$DESC_MOVIMIENTO_ACCF)] <- "No churn"
+
+data <- data %>%
+  arrange(encriptado, MES) %>%
+  group_by(encriptado) %>%
+  mutate(COM_sum = cumsum(RECLAMO_COM),
+         TEC_sum = cumsum(RECLAMO_TEC),
+         Monto = mean(MONTO))
+
+```
+
+```{r}
+data2 <- data %>%
+  filter(DESC_MOVIMIENTO_ACCF == 'No churn' | DESC_MOVIMIENTO_ACCF == 'Voluntario') %>%
+  select(-c(TIPO_TRABAJO, DESC_MOVIMIENTO_ACCF))
+
+data3 <- data2 %>%
+  group_by(encriptado) %>%
+  summarise(tiempo = n(),
+            churns = sum(CHURN),
+            r_com = sum(RECLAMO_COM),
+            r_tec = sum(RECLAMO_TEC),
+            monto = mean(MONTO))
+
+data3$BIN_CHURN <- 0
+data3$BIN_CHURN[data3$churns >0] <- 1
+data3 <- data3[,2:ncol(data3)]
+
+data3 <- data2[,2:ncol(data2)]
+
+set.seed(123)
+sample = sample.split(data3$BIN_CHURN,SplitRatio = 0.75)
+
+train1 =subset(data3,sample ==TRUE)
+
+test1=subset(data3, sample==FALSE)
+
+
+model_logit <- glm(BIN_CHURN ~ r_tec + r_com + tiempo + monto,
+                   data = train1,
+                   family = binomial)
+
+summary(model_logit)
+```
+
+```{r}
+predict <- predict(model_logit, test1, type = 'response')
+table_mat <- table(test1$BIN_CHURN, predict > 0.5)
+table_mat
+```
+
 Tiempo entre reclamos
 ```{r}
 data2 <- data %>%
@@ -287,6 +356,7 @@ data2 <- data %>%
   mutate(sinceLast = c(NA, diff(MES)))
 
 ```
+
 
 
 
