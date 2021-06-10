@@ -6,7 +6,6 @@ output: html_document
 ---
 
 ```{r}
-
 rm(list=ls())#Limpiar espacio de trabajo
 graphics.off()#Borrar graficos de sesiones anteriores
 library(data.table)
@@ -31,6 +30,7 @@ reclamos <- fread(paste0(data_path,"reclamos_str.txt"))
 stock_resumen <- fread(paste0(data_path,"stock_resumen.txt"))
 tracking_resumen <- fread(paste0(data_path,"tracking_resumen.txt"))
 datos_bench_stock <- fread(paste0(data_path,"datos_bench_stock.txt"))
+
 ```
 
 ```{r}
@@ -76,8 +76,6 @@ fast.rbind <- function(...,method=c("fill","common"),value=NA){
 # Bench
 ```{r}
 datos_bench_stock <- datos_bench_stock[,-c(1,2)]
-describe(datos_bench_stock[,3])
-
 
 names(bench_resumen)[8]<- "periodo"
 names(stock_resumen)[7]<- "periodo"
@@ -85,10 +83,21 @@ names(stock_resumen)[7]<- "periodo"
 datos_bench_stock <- fast.rbind(bench_resumen,stock_resumen,method="common")
 datos_bench_stock[,4][datos_bench_stock[,4]=="1. Muy insatisfecho"] <- 1
 datos_bench_stock[,4][datos_bench_stock[,4]=="7. Muy satisfecho"] <- 7
-write.table(datos_bench_stock, paste0(data_path,'datos_bench_stock.txt'), append = FALSE, sep = "\t", dec = ".",
-            row.names = TRUE, col.names = TRUE)
+datos_bench_stock <-datos_bench_stock[,-c(1)]
+tracking_resumen<-tracking_resumen[,-c(1)]
+tracking_resumen <- subset(tracking_resumen, periodo %in% c("2020_q1","2020_q2","2019_q2","2019_q1"))
 
-
+# write.table(datos_bench_stock, paste0(data_path,'datos_bench_stock.txt'), append = FALSE, sep = "\t", dec = ".",
+#             row.names = TRUE, col.names = TRUE)
+names(datos_bench_stock)[3] = "calificacion1"
+names(tracking_resumen)[3] = "calificacion"
+names(datos_bench_stock)[4] = "comentario1"
+names(tracking_resumen)[4] = "comentario"
+datos_bench_stock
+tracking_resumen
+encuestas <- merge(datos_bench_stock, tracking_resumen,
+              by=c('encriptado', 'periodo'),
+              all= TRUE)
 ```
 
 ```{r, fig.width=10, fig.height=4, dpi=1000}
