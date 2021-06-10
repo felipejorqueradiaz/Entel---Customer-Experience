@@ -18,12 +18,13 @@ library(tm)
 ```
 
 ```{r}
-path<- "C:/Users/Asus/Documents/GitHub/Entel---Customer-Experience/Data plana/"
+
+path<-'C:/Users/Asus/Desktop/Noveno semestre/Proyecto DS/fac_recla_churn/'
+path1<- "C:/Users/Asus/Documents/GitHub/Entel---Customer-Experience/Data plana/"
 dir(path)
 
-movil <- fread(paste0(path,"uni_fac_recla_churn_movil.txt"))
+movil <- fread(paste0(path,"fac_recla_churn_movil.txt"))
 benc <- fread(paste0(path,"datos_bench_stock.txt"))
-bench <-benc[,-c(1,2)]
 ```
 
 
@@ -32,6 +33,9 @@ bench <-benc[,-c(1,2)]
 movil
 bench
 ```
+
+
+
 
 
 
