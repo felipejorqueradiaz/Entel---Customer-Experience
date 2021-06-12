@@ -266,29 +266,7 @@ data[c("CHURN", "RECLAMO_COM", "RECLAMO_TEC")][is.na(data[c("CHURN", "RECLAMO_CO
 
 ```
 
-Tiempo entre reclamos
 ```{r}
-data2 <- data %>%
-  arrange(encriptado, MES) %>%
-  mutate(tmpG = cumsum(c(FALSE, as.logical(diff(RECLAMO_TEC))))) %>%
-  group_by(encriptado) %>%
-  mutate(tmp_a = c(0, diff(MES)) * !RECLAMO_TEC,
-         tmp_b = c(diff(MES), 0) * !RECLAMO_TEC) %>%
-  group_by(tmpG) %>%
-  mutate(tae = cumsum(tmp_a),
-         tbe = rev(cumsum(rev(tmp_b)))) %>%
-  ungroup() %>%
-  select(-c(tmp_a, tmp_b, tmpG))
-
-data2 <- data %>%
-  filter(RECLAMO_TEC>0) %>%
-  arrange(encriptado, MES) %>%
-  group_by(encriptado) %>%
-  mutate(sinceLast = c(NA, diff(MES)))
-
+write.table(data, file = "fijo_consolidado.txt", sep = "\t",
+            row.names = FALSE)
 ```
-
-
-
-
-
