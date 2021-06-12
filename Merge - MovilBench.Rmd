@@ -6,6 +6,8 @@ output: html_document
 ---
 
 ```{r, message=FALSE}
+rm(list=ls())#Limpiar espacio de trabajo
+graphics.off()#Borrar graficos de sesiones anteriores
 library(data.table)
 library(dplyr)
 library(Hmisc)
@@ -19,20 +21,65 @@ library(tm)
 
 ```{r}
 
+
 path<-'C:/Users/Asus/Desktop/Noveno semestre/Proyecto DS/fac_recla_churn/'
 path1<- "C:/Users/Asus/Documents/GitHub/Entel---Customer-Experience/Data plana/"
-dir(path)
+dir(path1)
 
-movil <- fread(paste0(path,"fac_recla_churn_movil.txt"))
-benc <- fread(paste0(path,"datos_bench_stock.txt"))
+movi <- fread(paste0(path,"fac_recla_churn_movil.txt"))
+benc <- fread(paste0(path1,"datos_bench_stock.txt"))
+trackingT <- fread(paste0(path1,"tracking_resumen.txt"))
+trackingT$negocio <- tolower(trackingT$negocio)
+trackingT$negocio <- as.factor(trackingT$negocio)
+track <- trackingT[trackingT$negocio == "movil" | trackingT$negocio == "móvil"]
+track
 ```
+
 
 
 
 ```{r}
-movil
+movil <- movi[,-c(1)]
+bench <- benc[,-c(1,2)]
+tracking <- track[,-c(1)]
 bench
+movil
+tracking
 ```
+
+## Encuestas:
+
+Para esta etapa se debe agregar las base de datos de facturas, reclamos, etc de forma semestral, pues el formato en el que se tienen las encuestas.
+
+
+```{r}
+movil$periodo <- "2019_q1"
+movil[movil$mes > 6 & movil$mes <= 12,]$periodo <- "2019_q2"
+movil[movil$mes > 12 & movil$mes <= 18,]$periodo <- "2020_q1"
+movil[movil$mes > 18,]$periodo <- "2020_q2"
+
+movil
+```
+
+
+uniremos todas las bases de datos
+```{r}
+total_encuestas1 <- merge(movil, bench, 
+              by=c('encriptado', 'periodo'),
+              all.x = TRUE)
+
+total_encuestas2 <- merge(total_encuestas1, tracking, 
+              by=c('encriptado', 'periodo'),
+              all.x = TRUE)
+View(total_encuestas2)
+```
+
+
+```{r}
+
+```
+
+
 
 
 

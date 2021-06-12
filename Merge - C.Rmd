@@ -153,7 +153,7 @@ rmovil_tec_com
 Nos quedamos solo con columnas útiles, agrupamos por encriptado, e id_mes y reenombramos variables.
 ```{r}
 facturacion_movil1 <- facturacion_movil %>%
-  group_by(encriptado, id_mes) %>% summarise(monto = mean(total)) %>%
+  group_by(encriptado, id_mes,segmento) %>% summarise(monto = mean(total)) %>%
   rename(mes = id_mes) #, subsegmento_bse = segmento... .groups = 'drop'
 
 
@@ -172,7 +172,8 @@ facturacion_movil1
 
 Nos quedamos solo con columnas útiles, agrupamos por encriptado, e id_mes y reenombramos variables.
 ```{r}
-churn_movil1 <- churn_movil0 %>% select(c(encriptado, id_dia,movimiento)) %>%
+churn_movil0
+churn_movil1 <- churn_movil0 %>% select(c(encriptado, id_dia,movimiento,segmento)) %>%
   mutate(churn = 1) %>% rename(mes = id_dia)
   #movimiento, desc_plan,negocio,`sub segmento`))
 
@@ -184,15 +185,15 @@ churn_movil1$mes <- ifelse(churn_movil1$anho=="2021", churn_movil1$mes+24,
                             churn_movil1$mes)
 #Obtenemos una base de datos de churn por mes de encriptado:
 churn_movil_C <- subset(churn_movil1,select=-c(dia, anho,movimiento))
-churn_movil_C <- churn_movil_C  %>% group_by(encriptado, mes) %>%   summarise_all(sum) 
+churn_movil_C <- churn_movil_C  %>% group_by(encriptado, mes,segmento) %>%   summarise_all(sum) 
 #Obtenemos una base de datos de movimiento en churn por mes de encriptado:
 churn_movil_M <- subset(churn_movil1,select=-c(dia, anho,churn))
-churn_movil_M <- churn_movil_M  %>% group_by(encriptado, mes) %>%
+churn_movil_M <- churn_movil_M  %>% group_by(encriptado, mes,segmento) %>%
   summarise(movimientos_churn=paste(movimiento ,collapse='*'))  
   
   
 churn_movil <- merge(churn_movil_C, churn_movil_M,
-              by=c('encriptado', 'mes'),
+              by=c('encriptado', 'mes','segmento'),
               all = TRUE)
 ```
 
@@ -200,8 +201,9 @@ churn_movil <- merge(churn_movil_C, churn_movil_M,
 ## Reclamos comerciales
 
 ```{r}
+rmovil_tec_com
 rmovil_tec_com1 <- rmovil_tec_com %>%
-  select(encriptado, fecha_de_la_notificacion,reclamo, estado, causa)%>% 
+  select(encriptado, fecha_de_la_notificacion,segmento_fijo,reclamo, estado, causa)%>% 
   rename(mes = fecha_de_la_notificacion,tipo_reclamo=reclamo)
 
 rmovil_tec_com1 <- rmovil_tec_com1[grepl("-", rmovil_tec_com1$mes),] #quitamos las que no tienen el formato de fecha
@@ -216,31 +218,49 @@ rmovil_tec_com1$mes <- ifelse(rmovil_tec_com1$anho=="2021", rmovil_tec_com1$mes+
 
 #Obtenemos una base de datos de reclamos por mes de encriptado:
 rmovil_tec_com_Ca <- subset(rmovil_tec_com1,select=-c(dia, anho,tipo_reclamo,estado))
-rmovil_tec_com_Ca <- rmovil_tec_com_Ca  %>% group_by(encriptado, mes) %>%  
+rmovil_tec_com_Ca <- rmovil_tec_com_Ca  %>% group_by(encriptado, mes,segmento_fijo) %>%  
   summarise(causa_reclamo=paste(causa ,collapse='*')) 
 
 #Obtenemos una base de datos de movimiento en churn por mes de encriptado:
 rmovil_tec_com_Ti <- subset(rmovil_tec_com1,select=-c(dia, anho,estado,causa))
-rmovil_tec_com_Ti <- rmovil_tec_com_Ti  %>% group_by(encriptado, mes) %>%
+rmovil_tec_com_Ti <- rmovil_tec_com_Ti  %>% group_by(encriptado, mes,segmento_fijo) %>%
   summarise(tipo_reclamo=paste(tipo_reclamo ,collapse='*'))  
 
 #Obtenemos una base de datos de movimiento en churn por mes de encriptado:
 rmovil_tec_com_Es <- subset(rmovil_tec_com1,select=-c(dia, anho,causa,tipo_reclamo))
-rmovil_tec_com_Es <- rmovil_tec_com_Es  %>% group_by(encriptado, mes) %>%
+rmovil_tec_com_Es <- rmovil_tec_com_Es  %>% group_by(encriptado, mes,segmento_fijo) %>%
   summarise(estado_reclamo=paste(estado ,collapse='*'))  
 
 rmovil_tec_com2 <- merge(rmovil_tec_com_Ca, rmovil_tec_com_Ti,
-              by=c('encriptado', 'mes'),
+              by=c('encriptado', 'mes','segmento_fijo'),
               all = TRUE)
 rmovil_tec_com3 <- merge(rmovil_tec_com2, rmovil_tec_com_Es,
-              by=c('encriptado', 'mes'),
+              by=c('encriptado', 'mes','segmento_fijo'),
               all = TRUE)
 rmovil_tec_com3$reclamo <- 1
+rmovil_tec_com3
 ```
 
 
 
+
+
+
+
 Encuestas -stock y tracking
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```{r}
 #rmovil_tec_com1$subsegmento_bse <- tolower(rmovil_tec_com1$subsegmento_bse)
