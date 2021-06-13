@@ -240,32 +240,94 @@ rmovil_tec_com3 <- merge(rmovil_tec_com2, rmovil_tec_com_Es,
 rmovil_tec_com3$reclamo <- 1
 rmovil_tec_com3
 ```
+```{r}
+facturacion_movil1
+churn_movil
+rmovil_tec_com3
+```
+
+
+```{r}
+facturacion_movil1
+churn_movil
+rmovil_tec_com3
+```
 
 
 
 
+Para unififcar las bases de datos usaremos las siguientes equivalencias:
+Segmentación Empresa:
+GRANDES CLIENTES / GRANDES CUENTAS / EMPRESAS= GGEE
+MEDIANAS = MMEE
+PEQUEÑAS / MICRO Y SOHO = MASIVOS
 
+Antes de hacer el merge, obtendremos el segmento según la moda de los segmentos:
+```{r}
+#FACTURACIÓN
+facturacion_movil1$segmento <- tolower(facturacion_movil1$segmento)
+facturacion_movil1$segmento[facturacion_movil1$segmento=="micro y soho"| facturacion_movil1$segmento=="pequenas"] <- "masivos"
+facturacion_movil1$segmento[facturacion_movil1$segmento=="medianas"] <- "mmee"
+facturacion_movil1$segmento[facturacion_movil1$segmento=="grandes clientes" | facturacion_movil1$segmento=="grandes cuentas"] <- "ggee"
+facturacion_movil1$segmento[facturacion_movil1$segmento=="empresas"] <- "empresas"
 
+#CHURN
+#Micro y pyme son masivos
+churn_movil$segmento <- tolower(churn_movil$segmento)
+churn_movil$segmento[churn_movil$segmento=="micro"| churn_movil$segmento=="pyme"] <- "masivos"
+churn_movil$segmento[churn_movil$segmento=="mediana"] <- "mmee"
+churn_movil$segmento[churn_movil$segmento=="ggcc"| churn_movil$segmento=="ggee"] <- "ggee"
+churn_movil$segmento[churn_movil$segmento=="negocio inalambrico empresas"] <- "empresas"
 
-Encuestas -stock y tracking
-
-
-
-
-
-
-
-
-
-
+#RECLAMOS
+rmovil_tec_com3$segmento_fijo <- tolower(rmovil_tec_com3$segmento_fijo)
+rmovil_tec_com3$segmento_fijo[rmovil_tec_com3$segmento_fijo=="micro y soho"| rmovil_tec_com3$segmento_fijo=="pequenas"] <- "masivos"
+rmovil_tec_com3$segmento_fijo[rmovil_tec_com3$segmento_fijo=="medianas"] <- "mmee"
+rmovil_tec_com3$segmento_fijo[rmovil_tec_com3$segmento_fijo=="grandes cuentas"] <- "ggee"
+rmovil_tec_com3$segmento_fijo[rmovil_tec_com3$segmento_fijo=="empresas"] <- "empresas"
+```
 
 
 
 
 ```{r}
-#rmovil_tec_com1$subsegmento_bse <- tolower(rmovil_tec_com1$subsegmento_bse)
-#churn_movil1$subsegmento_bse <- tolower(churn_movil1$subsegmento_bse)
-#facturacion_movil1$subsegmento_bse <- tolower(facturacion_movil1$subsegmento_bse)
+#Definimos la función Moda:
+Moda <- function(x) {
+  ux <- unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+}
+
+facturacion_segmento <- facturacion_movil1 %>%
+  select(encriptado, segmento) %>%
+  group_by(encriptado) %>%
+  summarise(seg_fact = Moda(segmento))
+
+churn_segmento <- churn_movil %>%
+  select(c(encriptado, segmento)) %>%
+  group_by(encriptado) %>%
+  summarise(seg_churn = Moda(segmento))
+
+reclamos_segmento <- rmovil_tec_com3 %>%
+  select(c(encriptado, segmento_fijo)) %>%
+  group_by(encriptado) %>%
+  summarise(seg_recl = Moda(segmento_fijo))
+
+
+segmentos <- merge(facturacion_segmento, churn_segmento, by='encriptado',
+                   all.x = TRUE)
+segmentos <- merge(segmentos, reclamos_segmento, by='encriptado',
+                   all.x = TRUE)
+
+segmentos <- segmentos %>%
+  mutate(final = seg_fact) %>%
+  mutate(final = ifelse(is.na(seg_fact), seg_churn, seg_fact)) %>%
+  mutate(final = ifelse(is.na(final), seg_churn, final)) %>%
+  mutate(final = ifelse(is.na(final), seg_recl, final))  %>%
+  mutate(final = ifelse(is.na(final), 's/i', final))
+segmentos
+```
+
+```{r}
 
 unif <- merge(facturacion_movil1, churn_movil,
               by=c('encriptado', 'mes'),
@@ -275,12 +337,16 @@ unif <- merge(facturacion_movil1, churn_movil,
 unif2 <- merge(unif, rmovil_tec_com3,
               by=c('encriptado', 'mes'),
               all.x = TRUE)
-unif2
 unif2$churn[is.na(unif2$churn)] <- 0
 unif2$reclamo[is.na(unif2$reclamo)] <- 0
-View(unif2)
-describe(unif2)
 
-write.table(unif2, paste0(path,'fac_recla_churn_movil.txt'), append = FALSE, sep = "\t", dec = ".",
-            row.names = TRUE, col.names = TRUE)
+seg_levels <- segmentos$encriptado
+seg_labels <- segmentos$final
+
+unif3 <- subset(unif2,select=-c(segmento.x,segmento.y,segmento_fijo))
+unif3$segmento <- seg_labels[match(unif3$encriptado,seg_levels)]
+unif3
+write.table(unif3, paste0(path,'fac_recla_churn_movil.txt'), append = FALSE, sep = "\t", 
+            dec = ".",row.names = TRUE, col.names = TRUE)
+
 ```
