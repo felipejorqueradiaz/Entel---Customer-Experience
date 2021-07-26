@@ -1,2 +1,39 @@
-Prueba
-prueba de felipe jajaja
+En esta carpeta se encuentran los documentos y los códigos realizados.
+
+La carpeta de Data se posee los archivos en formato Excel, los cuales fueron 
+formateados a mano tal que tengan un formato compatible con R. Estos documentos se pasan 
+a formato .txt y se guardan en la carpeta "Data plana". 
+
+Por lo tanto, en "Data plana" se encuentran los archivos base que se usarán en R y python, 
+y en base a los cuáles se extrajo información.
+
+Dado que los datos y sus categorías se encuentran divididos en móvil y fijo, se trabaja en 
+primera instancia uniendo todas las categorías de móvil entre sí, lo mismo con los productos 
+fijos. 
+
+Para los productos móvil se realiza primero un cruce de facturación, reclamos y churn, lo que 
+se ve en el archivo "Movil1- FacturacionReclamosChurn.Rmd".
+
+Luego, esa base, se une a las encuestas de móvil en el documento "Movil2- Encuestas.Rmd". Con lo
+cual se obtiene la base consolidada de móvil. Esto es el archivo "base_completa_movil.csv"(1).
+
+Para los productos fijos se realiza un cruce de facturación, reclamos y churn, con lo cual se obtiene
+la base consolidada de productos fijos, que sería "fijo_consolidado.txt"(2).
+
+Finalmente esos dos archivos se utilizan en Python:
+
+- En base a "base_completa_movil.csv" se realiza la segmentación de clientes en clusters, y modelos de 
+machine learning para los productos móvil. Esto se encuentra en el archivo "Modelos Productos Movil y 
+Segmentación de satisfacción .ipynb"
+
+- En base a "fijo_consolidado.txt" se realizan modelos de machine learning para los productos fijos.
+Esto se encuentra en el archivo "Modelos Productos Fijos.ipynb".
+
+- Finalemente, se cruzan estas dos bases de datos, (1) y (2), en el archivo "Procesamiento Movil y Fijo.ipynb",
+De ello se obtienen los resultados finales del estudio.
+
+
+
+
+
+
