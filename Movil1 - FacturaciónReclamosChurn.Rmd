@@ -1,0 +1,352 @@
+---
+title: "Merge"
+author: "Constanza Peña"
+date: "20-05-2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Librerias
+
+```{r, message=FALSE}
+rm(list=ls())#Limpiar espacio de trabajo
+graphics.off()#Borrar graficos de sesiones anteriores
+library(data.table)
+library(dplyr)
+library(Hmisc)
+library(ggplot2)
+library(tidyr)
+library(lubridate)
+library(scales)
+library(fastDummies)
+library(tm)
+```
+FUNCIONES
+```{r}
+arreglando_datos <- function(data){
+  data <- unique(data)
+  names(data) <- tolower(names(data))
+  names(data) <- stripWhitespace(names(data))
+  names(data) <- gsub("[[:cntrl:]]", " ", names(data))
+  #data <- data %>% 
+  #  select_if(.predicate=funs(sum(is.na(.))<=as.integer(dim(data)[1]*0.8)))
+  return(data)
+}
+
+
+colum_to_palxpal <- function (columna){
+  columna <- paste(unlist(columna), collapse =" ")
+  columna <- tolower(columna)
+  columna <- gsub("[[:cntrl:]]", " ", columna)
+  columna <- gsub('(\\s|\r|\n)+',' ',paste(unlist(columna)))
+  columna <- stripWhitespace(columna)
+  columna <- strsplit(columna, split =  " ") %>% unlist
+  columna <- removePunctuation(columna) #se  deshace de la puntuaci?n.
+  columna <- removeNumbers(columna)     #En este caso, removemos los n?meros
+  columna <- removeWords(columna, words = stopwords("spanish"))
+  columna <- columna[columna!=""]
+  columna <- columna[columna!=" "]
+  return(columna)  
+}
+
+fast.rbind <- function(...,method=c("fill","common"),value=NA){
+    if("fill"==method[1]) {
+        fun1 <- function(x,y,value=NA){
+            x[setdiff(colnames(y),colnames(x))] <- value
+
+            y[setdiff(colnames(x),colnames(y))] <- value
+
+            return(rbind(x,y))
+        }
+    }
+
+    if("common"==method[1]) {
+        fun1 <- function(x,y,value=NULL){
+          print(paste0("Uno de ",dim(x)," y ",dim(y)))
+          
+          inter1 <- x %>%
+            select(intersect(names(.), names(y)))
+          inter2 <- y %>%
+                select(intersect(names(.), names(x)))
+          print(paste0("queda en uno de ",dim(rbind(inter1,inter2))))
+          
+          return(rbind(inter1,inter2))
+        }
+    }
+    return(Reduce(function(x,y){fun1(x=x,y=y,value=value)},list(...)))
+}
+
+comp_col <- function(x,y,dataf=NULL){
+          n_a <- deparse(substitute(x))
+          n_b <- deparse(substitute(y))
+          
+          a <- colnames(x)
+          b <- colnames(y)
+          
+          if (length(a)<length(b)){
+            for (i in 1:(length(b)-length(a))){
+              a<- append(a, i)
+            } 
+          }
+          else if (length(b)<length(a)){
+            for (i in 1:(length(a)-length(b))){
+              b<-append(b, i)
+            } 
+          }
+          return(data.frame(n_a=a,n_b=b))
+}
+
+
+
+```
+
+
+
+
+## Facturaciones
+
+Dado que facturaciones posee la información de todos los clientes, se utilizará como base para unificar a las otras bases como columnas.
+
+```{r, message=FALSE}
+path<- "C:/Users/Asus/Documents/GitHub/Entel---Customer-Experience/Data plana/"
+dir(path)
+
+m1 <- fread(paste0(path,"7Facturacion/Movil/Fact Movil 2019-1.txt"))
+m2 <- fread(paste0(path,"7Facturacion/Movil/Fact Movil 2019-2.txt"))
+m3 <- fread(paste0(path,"7Facturacion/Movil/Fact Movil 2020-1.txt"))
+m4 <- fread(paste0(path,"7Facturacion/Movil/Fact Movil 2020-2.txt"))
+
+m1 <- arreglando_datos(m1)
+m2 <- arreglando_datos(m2)
+m3 <- arreglando_datos(m3)
+m4 <- arreglando_datos(m4)
+
+facturacion_movil <- fast.rbind(m1, m2, m3, m4,method="common")
+#View(facturacion_movil)
+
+churn_movil0 <- fread(paste0(path,"5Churn/Churn Movil.txt"))
+churn_movil0 <- arreglando_datos(churn_movil0)
+
+rmovil_tec_com <-fread(paste0(path,"3Reclamos/reclamos_m_tec_com.txt"))
+
+colnames(rmovil_tec_com)[20] <- "estado2"
+rmovil_tec_com <- arreglando_datos(rmovil_tec_com)
+```
+
+
+
+
+
+```{r}
+facturacion_movil
+churn_movil0
+rmovil_tec_com
+```
+
+
+
+### Facturación fijo
+
+Nos quedamos solo con columnas útiles, agrupamos por encriptado, e id_mes y reenombramos variables.
+```{r}
+facturacion_movil1 <- facturacion_movil %>%
+  group_by(encriptado, id_mes,segmento) %>% summarise(monto = mean(total)) %>%
+  rename(mes = id_mes) #, subsegmento_bse = segmento... .groups = 'drop'
+
+
+dates_levels <- seq(as.Date('2019-01-01'),as.Date('2021-12-01'), by="months")
+dates_labels <- c(1:36)
+
+
+facturacion_movil1$mes <- as.Date(paste(facturacion_movil1$mes,"01",sep=""), format='%Y%m%d')
+facturacion_movil1$mes <- dates_labels[match(facturacion_movil1$mes,dates_levels)]
+facturacion_movil1
+```
+
+
+
+### Churn Fijo
+
+Nos quedamos solo con columnas útiles, agrupamos por encriptado, e id_mes y reenombramos variables.
+```{r}
+churn_movil0
+churn_movil1 <- churn_movil0 %>% select(c(encriptado, id_dia,movimiento,segmento)) %>%
+  mutate(churn = 1) %>% rename(mes = id_dia)
+  #movimiento, desc_plan,negocio,`sub segmento`))
+
+churn_movil1 <- churn_movil1 %>% separate(mes, c("dia", "mes", "anho"), "/")
+churn_movil1$mes <- as.integer(churn_movil1$mes)
+churn_movil1$mes <- ifelse(churn_movil1$anho=="2020", churn_movil1$mes+12,
+                            churn_movil1$mes)
+churn_movil1$mes <- ifelse(churn_movil1$anho=="2021", churn_movil1$mes+24,
+                            churn_movil1$mes)
+#Obtenemos una base de datos de churn por mes de encriptado:
+churn_movil_C <- subset(churn_movil1,select=-c(dia, anho,movimiento))
+churn_movil_C <- churn_movil_C  %>% group_by(encriptado, mes,segmento) %>%   summarise_all(sum) 
+#Obtenemos una base de datos de movimiento en churn por mes de encriptado:
+churn_movil_M <- subset(churn_movil1,select=-c(dia, anho,churn))
+churn_movil_M <- churn_movil_M  %>% group_by(encriptado, mes,segmento) %>%
+  summarise(movimientos_churn=paste(movimiento ,collapse='*'))  
+  
+  
+churn_movil <- merge(churn_movil_C, churn_movil_M,
+              by=c('encriptado', 'mes','segmento'),
+              all = TRUE)
+```
+
+
+## Reclamos comerciales
+
+```{r}
+rmovil_tec_com
+rmovil_tec_com1 <- rmovil_tec_com %>%
+  select(encriptado, fecha_de_la_notificacion,segmento_fijo,reclamo, estado, causa)%>% 
+  rename(mes = fecha_de_la_notificacion,tipo_reclamo=reclamo)
+
+rmovil_tec_com1 <- rmovil_tec_com1[grepl("-", rmovil_tec_com1$mes),] #quitamos las que no tienen el formato de fecha
+
+
+rmovil_tec_com1 <- rmovil_tec_com1 %>% separate(mes, c("dia", "mes", "anho"), "-")
+rmovil_tec_com1$mes <- as.integer(rmovil_tec_com1$mes)
+rmovil_tec_com1$mes <- ifelse(rmovil_tec_com1$anho=="2020", rmovil_tec_com1$mes+12,
+                            rmovil_tec_com1$mes)
+rmovil_tec_com1$mes <- ifelse(rmovil_tec_com1$anho=="2021", rmovil_tec_com1$mes+24,
+                            rmovil_tec_com1$mes)
+
+#Obtenemos una base de datos de reclamos por mes de encriptado:
+rmovil_tec_com_Ca <- subset(rmovil_tec_com1,select=-c(dia, anho,tipo_reclamo,estado))
+rmovil_tec_com_Ca <- rmovil_tec_com_Ca  %>% group_by(encriptado, mes,segmento_fijo) %>%  
+  summarise(causa_reclamo=paste(causa ,collapse='*')) 
+
+#Obtenemos una base de datos de movimiento en churn por mes de encriptado:
+rmovil_tec_com_Ti <- subset(rmovil_tec_com1,select=-c(dia, anho,estado,causa))
+rmovil_tec_com_Ti <- rmovil_tec_com_Ti  %>% group_by(encriptado, mes,segmento_fijo) %>%
+  summarise(tipo_reclamo=paste(tipo_reclamo ,collapse='*'))  
+
+#Obtenemos una base de datos de movimiento en churn por mes de encriptado:
+rmovil_tec_com_Es <- subset(rmovil_tec_com1,select=-c(dia, anho,causa,tipo_reclamo))
+rmovil_tec_com_Es <- rmovil_tec_com_Es  %>% group_by(encriptado, mes,segmento_fijo) %>%
+  summarise(estado_reclamo=paste(estado ,collapse='*'))  
+
+rmovil_tec_com2 <- merge(rmovil_tec_com_Ca, rmovil_tec_com_Ti,
+              by=c('encriptado', 'mes','segmento_fijo'),
+              all = TRUE)
+rmovil_tec_com3 <- merge(rmovil_tec_com2, rmovil_tec_com_Es,
+              by=c('encriptado', 'mes','segmento_fijo'),
+              all = TRUE)
+rmovil_tec_com3$reclamo <- 1
+rmovil_tec_com3
+```
+```{r}
+facturacion_movil1
+churn_movil
+rmovil_tec_com3
+```
+
+
+```{r}
+facturacion_movil1
+churn_movil
+rmovil_tec_com3
+```
+
+
+
+
+Para unififcar las bases de datos usaremos las siguientes equivalencias:
+Segmentación Empresa:
+GRANDES CLIENTES / GRANDES CUENTAS / EMPRESAS= GGEE
+MEDIANAS = MMEE
+PEQUEÑAS / MICRO Y SOHO = MASIVOS
+
+Antes de hacer el merge, obtendremos el segmento según la moda de los segmentos:
+```{r}
+#FACTURACIÓN
+facturacion_movil1$segmento <- tolower(facturacion_movil1$segmento)
+facturacion_movil1$segmento[facturacion_movil1$segmento=="micro y soho"| facturacion_movil1$segmento=="pequenas"] <- "masivos"
+facturacion_movil1$segmento[facturacion_movil1$segmento=="medianas"] <- "mmee"
+facturacion_movil1$segmento[facturacion_movil1$segmento=="grandes clientes" | facturacion_movil1$segmento=="grandes cuentas"] <- "ggee"
+facturacion_movil1$segmento[facturacion_movil1$segmento=="empresas"] <- "empresas"
+
+#CHURN
+#Micro y pyme son masivos
+churn_movil$segmento <- tolower(churn_movil$segmento)
+churn_movil$segmento[churn_movil$segmento=="micro"| churn_movil$segmento=="pyme"] <- "masivos"
+churn_movil$segmento[churn_movil$segmento=="mediana"] <- "mmee"
+churn_movil$segmento[churn_movil$segmento=="ggcc"| churn_movil$segmento=="ggee"] <- "ggee"
+churn_movil$segmento[churn_movil$segmento=="negocio inalambrico empresas"] <- "empresas"
+
+#RECLAMOS
+rmovil_tec_com3$segmento_fijo <- tolower(rmovil_tec_com3$segmento_fijo)
+rmovil_tec_com3$segmento_fijo[rmovil_tec_com3$segmento_fijo=="micro y soho"| rmovil_tec_com3$segmento_fijo=="pequenas"] <- "masivos"
+rmovil_tec_com3$segmento_fijo[rmovil_tec_com3$segmento_fijo=="medianas"] <- "mmee"
+rmovil_tec_com3$segmento_fijo[rmovil_tec_com3$segmento_fijo=="grandes cuentas"] <- "ggee"
+rmovil_tec_com3$segmento_fijo[rmovil_tec_com3$segmento_fijo=="empresas"] <- "empresas"
+```
+
+
+
+
+```{r}
+#Definimos la función Moda:
+Moda <- function(x) {
+  ux <- unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+}
+
+facturacion_segmento <- facturacion_movil1 %>%
+  select(encriptado, segmento) %>%
+  group_by(encriptado) %>%
+  summarise(seg_fact = Moda(segmento))
+
+churn_segmento <- churn_movil %>%
+  select(c(encriptado, segmento)) %>%
+  group_by(encriptado) %>%
+  summarise(seg_churn = Moda(segmento))
+
+reclamos_segmento <- rmovil_tec_com3 %>%
+  select(c(encriptado, segmento_fijo)) %>%
+  group_by(encriptado) %>%
+  summarise(seg_recl = Moda(segmento_fijo))
+
+
+segmentos <- merge(facturacion_segmento, churn_segmento, by='encriptado',
+                   all.x = TRUE)
+segmentos <- merge(segmentos, reclamos_segmento, by='encriptado',
+                   all.x = TRUE)
+
+segmentos <- segmentos %>%
+  mutate(final = seg_fact) %>%
+  mutate(final = ifelse(is.na(seg_fact), seg_churn, seg_fact)) %>%
+  mutate(final = ifelse(is.na(final), seg_churn, final)) %>%
+  mutate(final = ifelse(is.na(final), seg_recl, final))  %>%
+  mutate(final = ifelse(is.na(final), 's/i', final))
+segmentos
+```
+
+```{r}
+
+unif <- merge(facturacion_movil1, churn_movil,
+              by=c('encriptado', 'mes'),
+              all.x = TRUE)
+
+#describe(unif)
+unif2 <- merge(unif, rmovil_tec_com3,
+              by=c('encriptado', 'mes'),
+              all.x = TRUE)
+unif2$churn[is.na(unif2$churn)] <- 0
+unif2$reclamo[is.na(unif2$reclamo)] <- 0
+
+seg_levels <- segmentos$encriptado
+seg_labels <- segmentos$final
+
+unif3 <- subset(unif2,select=-c(segmento.x,segmento.y,segmento_fijo))
+unif3$segmento <- seg_labels[match(unif3$encriptado,seg_levels)]
+unif3
+write.table(unif3, paste0(path,'fac_recla_churn_movil.txt'), append = FALSE, sep = "\t", 
+            dec = ".",row.names = TRUE, col.names = TRUE)
+
+```
